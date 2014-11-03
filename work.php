@@ -17,7 +17,7 @@ mysqli_close($dbc);
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<title>Todd Goates | My Work</title>
+	<title>My Work | Todd Goates</title>
 	<meta name="description" content="">
 
 	<!-- CSS -->
@@ -46,7 +46,7 @@ mysqli_close($dbc);
 		<div class="wrapper">
 			<section>
 				<h1>My Work</h1>
-				<p>Check out some of the awesome projects I've worked on!</p>
+				<p>Check out some of the awesome solutions I've built for clients!</p>
 				<div class="projects">
 					<?php
 					while($row = mysqli_fetch_array($result)) {

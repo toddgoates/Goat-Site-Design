@@ -1,3 +1,15 @@
+<?php
+// Connect to the db
+require_once('includes/db_vars.php');
+$dbc = mysqli_connect(HOST, USER, PASS, DB) or die('Could not connect to database');
+
+// Build and run query
+$query = "SELECT * FROM project ORDER BY date_added DESC";
+$result = mysqli_query($dbc, $query) or die('Query failed');
+
+// Close db connection
+mysqli_close($dbc);
+?>
 <!doctype html>
 <html lang="en">
 
@@ -5,7 +17,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<title>Todd Goates | Utah-based Web Designer and Developer</title>
+	<title>Todd Goates, Utah-based Web Designer and Developer</title>
 	<meta name="description" content="Welcome to the portfolio website of Todd Goates.  I am a web designer and developer from Utah that likes to make cool solutions to your digital media needs.">
 
 	<!-- CSS -->
@@ -89,10 +101,21 @@
 	
 	<div class="blog">
 		<div class="description">
-			<h2>Check out some projects I'm working on</h2>
+			<h2>Projects I'm working on</h2>
 		</div>
 		<div class="wrapper">
-			<!-- Something goes here -->
+            <div class="project">
+            <?php
+            while($row = mysqli_fetch_array($result)) {
+                // Display rows
+                echo '<li>';
+                echo '<a href="work.php">';
+                echo '<img src="'.$row['img_path'].'/'.$row['file_name'].'" alt="'.$row['title'].'" class="project-icon">';	
+                echo '</a>';	
+                echo '</li>';
+            }
+            ?>
+            </div>
 		</div>
 	</div>
 	

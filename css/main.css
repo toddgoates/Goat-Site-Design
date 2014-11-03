@@ -108,6 +108,7 @@ nav li a:hover {
 .about-me .wrapper .box i {
     font-size: 9em;
     color: rgba(46, 185, 113, 1.0);
+    text-shadow: 1px 1px 2px rgba(13, 63, 25, 1);
 }
 .about-me .wrapper .box h3 {
 	color: rgba(0, 0, 0, 0.85);
@@ -130,6 +131,16 @@ nav li a:hover {
 .blog .description h2 {
 	font-size: 1.5em;
 	font-weight: 500;
+}
+.blog .project {background: #777;}
+.blog .project li {list-style-type: none;}
+.blog .project img {
+    background: #FFF;
+    width: 50%;
+    margin: 3em 0;
+    margin-left: 23%;
+    margin-right: 23%;
+    padding: 0.5em;
 }
 
 /*** FOOTER ***/
@@ -303,6 +314,24 @@ section {margin-bottom: 2.5em;}
     font-size: 0.8em;
     padding: 1em 0;
 }
+.main-content .tweet-timeline .tweet {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    border-bottom: solid 1px rgba(0, 0, 0, 0.15);
+    margin-bottom: 2em;
+}
+.main-content .tweet-timeline .tweet .tweet-icon {
+    width: 55px;
+    padding: 0;
+    margin: 1em;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+}
+.main-content .tweet-timeline .tweet .text {
+    margin: -4.5em 1em 0 6em;
+}
+.main-content .tweet-timeline .tweet .date {
+    margin: 1em 1em 1em 6em;
+}
 /*** CONTACT PAGE ***/
 .main-content form {margin: 2em 0;}
 .main-content form fieldset {margin-bottom: 1.5em;}
@@ -330,7 +359,7 @@ section {margin-bottom: 2.5em;}
 .main-content form .form-item input[type="tel"],
 .main-content form .form-item input[type="url"]{
     color: #787878;
-    width: 100%;
+    width: 99%;
     height: 2.5em;
     border: solid 1px #787878;
 }
@@ -341,7 +370,7 @@ section {margin-bottom: 2.5em;}
     border: solid 1px #787878; 
 }
 .main-content form .form-item textarea {
-    width: 100%;
+    width: 99%;
     height: 10em;
 }
 .main-content form .form-item .radio-label {
@@ -362,20 +391,29 @@ section {margin-bottom: 2.5em;}
 .main-content form .submit-button:hover {
     background: rgba(46, 185, 113, 0.8);
 }
-.main-content ul li.social {list-style-type: none;}
-.main-content .other-contact li a {
-    font-size: 1.1em;
-    display: block;
-    padding: 0.3em 0;
+.main-content .no-bullet li {
     list-style-type: none;
+    margin: 1em 0;
 }
-.main-content .other-contact #facebook {color: rgba(59, 89, 152, 0.7);}
-.main-content .other-contact #facebook:hover {color: rgba(59, 89, 152, 1);}
-.main-content .other-contact #twitter {color: rgba(0, 172, 237, 0.7);}
-.main-content .other-contact #twitter:hover {color: rgba(0, 172, 237, 1);}
-.main-content .other-contact #instagram {color: rgba(81, 127, 164, 0.7);}
-.main-content .other-contact #instagram:hover {color: rgba(81, 127, 164, 1);}
-.main-content .other-contact #google-plus {color: rgba(221, 75, 57, 0.7);}
-.main-content .other-contact #google-plus:hover {color: rgba(221, 75, 57, 1);}
-.main-content .other-contact #linkedin {color: rgba(0, 123, 182, 0.7);}
-.main-content .other-contact #linkedin:hover {color: rgba(0, 123, 182, 1);}
+.main-content .other-contact ul {
+    margin: 2em 0 0 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+.main-content .other-contact ul li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+.main-content .other-contact ul li.social a {font-size: 3em;}
+.main-content .other-contact li a#facebook {color: rgba(59, 89, 152, 0.7);}
+.main-content .other-contact li a#facebook:hover {color: rgba(59, 89, 152, 1);}
+.main-content .other-contact li a#twitter {color: rgba(0, 172, 237, 0.7);}
+.main-content .other-contact li a#twitter:hover {color: rgba(0, 172, 237, 1);}
+.main-content .other-contact li a#instagram {color: rgba(81, 127, 164, 0.7);}
+.main-content .other-contact li a#instagram:hover {color: rgba(81, 127, 164, 1);}
+.main-content .other-contact li a#google-plus {color: rgba(221, 75, 57, 0.7);}
+.main-content .other-contact li a#google-plus:hover {color: rgba(221, 75, 57, 1);}
+.main-content .other-contact li a#linkedin {color: rgba(0, 123, 182, 0.7);}
+.main-content .other-contact li a#linkedin:hover {color: rgba(0, 123, 182, 1);}

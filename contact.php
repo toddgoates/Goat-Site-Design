@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Todd Goates | Contact Me</title>
+    <title>Contact Me | Todd Goates</title>
     <meta name="description" content="">
 
     <!-- CSS -->
@@ -35,7 +35,7 @@
         <div class="wrapper">
             <section>
                 <h1>Contact Me</h1>
-                <p>Ready to get to work or have a question for me?  Fill out the form below to send me a message.  I'll get back to you as soon as I can.</p>
+                <p>Ready to get started on an awesome project?  Fill out the form below to send me some details about the project.  I won't share this information with anyone else and will get back to you ASAP.</p>
                 <form id="contact" action="send.php" method="POST" enctype="multipart/form-data">
                     <fieldset>
                         <legend>Contact Information</legend>
@@ -56,7 +56,7 @@
                             <input type="tel" name="phone" id="phone" required>
                         </div>
                         <div class="form-item">
-                            <label for="website">Your Website URL <span class="optional">(optional)</span></label>
+                            <label for="website">Your Website's URL <span class="optional">(optional)</span></label>
                             <input type="url" name="website" id="website">
                         </div>
                     </fieldset>
@@ -86,7 +86,7 @@
                             </select>
                         </div>
                         <div class="form-item">
-                            <label for="nature">Tell me about the nature of your project</label>
+                            <label for="nature">What is your project all about?</label>
                             <textarea name="nature" id="nature"></textarea>
                         </div>
                         <div class="form-item">
@@ -95,7 +95,7 @@
                             <label for="no" class="radio-label"><input type="radio" name="content" id="no" value="No"> No </label>
                         </div>
                         <div class="form-item">
-                            <label for="more-info">Anything else I should know about this project?</label>
+                            <label for="more-info">Other comments or questions? <span class="optional">(optional)</span></label>
                             <textarea name="more-info" id="more-info"></textarea>
                         </div>
                         <button type="submit" name="submit" class="submit-button">Send Message</button>
@@ -104,13 +104,41 @@
             </section>
             <section>
                 <h2>Other Contact Methods</h2>
-                <p>Not much of a web form person?  No worries!  Get in touch with me with one of the methods below, or contact me on your preferred social network.</p>
-                <ul>
-                    <li>Email:  toddgoates@gmail.com</li>
-                    <li>Phone:  (801) 319-9420</li>
-                    <li>Twitter Follow Button</li>
-                    <li>Other things go here...</li>
+                <p>Not much of a web form person?  No worries!  Get in touch with me with one of the methods below or contact me on your preferred social network.</p>
+                <ul class="no-bullet">
+                    <li><i class="fa fa-fw fa-phone"></i> toddgoates@gmail.com</li>
+                    <li><i class="fa fa-fw fa-envelope"></i> (801) 319-9420</li>
                 </ul>
+                <div class="other-contact">
+                    <ul>
+                        <li class="social">
+                            <a href="https://www.facebook.com/todd.goates" target="_blank" id="facebook">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li class="social">
+                            <a href="https://twitter.com/toddgoates" target="_blank" id="twitter">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                        </li>
+                        <li class="social">
+                            <a href="http://instagram.com/toddgoates" target="_blank" id="instagram">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="social">
+                            <a href="https://plus.google.com/u/0/+ToddGoates/" target="_blank" id="google-plus">
+                                <i class="fa fa-google-plus-square"></i>
+                            </a>
+                        </li>
+                        <li class="social">
+                            <a href="https://www.linkedin.com/in/toddgoates/" target="_blank" id="linkedin">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clear-fix"></div>
             </section>
         </div>
     </div>

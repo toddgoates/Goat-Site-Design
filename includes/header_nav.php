@@ -10,7 +10,7 @@
 	<ul>
 		<li><a href="/about.php">About Me</a></li>
 		<li><a href="/work.php">My Work</a></li>
-		<li><a href="#">Some Thoughts</a></li>
+		<li><a href="/thoughts.php">Some Thoughts</a></li>
 		<li><a href="/contact.php">Contact Me</a></li>
 	</ul>
 </nav>

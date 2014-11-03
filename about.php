@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<title>Todd Goates | About Me</title>
+	<title>About Me | Todd Goates</title>
 	<meta name="description" content="">
 
 	<!-- CSS -->
@@ -46,11 +46,11 @@
 					<li>Project Consultation</li>
 				</ul>
 				<p>Have something for me to work on?  Let's get started!</p>
-				<form action="contact.php">
+				<form action="contact.php" method="POST">
 					<button type="submit" class="cta-button">Start a Project</button>
 				</form>
 			</section>
-			<section>
+			<section id="skills">
 				<h2>Web Skills</h2>
 				<p><i class="fa fa-warning fa-fw"></i> Warning: web lingo below!</p>
 				<ul>
@@ -84,7 +84,7 @@
 					<li>Mobile First Responsive Design</li>
 					<li>XML RSS Feeds</li>
 					<li>AJAX</li>
-					<li>C# - Console and simple GUI applications</li>
+					<li>C#</li>
 					<li>Virtual Reality Tours</li>
 					<li>Audiobooks</li>
 					<li>Digital Publications
@@ -103,7 +103,7 @@
 					</li>
 				</ul>
 				<p>Don't see a certain technology for your web project?  Let me know what you need; I'm a quick learner!</p>
-				<form action="contact.php">
+				<form action="contact.php" method="POST">
 					<button type="submit" class="cta-button">Contact Todd</button>
 				</form>
 			</section>
