@@ -66,34 +66,34 @@ mysqli_close($dbc);
 				<div class="box">
                     <i class="fa fa-binoculars"></i>
 					<h3>Brand Discovery</h3>
-					<p>If you're starting up and haven't really thought of branding, let me help you shape your company's online representation to be unique and attractive.</p>
+					<p>Starting up your company's website?  I can help you develop a unique and attractive brand that best represents your product or service.</p>
 				</div>
 				<div class="box">
                     <i class="fa fa-pencil-square-o"></i>
 					<h3>Design Blueprints</h3>
-					<p>Want a unique and modern design for your website, but don't know where to start? Let me help you to come up with a stunning theme that best represents your brand.</p>
+					<p>Not sure what you want your site to look like yet?  I can help you design a stunning theme that looks good on all browsers and devices.</p>
 				</div>
 				<div class="box">
                     <i class="fa fa-file-code-o"></i>
 					<h3>Code Crunching</h3>
-					<p>I develop with clean and efficient code, refining the code to near-perfection, so that your site is always quick and up-to-date with the latest technologies.</p>
+					<p>Need someone to develop a design?  I code with the latest technologies to ensure that your website always performs well and loads quickly.</p>
 				</div>
 			</div>
 			<div class="bottom-row">
 				<div class="box">
                     <i class="fa fa-sitemap"></i>
                     <h3>Website Facelift</h3>
-					<p>Nobody stays the same forever, the same is true with websites. When it's time for a redesign, I will help you migrate all of your assets and create a shiny new design.</p>
+					<p>Is your website ready for a new look?  When it's time to change to a new design, I will help you migrate your assets and plan accordingly.</p>
 				</div>
 				<div class="box">
                     <i class="fa fa-wrench"></i>
 					<h3>Repair Jobs</h3>
-					<p>Every now and then, things break. Have something on your site that isn't working how you would like it? Let me take a look and I'll will get it in good shape again.</p>
+					<p>Is something broken on your website?  When you need an extra set of eyes to debug something, I am happy to help and assist with any updates.</p>
 				</div>
 				<div class="box">
                     <i class="fa fa-thumbs-o-up"></i>
 					<h3>Honest Opinions</h3>
-					<p>If you need a little advice or a second opinion on a web-based project you're working on, I'm more than happy to help you.  I have years of experience in the visual and technical universe of the web.</p>
+					<p>Need some feedback about your web project?  I have years of experience with design and development and would love to consult with you.</p>
 				</div>
 			</div>
 		</div>

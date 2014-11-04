@@ -20,9 +20,9 @@
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
     </head>
 
     <body>
@@ -36,8 +36,8 @@
                     <h1>Some Thoughts</h1>
                     <p>Below are some different blog entries on the topic of technology and my quest to become the greatest web developer ever:</p>
                     <figure>
-                        <a href="#">
-                            <img src="" alt="Test Blog Entry">
+                        <a href="delete-all-the-things.php">
+                            <img src="" alt="Delete All The Things">
                         </a>
                         <figcaption>
                             Test Blog Entry
@@ -62,15 +62,11 @@
         </div>
 
         <?php
-include('includes/footer.php');
+        include('includes/footer.php');
         ?>
 
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <!-- 
-        Might need to have a newer version of jquery for tweet bar, we shall see 
-        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        -->
         
         <!-- Tweetbar -->
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
