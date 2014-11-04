@@ -36,11 +36,11 @@
                     <h1>Some Thoughts</h1>
                     <p>Below are some different blog entries on the topic of technology and my quest to become the greatest web developer ever:</p>
                     <figure>
-                        <a href="delete-all-the-things.php">
-                            <img src="" alt="Delete All The Things">
+                        <a href="delete-all-the-things.php" class="thumb">
+                            <img src="img/thoughts/the_scream_thumb.jpg" alt="Delete All The Things">
                         </a>
                         <figcaption>
-                            Test Blog Entry
+                            Delete All The Things!
                         </figcaption>
                     </figure>
                 </section>

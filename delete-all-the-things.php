@@ -35,7 +35,7 @@
                 <section>
                     <h1>Delete All The Things!</h1>
                     <img src="img/thoughts/the_scream.jpg" alt="The Scream by Edvard Munch represents how I feel when I delete all my files" title="The Scream by Edvard Munch represents how I feel when I delete all my files">
-                    <p>I've been developing for several years now.  I feel like I'm pretty good at it, but not too long ago I made a huge, rookie mistake that caused much despair and sorrow.</p>
+                    <p>I've been developing for several years now.  I feel like I'm pretty good at it, but not too long ago I made a huge mistake that caused much despair and sorrow.</p>
                     <p>While taking a break from working on this website I decided to start messing around with Cordova.  I copied everything from this website's root directory and pasted it into another folder.  In the new folder, I combined my assets with Cordova.  After I was done with my Cordova experimentation, I deleted the copied folder.  I'm not one that keeps the trash full on my Macbook, so I promptly emptied the trash too.  Hours later, I had a Sudden Clarity Clarence moment... I didn't copy my website's main directory, I moved it.  This means I deleted everything.  @#$%$@!</p>
                     <p>I quickly Googled and downloaded several file recovery programs.  All of them scanned and found deleted files, then said I must pay $80+ to recover them.  Forget that!  I finally accepted my losses and realized that I would need to start over.</p>
                     <p>And that's what I did.</p>
