@@ -37,10 +37,13 @@
                     <p>Below are some different blog entries on the topic of technology and my quest to become the greatest web developer ever:</p>
                     <figure>
                         <a href="delete-all-the-things.php" class="thumb">
-                            <img src="img/thoughts/the_scream_thumb.jpg" alt="Delete All The Things">
+                            <div class="background">
+                                <img src="img/thoughts/the_scream_thumb.jpg" alt="Delete All The Things">
+                            </div>
                         </a>
                         <figcaption>
-                            Delete All The Things!
+                            <strong>Delete All The Things!</strong>
+                            <span class="posted">Nov 4th, 2014</span>
                         </figcaption>
                     </figure>
                 </section>

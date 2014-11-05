@@ -15,3 +15,6 @@
 	</ul>
 </nav>
 <div class="clear-fix"></div>
+<div class="back-to-top">
+    <i class="fa fa-arrow-circle-o-up"></i>
+</div>
