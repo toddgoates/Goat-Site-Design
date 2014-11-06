@@ -24,24 +24,28 @@ $(document).ready(function () {
         return false;
     });
     
-    // Preload images
-    /*
-    $.preloadImages = function() {
-        for (var i = 0; i < arguments.length; i++) {
-            $("<img />").attr("src", arguments[i]);
-        }
+    // Swap left image source on hover
+    var leftImgSwap = function () {
+        var image = $("#todd-left-img");
+        var newSource = image.data('alt-src');
+        image.data('alt-src', image.attr('src'));
+        image.attr('src', newSource);
     }
-
-    $.preloadImages("hoverimage1.jpg","hoverimage2.jpg");
-    */
     
-    // Hover effect for landing page
-    $('#designer').mouseover(function () {
-        $('#todd-left-img').attr("src", 'img/todd-left-hover.jpg');
+    $(function () {
+        $('#designer').hover(leftImgSwap, leftImgSwap);
     });
     
-    $('#designer').mouseout(function () {
-        $('#todd-left-img').attr("src", 'img/todd-left.jpg');
+    // Swap right image source on hover
+    var rightImgSwap = function () {
+        var image = $("#todd-right-img");
+        var newSource = image.data('alt-src');
+        image.data('alt-src', image.attr('src'));
+        image.attr('src', newSource);
+    }
+    
+    $(function () {
+        $('#developer').hover(rightImgSwap, rightImgSwap);
     });
 	
 });

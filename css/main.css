@@ -320,6 +320,18 @@ section {margin-bottom: 2.5em;}
     position: relative;
 }
 .main-content figure .background:hover img {opacity: 0.5;}
+.main-content figure .background:hover .caption {display: block;}
+.main-content figure .background .caption {
+    display: none;
+    position: absolute;
+    text-align: center;
+    top: 2.5em;
+    left: 0;
+    right: 0;
+    color: #FFF;
+    font-size: 3em;
+    z-index: 10;
+}
 .main-content figure img {
     padding: 0;
     width: 100%;
