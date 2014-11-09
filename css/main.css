@@ -185,6 +185,7 @@ footer .newsletter .left input {
 	height: 2.5em;
 	margin-top: 1em;
 	border: none;
+    border-radius: 0;
 }
 footer .newsletter .right {
 	display: block;
@@ -199,6 +200,7 @@ footer .newsletter .right .submit-button {
     width: 100%;
 	margin: 1.5em 0;
 	border: none;
+    border-radius: 0;
 	cursor: pointer;
 }
 footer .newsletter .right .submit-button:hover {
