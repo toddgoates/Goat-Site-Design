@@ -61,6 +61,7 @@
                 </li>
 			</ul>
 		</div>
+        <div class="clear-fix"></div>
 	</div>
 	<div class="footer-bottom">
 		<ul>

@@ -493,5 +493,106 @@ section {margin-bottom: 2.5em;}
 TABLET CSS
 **********/
 @media only screen and (min-width: 560px) {
-
+    
+    /*** HEADER ***/
+    nav {
+        padding: 1em 1em 3.6em 1em;
+        text-align: right;   
+    }
+    nav li a {
+        float: left;
+        margin-right: 1.7em;
+    }
+    
+    /*** LANDING AREA ***/
+    .landing-area h1 {font-size: 1.7em;}
+    .landing-area .todd-left h1 {left: 0.9em;}
+    .landing-area .todd-right h1 {right: 0.9em;}
+    
+    /*** ABOUT ME ***/
+    .about-me .wrapper {
+        width: 100%;
+        margin-top: 3em;
+        padding: 0;
+    }
+    .about-me .wrapper .box {
+        width: 40%;
+        box-sizing: border-box;
+        display: inline-block;
+        float: left;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .about-me .wrapper .box p {
+        text-align: left;
+    }
+    
+    /*** BLOG ***/
+    .blog .project img {
+        width: 40%;
+        margin: 3em 0;
+        margin-left: 29%;
+        margin-right: 29%;
+        padding: 0.5em;
+    }
+    
+    /*** FOOTER ***/
+    footer .newsletter form {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    footer .newsletter .left {
+        display: inline;
+        float: left;
+        width: 60%;
+    }
+    footer .newsletter .left input {
+        margin-top: 0;
+    }
+    footer .newsletter .right {
+        display: inline;
+        float: right;
+        width: 40%;
+    }
+    footer .newsletter .right .submit-button {
+        padding: 0.76em 1em;
+        margin: 0;
+    }
+    footer .wrapper .footer-left {
+        box-sizing: border-box;
+        margin-bottom: 0;
+        width: 50%;
+        float: left;
+    }
+    footer .wrapper .footer-right {
+        box-sizing: border-box;
+        padding-left: 2em;
+        width: 50%;
+        float: right;
+    }
+    
+    /*** ABOUT PAGE / OTHER PAGE ELEMENTS***/
+    .main-content img.me-pic,
+    .main-content img.blog-pic {
+        max-width: 35%;
+        float: left;
+        margin: 0 1em 0.5em 0;
+        padding: 0.5em;
+    }
+    .main-content .cta-button,
+    .main-content form .submit-button {
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;	
+    }
+    
+    /*** WORK PAGE ***/
+    .main-content .projects .project-icon {
+        max-width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
 } /* End tablet */
