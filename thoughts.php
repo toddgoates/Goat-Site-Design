@@ -69,8 +69,13 @@
         include('includes/footer.php');
         ?>
 
-        <!-- jQuery -->
+        <!-- jQuery and fallback-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>
+            if (typeof jQuery == 'undefined') {
+                document.write(unescape("%3Cscript src='/lib/jquery/jquery-1.11.1.min.js' type='text/javascript'%3E%3C/script%3E"));
+            }
+        </script>
         
         <!-- Tweetbar -->
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
