@@ -25,13 +25,13 @@
 			<h4>Contact Me</h4>
 			<ul>
                 <li>
-                    <a href="tel:+18013199420">
-                        <i class="fa fa-fw fa-phone"></i> (801) 319-9420
+                    <a href="mailto:toddgoates@gmail.com">
+                        <i class="fa fa-fw fa-envelope"></i> toddgoates@gmail.com
                     </a>
                 </li>
                 <li>
-                    <a href="mailto:toddgoates@gmail.com">
-                        <i class="fa fa-fw fa-envelope"></i> toddgoates@gmail.com
+                    <a href="tel:+18013199420">
+                        <i class="fa fa-fw fa-phone"></i> (801) 319-9420
                     </a>
                 </li>
 				<li>

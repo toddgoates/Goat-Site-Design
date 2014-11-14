@@ -3,11 +3,15 @@ DEFAULT - MOBILE CSS
 *******************/
 
 /*** BODY ***/
-html {overflow-x: hidden;}
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
 body {
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 300;
     overflow-x: hidden;
+    min-height: 100%;
 }
 
 /*** HEADER ***/
@@ -53,7 +57,6 @@ nav li a:hover {
 .back-to-top {
     background: rgba(46, 185, 113, 1.0);
     color: #FFF;
-    width: 70px;
     text-align: center;
     cursor: pointer;
     position: fixed;
@@ -63,8 +66,8 @@ nav li a:hover {
     display: none;
 }
 .back-to-top i {
-    font-size: 3.5em;
-    padding: 0.1em;
+    font-size: 4em;
+    padding: 0.1em 0.2em;
 }
 
 /*** LANDING AREA ***/
@@ -95,6 +98,7 @@ nav li a:hover {
 .landing-area .todd-right h1 {right: 0.5em;}
 
 /*** ABOUT ME ***/
+.about-me {background: rgba(244, 255, 250, 0.7)}
 .about-me .description {
 	background: rgba(46, 185, 113, 1.0);
 	color: #FFF;
@@ -122,9 +126,7 @@ nav li a:hover {
 	padding: 1.5em;
 	text-align: center;
 }
-.about-me .wrapper .box {
-	margin-bottom: 3em;
-}
+.about-me .wrapper .box {margin-bottom: 3em;}
 .about-me .wrapper .box i {
     font-size: 9em;
     -webkit-font-smoothing: antialiased;
@@ -138,7 +140,7 @@ nav li a:hover {
 	padding: 0.7em;
 }
 .about-me .wrapper .box p {
-	color: #787878;
+    color: rgba(0, 0, 0, 0.85);;
 	line-height: 1.2em;
 }
 
@@ -428,7 +430,7 @@ section {margin-bottom: 2.5em;}
 .main-content form .form-item select {
     background: #FFF;
     width: 100%;
-    height: 2.5em;
+    height: 3.5em;
     border: solid 1px #787878; 
     border-radius: 0;
     -webkit-box-sizing: border-box;
@@ -439,7 +441,7 @@ section {margin-bottom: 2.5em;}
 }
 .main-content form .form-item textarea {
     width: 100%;
-    height: 10em;
+    height: 15em;
     border-radius: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -499,7 +501,8 @@ TABLET CSS
     
     /*** HEADER ***/
     nav {
-        padding: 1em 1em 3.6em 1em;
+        box-sizing: border-box;
+        height: 75px;
         text-align: right;   
     }
     nav li a {
@@ -596,6 +599,12 @@ TABLET CSS
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+    
+    /*** BLOG PAGE ***/
+    .main-content figure .background .caption {
+        bottom: 2em;
+        font-size: 3em;
     }
     
     /*** CONTACT PAGE ***/
