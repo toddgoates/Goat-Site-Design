@@ -4,6 +4,7 @@ DEFAULT - MOBILE CSS
 
 /*** BODY ***/
 html {
+    box-sizing: border-box;
     height: 100%;
     overflow-x: hidden;
 }
@@ -267,6 +268,7 @@ footer .footer-bottom {
 }
 /*** ABOUT PAGE / OTHER PAGE ELEMENTS***/
 .main-content {padding: 1.5em;}
+.main-content strong {font-weight: 600;}
 section {margin-bottom: 2.5em;}
 .main-content h1 {
 	font-size: 2em;
@@ -305,27 +307,21 @@ section {margin-bottom: 2.5em;}
 	border: none;
 	cursor: pointer;	
 }
-.main-content .cta-button:hover {
-	background: rgba(46, 185, 113, 1);
-}
+.main-content .cta-button:hover {background: rgba(46, 185, 113, 1);}
 .main-content p {
 	color: #222;
 	margin: 1em 0;
 	text-align: justify;
-	line-height: 1.5em;
+	line-height: 1.7em;
 }
 .main-content ul li {
 	color: #222;
 	margin-left: 2.5em;
-	margin-bottom: 0.5em;
+	margin-bottom: 0.7em;
 	list-style-type: disc;
 }
-.main-content ul li ul {
-	margin-top: 0.5em;
-}
-.main-content ul li ul li {
-	list-style-type: circle;
-}
+.main-content ul li ul {margin-top: 0.7em;}
+.main-content ul li ul li {list-style-type: circle;}
 /*** WORK PAGE ***/
 .main-content .projects li {list-style-type: none;}
 .main-content .projects .project-icon {
@@ -364,7 +360,10 @@ section {margin-bottom: 2.5em;}
     text-align: center;
     padding: 1em 0 0 0;
 }
-.main-content figure figcaption strong {display: block;}
+.main-content figure figcaption strong {
+    display: block;
+    font-weight: 100;
+    }
 .main-content figure figcaption .posted {
     display: block;
     opacity: 0.8;
@@ -591,6 +590,14 @@ TABLET CSS
         margin-left: auto;
         margin-right: auto;
         display: block;	
+    }
+    .left-list {
+        width: 55%;
+        float: left;
+    }
+    .right-list {
+        width: 45%;
+        float: right;
     }
     
     /*** WORK PAGE ***/

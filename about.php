@@ -54,53 +54,60 @@
 				<h2>Web Skills</h2>
 				<p><i class="fa fa-warning fa-fw"></i> Warning: web lingo below!</p>
 				<ul>
-					<li>HTML5</li>
-					<li>CSS3</li>
-					<li>CSS Frameworks
-						<ul>
-							<li>LESS</li>
-							<li>Bootstrap</li>
-							<li>Ionic</li>
-						</ul>
-					</li>
-					<li>JavaScript</li>
-					<li>JavaScript Frameworks
-						<ul>
-							<li>jQuery and jQuery UI</li>
-							<li>AngularJS</li>
-						</ul>
-					</li>
-					<li>PHP</li>
-					<li>MySQL</li>
-					<li>Content Management System
-						<ul>
-							<li>Drupal</li>
-							<li>WordPress</li>
-							<li>Joomla</li>
-							<li>Adobe Business Catalyst</li>
-						</ul>
-					</li>
-					<li>E-commerce</li>
-					<li>Mobile First Responsive Design</li>
-					<li>XML RSS Feeds</li>
-					<li>AJAX</li>
-					<li>C#</li>
-					<li>Virtual Reality Tours</li>
-					<li>Audiobooks</li>
-					<li>Digital Publications
-						<ul>
-							<li>Mag+</li>
-							<li>iBooks</li>
-						</ul>
-					</li>
-					<li>On-page SEO</li>
-					<li>Adobe Products
-						<ul>
-							<li>Photoshop</li>
-							<li>Illustrator</li>
-							<li>InDesign</li>
-						</ul>
-					</li>
+                    <div class="left-list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>CSS Frameworks
+                            <ul>
+                                <li>LESS</li>
+                                <li>Bootstrap</li>
+                                <li>Ionic</li>
+                            </ul>
+                        </li>
+                        <li>JavaScript</li>
+                        <li>JavaScript Frameworks
+                            <ul>
+                                <li>jQuery and jQuery UI</li>
+                                <li>AngularJS</li>
+                            </ul>
+                        </li>
+                        <li>PHP</li>
+                        <li>MySQL</li>
+                        <li>Content Management Systems
+                            <ul>
+                                <li>Drupal</li>
+                                <li>WordPress</li>
+                                <li>Joomla</li>
+                                <li>Adobe Business Catalyst</li>
+                            </ul>
+                        </li>
+                    </div>
+                    <div class="right-list">
+                        <li>Project Management</li>
+                        <li>E-commerce</li>
+                        <li>Mobile First Responsive Design</li>
+                        <li>XML RSS Feeds</li>
+                        <li>Podcasts</li>
+                        <li>AJAX</li>
+                        <li>C#</li>
+                        <li>Virtual Reality Tours</li>
+                        <li>Audiobooks</li>
+                        <li>Digital Publications
+                            <ul>
+                                <li>Mag+</li>
+                                <li>iBooks</li>
+                            </ul>
+                        </li>
+                        <li>On-page SEO</li>
+                        <li>Adobe Products
+                            <ul>
+                                <li>Photoshop</li>
+                                <li>Illustrator</li>
+                                <li>InDesign</li>
+                            </ul>
+                        </li>
+                    </div>
+                    <div class="clear-fix"></div>
 				</ul>
 				<p>Don't see a certain technology for your web project?  Let me know what you need; I'm a quick learner!</p>
 				<form action="contact.php" method="POST">

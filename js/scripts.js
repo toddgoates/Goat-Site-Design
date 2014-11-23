@@ -47,5 +47,7 @@ $(document).ready(function () {
     $(function () {
         $('#developer').hover(rightImgSwap, rightImgSwap);
     });
+    
+    // Newsletter Form validation
 	
 });
