@@ -17,7 +17,7 @@ $(document).ready(function () {
     });
     
     // Smooth Scroll
-    $('.back-to-top').click(function () {
+    $('.back-to-top, #up-arrow').click(function () {
         $('body, html').animate({
             scrollTop: 0
         }, 1500);
