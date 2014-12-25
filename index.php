@@ -109,11 +109,9 @@ mysqli_close($dbc);
             <?php
             while($row = mysqli_fetch_array($result)) {
                 // Display rows
-                echo '<li>';
                 echo '<a href="work.php">';
-                echo '<img src="'.$row['img_path'].'/'.$row['file_name'].'" alt="'.$row['title'].'" class="project-icon">';	
+                echo '<img src="'.$row['img_path'].$row['file_name'].'" alt="'.$row['title'].'" class="project-icon">';	
                 echo '</a>';	
-                echo '</li>';
             }
             ?>
             </div>

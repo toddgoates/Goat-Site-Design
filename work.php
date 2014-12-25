@@ -48,19 +48,19 @@ mysqli_close($dbc);
 				<h1>My Work</h1>
 				<p>Check out some of the awesome solutions I've built for clients!</p>
 				<div class="projects">
-					<?php
-					while($row = mysqli_fetch_array($result)) {
-						// Display rows
-						echo '<li>';
-						echo '<a href="'.$row['link'].'" target="_blank">';
-						echo '<img src="'.$row['img_path'].'/'.$row['file_name'].'" alt="'.$row['title'].'" class="project-icon">';	
-						echo '</a>';	
-						echo '</li>';
-					}
-					?>
+                    <ul>
+                        <?php
+                        while($row = mysqli_fetch_array($result)) {
+                            // Display rows
+                            echo '<li>';
+                            echo '<a href="'.$row['link'].'" target="_blank">';
+                            echo '<img src="'.$row['img_path'].'/'.$row['file_name'].'" alt="'.$row['title'].'" class="project-icon">';	
+                            echo '</a>';	
+                            echo '</li>';
+                        }
+                        ?>
+                    </ul>
 				</div>
-			</section>
-			<section>
 			</section>
 		</div>
 	</div>
