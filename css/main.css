@@ -536,13 +536,7 @@ TABLET CSS
     }
     
     /*** BLOG ***/
-    .blog .project img {
-        width: 40%;
-        margin: 3em 0;
-        margin-left: 29%;
-        margin-right: 29%;
-        padding: 0.5em;
-    }
+    .blog .project img {width: 40%;}
     
     /*** FOOTER ***/
     footer .newsletter form {
