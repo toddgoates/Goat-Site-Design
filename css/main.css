@@ -158,14 +158,17 @@ nav li a:hover {
     line-height: 1.1em;
 	font-weight: 500;
 }
-.blog .project {background: #777;}
+.blog .project {
+    background: #777;
+    padding: 3em 0;
+}
 .blog .project li {list-style-type: none;}
 .blog .project img {
     background: #FFF;
     width: 50%;
-    margin: 3em 0;
-    margin-left: 23%;
-    margin-right: 23%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0.5em;
 }
 
@@ -618,3 +621,22 @@ TABLET CSS
     .main-content .other-contact ul li {margin: 0.5em;}
     
 } /* End tablet */
+
+/**********
+DESKTOP CSS
+**********/
+@media only screen and (min-width: 960px) {
+    
+    /*** HEADER ***/
+    .menu-icon {display: none;}
+    nav {
+        display: block;
+        background: transparent;
+        border-top: none;
+        position: relative;
+        bottom: 5.3em;
+        left: -20%;
+        z-index: 9000;
+    }
+    
+}
