@@ -52,63 +52,233 @@
 			</section>
 			<section id="skills">
 				<h2>Web Skills</h2>
-				<p><i class="fa fa-warning fa-fw"></i> Warning: web lingo below!</p>
-				<ul>
+                <p><i class="fa fa-info-circle fa-fw"></i> Don't know what in the world I'm talking about?  Just flip the card over for the answer.</p>
+                <div class="skills-list">
                     <div class="left-list">
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>CSS Frameworks
-                            <ul>
-                                <li>LESS</li>
-                                <li>Bootstrap</li>
-                                <li>Ionic</li>
-                            </ul>
-                        </li>
-                        <li>JavaScript</li>
-                        <li>JavaScript Frameworks
-                            <ul>
-                                <li>jQuery and jQuery UI</li>
-                                <li>AngularJS</li>
-                            </ul>
-                        </li>
-                        <li>PHP</li>
-                        <li>MySQL</li>
-                        <li>Content Management Systems
-                            <ul>
-                                <li>Drupal</li>
-                                <li>WordPress</li>
-                                <li>Joomla</li>
-                                <li>Adobe Business Catalyst</li>
-                            </ul>
-                        </li>
+                        
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    HTML5
+                                </div>
+                                <div class="back">
+                                    This is the structure of your website.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    CSS3
+                                </div>
+                                <div class="back">
+                                    Style and appearance of your website.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    JavaScript
+                                </div>
+                                <div class="back">
+                                    Style and appearance of your website.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    jQuery &amp; AngularJS
+                                </div>
+                                <div class="back">
+                                    Style and appearance of your website.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    PHP
+                                </div>
+                                <div class="back">
+                                    Style and appearance of your website.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    MySQL
+                                </div>
+                                <div class="back">
+                                    Style and appearance of your website.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    Drupal
+                                </div>
+                                <div class="back">
+                                    Style and appearance of your website.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    WordPress
+                                </div>
+                                <div class="back">
+                                    Style and appearance of your website.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    Joomla
+                                </div>
+                                <div class="back">
+                                    Style and appearance of your website.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    Adobe Business Catalyst
+                                </div>
+                                <div class="back">
+                                    Style and appearance of your website.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    Project Management
+                                </div>
+                                <div class="back">
+                                    Style and appearance of your website.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    E-commerce
+                                </div>
+                                <div class="back">
+                                    Style and appearance of your website.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    Responsive Design
+                                </div>
+                                <div class="back">
+                                    Style and appearance of your website.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    XML Feeds
+                                </div>
+                                <div class="back">
+                                    Style and appearance of your website.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    Podcasts
+                                </div>
+                                <div class="back">
+                                    Style and appearance of your website.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    AJAX
+                                </div>
+                                <div class="back">
+                                    Style and appearance of your website.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    C#
+                                </div>
+                                <div class="back">
+                                    Style and appearance of your website.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    Virtual Reality Tours
+                                </div>
+                                <div class="back">
+                                    Style and appearance of your website.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    Audiobooks
+                                </div>
+                                <div class="back">
+                                    Style and appearance of your website.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    Mag+ &amp; iBooks
+                                </div>
+                                <div class="back">
+                                    Style and appearance of your website.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    On-page SEO
+                                </div>
+                                <div class="back">
+                                    Style and appearance of your website.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    Photoshop, Illustrator, InDesign
+                                </div>
+                                <div class="back">
+                                    Style and appearance of your website.
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
-                    <div class="right-list">
-                        <li>Project Management</li>
-                        <li>E-commerce</li>
-                        <li>Mobile First Responsive Design</li>
-                        <li>XML RSS Feeds</li>
-                        <li>Podcasts</li>
-                        <li>AJAX</li>
-                        <li>C#</li>
-                        <li>Virtual Reality Tours</li>
-                        <li>Audiobooks</li>
-                        <li>Digital Publications
-                            <ul>
-                                <li>Mag+</li>
-                                <li>iBooks</li>
-                            </ul>
-                        </li>
-                        <li>On-page SEO</li>
-                        <li>Adobe Products
-                            <ul>
-                                <li>Photoshop</li>
-                                <li>Illustrator</li>
-                                <li>InDesign</li>
-                            </ul>
-                        </li>
-                    </div>
-                    <div class="clear-fix"></div>
-				</ul>
+                </div>
 				<p>Don't see a certain technology for your web project?  Let me know what you need; I'm a quick learner!</p>
 				<form action="contact.php" method="POST">
 					<button type="submit" class="cta-button">Contact Todd</button>
