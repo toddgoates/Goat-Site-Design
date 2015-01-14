@@ -62,7 +62,7 @@
                                     HTML5
                                 </div>
                                 <div class="back">
-                                    This is the structure of your website.
+                                    This is the semantic structure of your website.
                                 </div>
                             </div>
                         </div>
@@ -72,7 +72,7 @@
                                     CSS3
                                 </div>
                                 <div class="back">
-                                    Style and appearance of your website.
+                                    This is the style and appearance of your website.
                                 </div>
                             </div>
                         </div>
@@ -82,7 +82,7 @@
                                     JavaScript
                                 </div>
                                 <div class="back">
-                                    Style and appearance of your website.
+                                    What makes a website interactive on your browser.
                                 </div>
                             </div>
                         </div>
@@ -92,7 +92,7 @@
                                     jQuery &amp; AngularJS
                                 </div>
                                 <div class="back">
-                                    Style and appearance of your website.
+                                    JavaScript libraries to do cool things with less code.
                                 </div>
                             </div>
                         </div>
@@ -102,7 +102,7 @@
                                     PHP
                                 </div>
                                 <div class="back">
-                                    Style and appearance of your website.
+                                    A web development language that runs on a server.
                                 </div>
                             </div>
                         </div>
@@ -112,7 +112,7 @@
                                     MySQL
                                 </div>
                                 <div class="back">
-                                    Style and appearance of your website.
+                                    An open source database system for the web.
                                 </div>
                             </div>
                         </div>
@@ -122,7 +122,7 @@
                                     Drupal
                                 </div>
                                 <div class="back">
-                                    Style and appearance of your website.
+                                    A powerful CMS for online content &amp; user profiles.
                                 </div>
                             </div>
                         </div>
@@ -132,7 +132,7 @@
                                     WordPress
                                 </div>
                                 <div class="back">
-                                    Style and appearance of your website.
+                                    One of the most popular blogging platforms &amp; CMS.
                                 </div>
                             </div>
                         </div>
@@ -142,7 +142,7 @@
                                     Joomla
                                 </div>
                                 <div class="back">
-                                    Style and appearance of your website.
+                                    A popular &amp; flexible CMS for developing websites.
                                 </div>
                             </div>
                         </div>
@@ -152,7 +152,7 @@
                                     Adobe Business Catalyst
                                 </div>
                                 <div class="back">
-                                    Style and appearance of your website.
+                                    A business-centered &amp; marketing CMS.
                                 </div>
                             </div>
                         </div>
@@ -162,7 +162,7 @@
                                     Project Management
                                 </div>
                                 <div class="back">
-                                    Style and appearance of your website.
+                                    The process of planning &amp; organizing a project.
                                 </div>
                             </div>
                         </div>
@@ -172,7 +172,7 @@
                                     E-commerce
                                 </div>
                                 <div class="back">
-                                    Style and appearance of your website.
+                                    Commercial transactions on the web.
                                 </div>
                             </div>
                         </div>
@@ -182,17 +182,7 @@
                                     Responsive Design
                                 </div>
                                 <div class="back">
-                                    Style and appearance of your website.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                            <div class="flipper">
-                                <div class="front">
-                                    XML Feeds
-                                </div>
-                                <div class="back">
-                                    Style and appearance of your website.
+                                    Making websites optimized for a variety of devices.
                                 </div>
                             </div>
                         </div>
@@ -202,7 +192,7 @@
                                     Podcasts
                                 </div>
                                 <div class="back">
-                                    Style and appearance of your website.
+                                    Audio/video distributed on the internet to subscribers.
                                 </div>
                             </div>
                         </div>
@@ -212,7 +202,7 @@
                                     AJAX
                                 </div>
                                 <div class="back">
-                                    Style and appearance of your website.
+                                    Loads content with JavaScript asynchronously.
                                 </div>
                             </div>
                         </div>
@@ -222,7 +212,7 @@
                                     C#
                                 </div>
                                 <div class="back">
-                                    Style and appearance of your website.
+                                    A simple &amp; multi-purpose programming language.
                                 </div>
                             </div>
                         </div>
@@ -232,7 +222,7 @@
                                     Virtual Reality Tours
                                 </div>
                                 <div class="back">
-                                    Style and appearance of your website.
+                                    A 3D panorama that is manipulated in a browser.
                                 </div>
                             </div>
                         </div>
@@ -242,7 +232,7 @@
                                     Audiobooks
                                 </div>
                                 <div class="back">
-                                    Style and appearance of your website.
+                                    An audio recording with metadata.
                                 </div>
                             </div>
                         </div>
@@ -252,7 +242,7 @@
                                     Mag+ &amp; iBooks
                                 </div>
                                 <div class="back">
-                                    Style and appearance of your website.
+                                    Different digital publication platforms.
                                 </div>
                             </div>
                         </div>
@@ -262,7 +252,7 @@
                                     On-page SEO
                                 </div>
                                 <div class="back">
-                                    Style and appearance of your website.
+                                    Techniques to improve the search rank of a website.
                                 </div>
                             </div>
                         </div>
@@ -272,7 +262,7 @@
                                     Photoshop, Illustrator, InDesign
                                 </div>
                                 <div class="back">
-                                    Style and appearance of your website.
+                                    Powerful, industry-standard design software.
                                 </div>
                             </div>
                         </div>
