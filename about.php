@@ -49,7 +49,7 @@
 					<li>Project Consultation</li>
 				</ul>
                 <h2>Why work with me?</h2>
-                <p>I am a passionate designer and developer who loves what he does.  I put my blood, sweat, and tears into every project I work on.  You'll be proud of the final product, trust me.</p>
+                <p>I am a passionate designer and developer who loves what he does.  I put my blood, sweat, and tears into every project I work on (not literally though).  You'll be proud of the final product, trust me.</p>
 				<p>Have something for me to work on?  Let's get started!</p>
 				<form action="contact.php" method="POST">
 					<button type="submit" class="cta-button">Start a Project</button>
