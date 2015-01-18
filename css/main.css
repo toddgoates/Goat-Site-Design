@@ -282,7 +282,7 @@ section {margin-bottom: 2.5em;}
 .main-content h2 {
 	font-size: 1.3em;
 	font-weight: 500;
-	margin-bottom: 0.7em;
+	margin: 1.5em 0 1em;
 }
 .main-content img {
 	width: 90%;
@@ -392,6 +392,9 @@ section {margin-bottom: 2.5em;}
     position: absolute;
     top: 0;
     left: 0;
+    box-sizing: border-box;
+    padding: 1em;
+    line-height: 1.5em;
 }
 /* front pane, placed above back */
 .front {
@@ -473,6 +476,7 @@ section {margin-bottom: 2.5em;}
 }
 .main-content .tweet-timeline .tweet {
     width: 100%;
+    padding: 0.5em 0;
     background: rgba(0, 0, 0, 0.1);
     border-bottom: solid 1px rgba(0, 0, 0, 0.15);
     margin-bottom: 2em;
