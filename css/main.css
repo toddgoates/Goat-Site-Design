@@ -494,16 +494,11 @@ section {margin-bottom: 2.5em;}
     margin: 1em 1em 1em 6em;
 }
 /*** CONTACT PAGE ***/
-.main-content form {margin: 1em 0;}
-.main-content form fieldset {margin-bottom: 3em;}
-.main-content form legend {
-    font-size: 1.2em;
-    font-weight: 500;
-    margin-bottom: 1em;
-}
+.main-content form {margin: 2.5em 0;}
+.main-content form fieldset {margin-bottom: 2em;}
 .main-content form .form-item {
     width: 100%;
-    margin-bottom: 2em;
+    margin-bottom: 1.8em;
 }
 .main-content form .form-item label {
     display: block;
@@ -520,6 +515,7 @@ section {margin-bottom: 2.5em;}
 .main-content form .form-item input[type="email"],
 .main-content form .form-item input[type="tel"],
 .main-content form .form-item input[type="url"]{
+    padding: 1em;
     color: #787878;
     width: 100%;
     height: 3.5em;
@@ -556,6 +552,7 @@ section {margin-bottom: 2.5em;}
 .main-content form .form-item .radio-label {
     font-weight: 300;
 }
+.main-content form #project-form {display: none;}
 .main-content form .submit-button {
     background: rgba(46, 185, 113, 1);
     color: #FFF;
@@ -564,7 +561,6 @@ section {margin-bottom: 2.5em;}
     font-weight: 600;
     letter-spacing: 2px;
     width: 100%;
-    margin-top: 1.2em;
     border: none;
     cursor: pointer;
 }
@@ -576,7 +572,7 @@ section {margin-bottom: 2.5em;}
     margin: 1em 0;
 }
 .main-content .other-contact ul {
-    margin: 2em 0 0 0;
+    margin: 3em 0 0 0;
     padding: 0;
     list-style-type: none;
     text-align: center;

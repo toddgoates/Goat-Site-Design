@@ -35,49 +35,46 @@
         <div class="wrapper">
             <section>
                 <h1>Contact Me</h1>
-                <p>Ready to get started on an awesome project?  Fill out the form below to send me some details about the project.  I won't share this information with anyone else and will get back to you ASAP.</p>
+                <p>Send me a message with the form below and I'll get back to you ASAP.</p>
                 <form id="contact" action="send.php" method="POST" enctype="multipart/form-data">
                     <fieldset>
-                        <legend>Contact Information</legend>
                         <div class="form-item">
-                            <label for="fullname">Name</label>
+                            <label for="fullname">Name *</label>
                             <input type="text" name="fullname" id="fullname" required>
                         </div>
                         <div class="form-item">
-                            <label for="company">Company Name <span class="optional">(optional)</span></label>
-                            <input type="text" name="company" id="company">
-                        </div>
-                        <div class="form-item">
-                            <label for="email">Email</label>
+                            <label for="email">Email *</label>
                             <input type="email" name="email" id="email" required>
                         </div>
                         <div class="form-item">
-                            <label for="phone">Phone</label>
+                            <label for="phone">Phone *</label>
                             <input type="tel" name="phone" id="phone" required>
-                        </div>
-                        <div class="form-item">
-                            <label for="website">Your Website's URL <span class="optional">(optional)</span></label>
-                            <input type="url" name="website" id="website">
                         </div>
                     </fieldset>
                     <fieldset>
-                        <legend>Project Details</legend>
                         <div class="form-item">
-                            <label for="deadline">Project Deadline</label>
-                            <select name="deadline" id="deadline" required>
-                                <option>- SELECT -</option>
-                                <option value="ASAP">ASAP</option>
-                                <option value="1 Month">1 Month</option>
-                                <option value="2 Months">2 Months</option>
-                                <option value="3 Months">3 Months</option>
-                                <option value="6 Months">6 Months</option>
-                                <option value="">No Deadline</option>
+                            <label for="reason">Reason for contact *</label>
+                            <select name="reason" id="reason">
+                                <option value="To say hello">To say hello</option>
+                                <option value="I have a question">I have a question</option>
+                                <option value="I have a project for you">I have a project for you</option>
+                            </select>
+                        </div>
+                    </fieldset>
+                    <fieldset id="project-form">
+                        <div class="form-item">
+                            <label for="help">How can I help you?</label>
+                            <select name="help" id="help">
+                                <option value="Project Consultation">Project Consultation</option>
+                                <option value="I need a design">I need a design</option>
+                                <option value="Website coding">Website coding</option>
+                                <option value="Redesign website">Redesign website</option>
+                                <option value="Other">Other</option>
                             </select>
                         </div>
                         <div class="form-item">
                             <label for="budget">Project Budget</label>
-                            <select name="budget" id="budget" required>
-                                <option>- SELECT -</option>
+                            <select name="budget" id="budget">
                                 <option value="$500 or less">$500 or less</option>
                                 <option value="$500 - $1,000">$500 - $1,000</option>
                                 <option value="$,1000 - $1,500">$1,000 - $1,500</option>
@@ -86,20 +83,28 @@
                             </select>
                         </div>
                         <div class="form-item">
-                            <label for="nature">What is your project all about?</label>
-                            <textarea name="nature" id="nature"></textarea>
+                            <label for="timeline">Project Timeline</label>
+                            <select name="timeline" id="timeline">
+                                <option value="ASAP">ASAP</option>
+                                <option value="1 Month">1 Month</option>
+                                <option value="2 Months">2 Months</option>
+                                <option value="3 Months">3 Months</option>
+                                <option value="6 Months">6 Months</option>
+                                <option value="No Deadline">No Deadline</option>
+                            </select>
                         </div>
                         <div class="form-item">
-                            <label>Do you have content?</label>
-                            <label for="yes" class="radio-label"><input type="radio" name="content" id="yes" value="Yes"> Yes </label>
-                            <label for="no" class="radio-label"><input type="radio" name="content" id="no" value="No"> No </label>
+                            <label for="details">Tell me about your project</label>
+                            <textarea name="details" id="details"></textarea>
                         </div>
-                        <div class="form-item">
-                            <label for="more-info">Other comments or questions? <span class="optional">(optional)</span></label>
-                            <textarea name="more-info" id="more-info"></textarea>
-                        </div>
-                        <button type="submit" name="submit" class="submit-button">Send Message</button>
                     </fieldset>
+                    <fieldset id="message-form">
+                        <div class="form-item">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message"></textarea>
+                        </div>
+                    </fieldset>
+                    <button type="submit" name="submit" class="submit-button">Send Message</button>
                 </form>
             </section>
             <section>

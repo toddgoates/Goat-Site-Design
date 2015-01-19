@@ -48,6 +48,17 @@ $(document).ready(function () {
         $('#developer').hover(rightImgSwap, rightImgSwap);
     });
     
+    // Toggle project details div
+    $('#reason').change(function(){
+        if($(this).val()=="I have a project for you") {
+            $('#project-form').show();
+            $('#message-form').hide();
+        } else {
+            $('#project-form').hide();
+            $('#message-form').show();
+        } 
+    });
+    
     // Newsletter Form validation
 	
 });
