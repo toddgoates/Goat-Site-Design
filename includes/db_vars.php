@@ -1,6 +1,6 @@
 <?php
-define("HOST", "localhost");
-define("USER", "root");
-define("PASS", "root");
-define("DB", "toddgoates");
+$HOST = 'localhost';
+$USER = 'root';
+$PASS = 'root';
+$DB = 'toddgoates';
 ?>

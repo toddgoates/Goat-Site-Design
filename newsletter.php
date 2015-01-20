@@ -6,19 +6,33 @@ if(isset($_POST['submit'])) {
 	
     if(!empty($email) && $email != '') {
     
-        // Connect to the db
-        require_once('includes/db_vars.php');
-        $dbc = mysqli_connect(HOST, USER, PASS, DB) or die('Could not connect to database');
+        // Create PDO object
+        try {
+            
+            // Connect to the db
+            require_once('includes/db_vars.php');
+            $pdo = new PDO("mysql:host=$HOST; dbname=$DB", $USER, $PASS);
+            $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+            $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-        // Build and run query
-        $query = "INSERT INTO newsletter (join_date, email) VALUES (now(), '$email')";
-        mysqli_query($dbc, $query) or die('Query failed');
+            // Build and execute query
+            $query = $pdo->prepare('INSERT INTO '
+                                   .'newsletter '
+                                   .'(join_date, email) '
+                                   .'VALUES '
+                                   .'(now(), :email)');
+            
+            $query->execute(array('email' => $email));
 
-        // Close db connection
-        mysqli_close($dbc);
+            // Nullify PDO
+            $pdo = null;
 
-        // Redirect
-        header('Location: newsletter-thanks.php');
+            // Redirect
+            header('Location: newsletter-thanks.php');
+            
+        } catch(PDOException $e) {
+            echo $e->getMessage();
+        }
         
     } else {
         

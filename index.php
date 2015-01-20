@@ -1,7 +1,7 @@
 <?php
 // Connect to the db
 require_once('includes/db_vars.php');
-$dbc = mysqli_connect(HOST, USER, PASS, DB) or die('Could not connect to database');
+$dbc = mysqli_connect($HOST, $USER, $PASS, $DB) or die('Could not connect to database');
 
 // Build and run query
 $query = "SELECT * FROM project ORDER BY date_added DESC";
