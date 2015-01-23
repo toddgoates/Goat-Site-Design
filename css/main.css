@@ -488,8 +488,16 @@ section {margin-bottom: 2.5em;}
     margin: 1em;
     border: solid 1px rgba(0, 0, 0, 0.2);
 }
-.main-content .tweet-container a span {display: none;}
-.main-content .tweet-container .tweet {margin: -4.9em 1em 0 6em;}
+.main-content .tweet-container li .user a span {display: none;}
+.main-content .tweet-container .tweet {
+    margin: -4.9em 1em 0 6em;
+    text-align: left;
+}
+.main-content .tweet-container .tweet span {display: inline-block;}
+.main-content .tweet-container .tweet a[data-scribe='element:url'] {
+    display:block;
+    margin: 0.5em 0;
+}
 .main-content .tweet-container .timePosted {margin: 1em 1em 1em 6em;}
 .main-content .tweet-container .interact {
     margin: 0 1em 0 1em;
