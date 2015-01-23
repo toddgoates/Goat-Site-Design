@@ -52,17 +52,7 @@
                 </section>
                 <section>
                     <h2>Some Tweets</h2>
-                    <div class="tweet-timeline">
-                        <script id="tweets-template" type="text/x-handlebars-template">
-                            {{#each this}}
-                            <div class="tweet">
-                                <img src="{{thumb}}" alt="{{author}}" class="tweet-icon">
-                                <p class="text">{{linkify tweet}}</p>
-                                <p class="date">{{prettyDate created}}</p>
-                            </div>
-                            {{/each}}
-                        </script>
-                    </div>
+                    <div class="tweet-container" id="tweetlist"></div>
                 </section>
             </div>
         </div>
@@ -78,22 +68,13 @@
                 document.write(unescape("%3Cscript src='/lib/jquery/jquery-1.11.1.min.js' type='text/javascript'%3E%3C/script%3E"));
             }
         </script>
-        
-        <!-- Tweetbar -->
-        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
-        <script type="text/javascript" src="js/tweets.min.js"></script>
-        <script type="text/javascript" src="js/helpers.js"></script>
-        <script>
-            Tweetbars.init({
-                template: $('#tweets-template').html(),
-                container: $('.tweet-timeline'),
-                username: 'toddgoates',
-                count: 10
-            });
-        </script>
 
         <!-- Custom Scripts -->
         <script src="js/scripts.js" type="text/javascript"></script>
+        
+        <!-- Twitter -->
+        <script src="js/twitterFetcher.min.js" type="text/javascript"></script>
+        <script src="js/todds_tweets.js" type="text/javascript"></script>
 
     </body>
 </html>
