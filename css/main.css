@@ -698,14 +698,13 @@ TABLET CSS
         margin-right: auto;
         display: block;	
     }
-    .left-list {
-        width: 55%;
+    .flip-container {
+        width: 48%;
         float: left;
+        margin-bottom: 1.5em;
     }
-    .right-list {
-        width: 45%;
-        float: right;
-    }
+    .flip-container:nth-child(odd) {float: left;}
+    .flip-container:nth-child(even) {float: right;}
     
     /*** WORK PAGE ***/
     .main-content .projects .project-icon {
