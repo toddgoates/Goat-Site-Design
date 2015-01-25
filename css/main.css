@@ -168,8 +168,7 @@ nav li a:hover {
     background: #FFF;
     width: 50%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     padding: 0.5em;
 }
 
@@ -187,8 +186,7 @@ footer .newsletter h4 {
 }
 footer .newsletter form {
     width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 0 20% 0 20%;
 }
 footer .newsletter .left {
 	display: block;
@@ -287,8 +285,7 @@ section {margin-bottom: 2.5em;}
 .main-content img {
 	width: 90%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 	padding: 1em;
 	border: solid 1px #DEDEDE;
 }
@@ -650,8 +647,7 @@ TABLET CSS
     
     /*** FOOTER ***/
     footer .newsletter form {
-        margin-top: 1em;
-        margin-bottom: 1em;
+        margin: 1em auto;
     }
     footer .newsletter .left {
         display: inline;
@@ -660,6 +656,7 @@ TABLET CSS
     }
     footer .newsletter .left input {
         margin-top: 0;
+        padding: 1.5em 1em;
     }
     footer .newsletter .right {
         display: inline;
@@ -667,7 +664,7 @@ TABLET CSS
         width: 40%;
     }
     footer .newsletter .right .submit-button {
-        padding: 0.63em 1em;
+        /*padding: 0.63em 1em;*/
         margin: 0;
     }
     footer .wrapper .footer-left {
@@ -694,8 +691,7 @@ TABLET CSS
     .main-content .cta-button,
     .main-content form .submit-button {
         max-width: 70%;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         display: block;	
     }
     .flip-container {
@@ -707,11 +703,13 @@ TABLET CSS
     .flip-container:nth-child(even) {float: right;}
     
     /*** WORK PAGE ***/
+    .main-content .projects li {
+        margin: 1em 0;
+    }
     .main-content .projects .project-icon {
         max-width: 40%;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
     }
     
     /*** BLOG PAGE ***/
@@ -731,15 +729,53 @@ DESKTOP CSS
 @media only screen and (min-width: 960px) {
     
     /*** HEADER ***/
-    /*.menu-icon {display: none;}
+    /*header .wrapper {
+        width: 1000px;
+        display: block;
+        margin: 0 auto;
+    }*/
+    .menu-icon {display: none;}
     nav {
+        margin-bottom: -4.7em;
         display: block;
         background: transparent;
         border-top: none;
+        float: right;
         position: relative;
         bottom: 5.3em;
-        left: -20%;
+        right: -1em;
         z-index: 9000;
-    }*/
+    }
+    nav li {
+        float: left;
+    }
+    
+    /*** LANDING AREA ***/
+    .landing-area .wrapper {
+        max-width: 1000px;
+        display: block;
+        margin: 0 auto;
+    }
+    .landing-area h1 {top: 85%;}
+    
+    /*** ABOUT ***/
+    .about-me .wrapper {
+        max-width: 1000px;
+        display: block;
+        margin: 4em auto 0 auto;
+    }
+    
+    /*** BLOG ***/
+    .blog .project img { max-width: 15%;}
+    
+    /*** ABOUT PAGE / OTHER PAGE ELEMENTS ***/
+    .main-content {
+        max-width: 1000px;
+        display: block;
+        margin: 0 auto;
+        padding: 2em 0;
+    }
+    .main-content img.me-pic {max-width: 25%;}\
+    .main-content .cta-button {max-width: 25%;}
     
 }
