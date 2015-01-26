@@ -576,17 +576,13 @@ section {margin-bottom: 2.5em;}
 .main-content form .submit-button:hover {
     background: rgba(46, 185, 113, 0.8);
 }
-.main-content .no-bullet li {
-    list-style-type: none;
-    margin: 1em 0;
-}
-.main-content .other-contact ul {
-    margin: 3em 0 0 0;
+.main-content .other-contact ul.social-list {
+    margin: 2em 0 0 0;
     padding: 0;
     list-style-type: none;
     text-align: center;
 }
-.main-content .other-contact ul li {
+.main-content .other-contact ul.social-list li {
     display: inline;
     margin: 0;
     padding: 0;
@@ -602,6 +598,10 @@ section {margin-bottom: 2.5em;}
 .main-content .other-contact li a#google-plus:hover {color: rgba(221, 75, 57, 1);}
 .main-content .other-contact li a#linkedin {color: rgba(0, 123, 182, 0.7);}
 .main-content .other-contact li a#linkedin:hover {color: rgba(0, 123, 182, 1);}
+.main-content .no-bullet li {
+    list-style-type: none;
+    margin: 1em 0;
+}
 
 /**********
 TABLET CSS
@@ -719,7 +719,7 @@ TABLET CSS
     }
     
     /*** CONTACT PAGE ***/
-    .main-content .other-contact ul li {margin: 0.5em;}
+    .main-content .other-contact ul li {margin: 1em 0;}
     
 } /* End tablet */
 
@@ -746,8 +746,10 @@ DESKTOP CSS
         right: -1em;
         z-index: 9000;
     }
-    nav li {
-        float: left;
+    nav li {float: left;}
+    nav li a {
+        font-size: 1.1em;
+        margin-right: 2em;
     }
     
     /*** LANDING AREA ***/
@@ -768,14 +770,55 @@ DESKTOP CSS
     /*** BLOG ***/
     .blog .project img { max-width: 15%;}
     
+    /*** FOOTER ***/
+    footer .wrapper .middle {
+        width: 1000px;
+        display: block;
+        margin: 0 auto;
+    }
+    
     /*** ABOUT PAGE / OTHER PAGE ELEMENTS ***/
     .main-content {
         max-width: 1000px;
         display: block;
         margin: 0 auto;
-        padding: 2em 0;
+        padding: 2em 1em;
     }
-    .main-content img.me-pic {max-width: 25%;}\
+    section {margin-bottom: 4em;}
+    .main-content img.me-pic,
     .main-content .cta-button {max-width: 25%;}
     
+    /*** WORK PAGE ***/
+    .main-content .projects .project-icon {max-width: 20%;}
+    
+    /*** BLOG PAGE ***/
+    section.thoughts {
+        max-width: 60%;
+        float: left;
+    }
+    section.twitter {
+        max-width: 40%;
+        float: right;
+        box-sizing: border-box;
+        padding: 0 1em 0 5em;
+    }
+    /*** CONTACT PAGE ***/
+    section.form {
+        max-width: 60%;
+        float: left;
+        box-sizing: border-box;
+    }
+    .main-content form .submit-button {
+        max-width: 35%;
+        margin: 0;
+    }
+    section.other-contact {
+        background: rgba(0, 0, 0, 0.1);
+        border-bottom: solid 1px rgba(0, 0, 0, 0.15);
+        max-width: 35%;
+        float: right;
+        box-sizing: border-box;
+        margin: 0 1em 0 5em;
+        padding: 0 1em 1em 1em;
+    }
 }

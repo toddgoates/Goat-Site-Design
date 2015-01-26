@@ -32,7 +32,7 @@
 
         <div class="main-content">
             <div class="wrapper">
-                <section>
+                <section class="thoughts">
                     <h1>Some Thoughts</h1>
                     <p>Below are some different blog entries on the topic of technology and my quest to become the greatest web developer ever:</p>
                     <figure>
@@ -50,10 +50,11 @@
                         </figcaption>
                     </figure>
                 </section>
-                <section>
+                <section class="twitter">
                     <h2>Some Tweets</h2>
                     <div class="tweet-container" id="tweetlist"></div>
                 </section>
+                <div class="clear-fix"></div>
             </div>
         </div>
 

@@ -33,7 +33,7 @@
 
     <div class="main-content">
         <div class="wrapper">
-            <section>
+            <section class="form">
                 <h1>Contact Me</h1>
                 <p>Send me a message with the form below and I'll get back to you ASAP.</p>
                 <form id="contact" action="send.php" method="POST" enctype="multipart/form-data">
@@ -107,7 +107,7 @@
                     <button type="submit" name="submit" class="submit-button">Send Message</button>
                 </form>
             </section>
-            <section>
+            <section class="other-contact">
                 <h2>Other Contact Methods</h2>
                 <p>Not much of a web form person?  No worries!  Get in touch with me with one of the methods below or contact me on your preferred social network.</p>
                 <ul class="no-bullet">
@@ -115,7 +115,7 @@
                     <li><i class="fa fa-fw fa-phone"></i> (801) 319-9420</li>
                 </ul>
                 <div class="other-contact">
-                    <ul>
+                    <ul class="social-list">
                         <li class="social">
                             <a href="https://www.facebook.com/todd.goates" target="_blank" id="facebook">
                                 <i class="fa fa-facebook-square"></i>
@@ -145,6 +145,7 @@
                 </div>
                 <div class="clear-fix"></div>
             </section>
+            <div class="clear-fix"></div>
         </div>
     </div>
 
