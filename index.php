@@ -62,7 +62,6 @@ mysqli_close($dbc);
 			<p>Check out my list of <a href="/about.php#skills">web skills</a></p>
 		</div>
 		<div class="wrapper">
-			<!--<div class="top-row">-->
 				<div class="box">
                     <i class="fa fa-binoculars"></i>
 					<h3>Brand Discovery</h3>
@@ -78,8 +77,6 @@ mysqli_close($dbc);
 					<h3>Code Crunching</h3>
 					<p>Need someone to develop a design?  I code with the latest technologies to ensure that your website always performs well and loads quickly.</p>
 				</div>
-			<!--</div>-->
-			<!--<div class="bottom-row">-->
 				<div class="box">
                     <i class="fa fa-sitemap"></i>
                     <h3>Website Facelift</h3>
@@ -95,8 +92,7 @@ mysqli_close($dbc);
 					<h3>Honest Opinions</h3>
 					<p>Need some feedback about your web project?  I have years of experience with design and development and would love to consult with you.</p>
 				</div>
-			<!--</div>-->
-		</div>
+        </div>
         <div class="clear-fix"></div>
 	</div>
 	

@@ -128,7 +128,11 @@ nav li a:hover {
 	padding: 1.5em;
 	text-align: center;
 }
-.about-me .wrapper .box {margin-bottom: 3em;}
+.about-me .wrapper .box {
+    padding: 1em;
+    margin-bottom: 2em;
+    box-sizing: border-box;
+}
 .about-me .wrapper .box i {
     font-size: 9em;
     -webkit-font-smoothing: antialiased;
@@ -646,15 +650,10 @@ TABLET CSS
     }
     .about-me .wrapper .box {
         width: 40%;
-        box-sizing: border-box;
+        margin: 0 5% 5% 1em;
         display: inline-block;
-        float: left;
-        margin-left: 5%;
-        margin-right: 5%;
     }
-    .about-me .wrapper .box p {
-        text-align: left;
-    }
+    .about-me .wrapper .box p {text-align: left;}
     
     /*** BLOG ***/
     .blog .project img {width: 40%;}
@@ -769,11 +768,14 @@ DESKTOP CSS
     }
     .landing-area h1 {top: 85%;}
     
-    /*** ABOUT ***/
+    /*** ABOUT ME ***/
     .about-me .wrapper {
         max-width: 1000px;
         display: block;
         margin: 4em auto 0 auto;
+    }
+    .about-me .wrapper .box {
+        width: 20%;
     }
     
     /*** BLOG ***/
