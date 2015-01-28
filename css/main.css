@@ -149,6 +149,7 @@ nav li a:hover {
     color: rgba(0, 0, 0, 0.85);
 	line-height: 1.2em;
 }
+.cta {padding: 0 1em 1em 1em;}
 
 /*** BLOG ***/
 .blog {background: rgba(46, 185, 113, 0.70);}
@@ -304,7 +305,7 @@ section {margin-bottom: 2.5em;}
     transition: ease-in-out color 0.3s;
 }
 .main-content a:hover {color: rgba(67, 159, 250, 1);}
-.main-content .cta-button {
+.main-content .cta-button, .cta .cta-button {
 	background: rgba(46, 185, 113, 0.8);
 	color: #FFF;
 	padding: 1em;
@@ -316,7 +317,7 @@ section {margin-bottom: 2.5em;}
 	border: none;
 	cursor: pointer;	
 }
-.main-content .cta-button:hover {background: rgba(46, 185, 113, 1);}
+.main-content .cta-button:hover, .cta .cta-button:hover {background: rgba(46, 185, 113, 1);}
 .main-content p {
 	color: #222;
 	margin: 1em 0;
@@ -701,6 +702,7 @@ TABLET CSS
         margin: 0 1em 0.5em 0;
         padding: 0.5em;
     }
+    .cta .cta-button,
     .main-content .cta-button,
     .main-content form .submit-button {
         max-width: 70%;
@@ -798,7 +800,8 @@ DESKTOP CSS
     }
     section {margin-bottom: 4em;}
     .main-content img.me-pic,
-    .main-content .cta-button {max-width: 25%;}
+    .main-content .cta-button,
+    .cta .cta-button {max-width: 25%;}
     .flip-container {
         width: 32.5%;
         margin: 0 0.2em 0.4em 0.2em
