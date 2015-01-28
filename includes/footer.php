@@ -3,12 +3,13 @@
         <h4>Sign up for my newsletter</h4>
 		<form id="newsletter" action="newsletter.php" method="POST" enctype="multipart/form-data">
 			<div class="left">
-				<input type="email" name="email" placeholder="Your Email Address" required>
+				<input type="email" id="newsletter-email" name="email" placeholder="Your Email Address" required>
 			</div>
 			<div class="right">
 				<button type="submit" name="submit" class="submit-button">Subscribe</button>
 			</div>
 			<div class="clear-fix"></div>
+            <div id="newsletter-error"></div>
 		</form>
 	</div>
 	<div class="wrapper">
