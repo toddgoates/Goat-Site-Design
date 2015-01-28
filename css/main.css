@@ -599,6 +599,7 @@ section {margin-bottom: 2.5em;}
 .main-content .other-contact li a#google-plus:hover {color: rgba(221, 75, 57, 1);}
 .main-content .other-contact li a#linkedin {color: rgba(0, 123, 182, 0.7);}
 .main-content .other-contact li a#linkedin:hover {color: rgba(0, 123, 182, 1);}
+.main-content .no-bullet {margin: 2em 0;}
 .main-content .no-bullet li {
     list-style-type: none;
     margin: 1em 0;
@@ -742,11 +743,6 @@ DESKTOP CSS
 @media only screen and (min-width: 960px) {
     
     /*** HEADER ***/
-    /*header .wrapper {
-        width: 1000px;
-        display: block;
-        margin: 0 auto;
-    }*/
     .menu-icon {display: none;}
     nav {
         margin-bottom: -4.7em;
@@ -801,7 +797,11 @@ DESKTOP CSS
     section {margin-bottom: 4em;}
     .main-content img.me-pic,
     .main-content .cta-button {max-width: 25%;}
-    
+    .flip-container {
+        width: 32.5%;
+        margin: 0 0.2em 0.4em 0.2em
+    }
+    .flip-container:nth-child(even) {float: left;}
     /*** WORK PAGE ***/
     .main-content .projects .project-icon {max-width: 20%;}
     
