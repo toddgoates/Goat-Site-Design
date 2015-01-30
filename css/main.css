@@ -712,7 +712,7 @@ TABLET CSS
     .flip-container {
         width: 48.3%;
         float: left;
-        margin-bottom: 1.5em;
+        margin-bottom: 1.8em;
     }
     .flip-container:nth-child(odd) {float: left;}
     .flip-container:nth-child(even) {float: right;}
@@ -772,7 +772,7 @@ DESKTOP CSS
     
     /*** ABOUT ME ***/
     .about-me .wrapper {
-        max-width: 1000px;
+        max-width: 960px;
         display: block;
         margin: 4em auto 0 auto;
     }
@@ -786,14 +786,14 @@ DESKTOP CSS
     /*** FOOTER ***/
     footer .newsletter form {width: 40%;}
     footer .wrapper .middle {
-        width: 1000px;
+        width: 960px;
         display: block;
         margin: 0 auto;
     }
     
     /*** ABOUT PAGE / OTHER PAGE ELEMENTS ***/
     .main-content {
-        max-width: 1000px;
+        max-width: 960px;
         display: block;
         margin: 0 auto;
         padding: 2em 1em;
