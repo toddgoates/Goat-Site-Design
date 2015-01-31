@@ -3,13 +3,22 @@
 $(document).ready(function () {
     
     // Variables
-    var newsletterValid = false;
-    var contactValid = false;
+    var newsletterValid = true;
+    var contactValid = true;
 
 	// Show/Hide Mobile Nav
 	$(".menu-icon").click(function () {
 		$("nav").slideToggle(200);
 	});
+    
+    // Always show nav on desktop
+    $(window).resize(function () {
+        if($(this).width() > 959) {
+            $('nav').show();
+        } else {
+            $('nav').hide();
+        }  
+    });
     
     // Fade in Back to Top Div
     $(window).scroll(function () {
@@ -65,19 +74,20 @@ $(document).ready(function () {
     
     // Newsletter Form validation
     $('#newsletter').submit(function(e) {
-        if(!newsletterValid) {
-            e.preventDefault();
-        }
         
         newsletterValid = true;
         
         var email = $('#newsletter-email').val();
         
         if(!email || email == '') {
+            newsletterValid = false;
+        }
+        
+        if(!newsletterValid) {
+            e.preventDefault();
             $('#newsletter-email').focus();
             $('#newsletter-error').html('I need your email address, silly!');
             $('#newsletter-error').css('padding', '1.5em 0 0 0');
-            newsletterValid = false;
         }
         
         if(newsletterValid) {
@@ -87,9 +97,6 @@ $(document).ready(function () {
     
     // Contact Form validation
     $('#contact').submit(function(e) {
-        if(!contactValid) {
-            e.preventDefault();
-        }
         
         contactValid = true;
         
@@ -111,6 +118,7 @@ $(document).ready(function () {
         }
         
         if(!contactValid){
+            e.preventDefault();
             $('#contact-error').html('Please fill out all required fields (the ones with the *)');
             $('#contact-error').css('padding', '1em 0');
         }

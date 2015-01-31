@@ -6,7 +6,7 @@
 				<input type="email" id="newsletter-email" name="email" placeholder="Your Email Address" required>
 			</div>
 			<div class="right">
-				<button type="submit" name="submit" class="submit-button">Subscribe</button>
+                <input type="submit" name="submit" class="submit-button" value="Subscribe"> 
 			</div>
 			<div class="clear-fix"></div>
             <div id="newsletter-error"></div>

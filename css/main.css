@@ -100,7 +100,10 @@ nav li a:hover {
 .landing-area .todd-right h1 {right: 0.5em;}
 
 /*** ABOUT ME ***/
-.about-me {background: rgba(244, 255, 250, 0.7)}
+.about-me {
+    background: rgba(244, 255, 250, 0.7);
+    padding: 0 0 2em 0;
+}
 .about-me .description {
 	background: rgba(46, 185, 113, 1.0);
 	color: #FFF;
@@ -187,22 +190,18 @@ footer .newsletter h4 {
 	font-size: 1.2em;
     font-weight: 400;
 	text-align: center;
-	padding: 0.6em;
+	padding: 1.2em;
 }
 footer .newsletter form {
     width: 60%;
     display: block;
     margin: 0 auto;
 }
-footer .newsletter .left {
-	display: block;
-}
 footer .newsletter .left input {
 	color: #787878;
+    font-size: 0.8em;
 	width: 100%;
-	/*height: 3.5em;*/
     padding: 1em;
-	margin-top: 1em;
 	border: none;
     border-radius: 0;
     -webkit-box-sizing: border-box;
@@ -211,18 +210,15 @@ footer .newsletter .left input {
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
-footer .newsletter .right {
-	display: block;
-}
 footer .newsletter .right .submit-button {
 	background: rgba(46, 185, 113, 1);
 	color: #FFF;
 	padding: 1em;
-	font-size: 0.9em;
+    font-size: 0.8em;
 	font-weight: 600;
 	letter-spacing: 2px;
     width: 100%;
-	margin: 1.5em 0;
+	margin: 1em 0 1.5em 0;
 	border: none;
     border-radius: 0;
 	cursor: pointer;
@@ -660,27 +656,22 @@ TABLET CSS
     .blog .project img {width: 40%;}
     
     /*** FOOTER ***/
-    footer .newsletter form {
-        margin: 1em auto;
-    }
+    footer .newsletter form {margin: 1em auto;}
     footer .newsletter .left {
-        display: inline;
+        display: inline-block;
         float: left;
         width: 60%;
     }
     footer .newsletter .left input {
+        vertical-align: top;
         margin-top: 0;
-        padding: 1.5em 1em;
     }
     footer .newsletter .right {
-        display: inline;
+        display: inline-block;
         float: right;
         width: 40%;
     }
-    footer .newsletter .right .submit-button {
-        /*padding: 0.63em 1em;*/
-        margin: 0;
-    }
+    footer .newsletter .right .submit-button {margin: 0;}
     footer .wrapper .footer-left {
         box-sizing: border-box;
         margin-bottom: 0;
@@ -705,7 +696,7 @@ TABLET CSS
     .cta .cta-button,
     .main-content .cta-button,
     .main-content form .submit-button {
-        max-width: 70%;
+        max-width: 50%;
         margin: 0 auto;
         display: block;	
     }

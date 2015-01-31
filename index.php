@@ -102,7 +102,7 @@ mysqli_close($dbc);
 	
 	<div class="blog">
 		<div class="description">
-			<h2>Some projects I'm currently working on</h2>
+			<h2>Some projects I've worked on</h2>
 		</div>
 		<div class="wrapper">
             <div class="project">
