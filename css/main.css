@@ -220,6 +220,7 @@ footer .newsletter .right .submit-button {
     width: 100%;
 	margin: 1em 0 1.5em 0;
 	border: none;
+    -webkit-border-radius: 0;
     border-radius: 0;
 	cursor: pointer;
     -webkit-box-sizing: border-box;
@@ -227,6 +228,8 @@ footer .newsletter .right .submit-button {
     -o-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
+    -webkit-appearance: none;
+    
 }
 footer .newsletter .right .submit-button:hover {
 	background: rgba(46, 185, 113, 0.8);
