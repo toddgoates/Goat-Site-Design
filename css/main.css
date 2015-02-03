@@ -712,9 +712,8 @@ TABLET CSS
     .flip-container:nth-child(even) {float: right;}
     
     /*** WORK PAGE ***/
-    .main-content .projects li {
-        margin: 1em 0;
-    }
+    .main-content .projects {margin-top: 2em;}
+    .main-content .projects li {margin: 1em 0;}
     .main-content .projects .project-icon {
         max-width: 40%;
         display: block;
