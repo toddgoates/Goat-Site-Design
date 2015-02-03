@@ -101,7 +101,7 @@ nav li a:hover {
 
 /*** ABOUT ME ***/
 .about-me {
-    background: rgba(237, 238, 244, 0.7);
+    background: #FFF;
     padding: 0 0 2em 0;
 }
 .about-me .description {
