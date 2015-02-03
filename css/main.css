@@ -101,7 +101,7 @@ nav li a:hover {
 
 /*** ABOUT ME ***/
 .about-me {
-    background: rgba(244, 255, 250, 0.7);
+    background: rgba(237, 238, 244, 0.7);
     padding: 0 0 2em 0;
 }
 .about-me .description {
@@ -152,7 +152,7 @@ nav li a:hover {
     color: rgba(0, 0, 0, 0.85);
 	line-height: 1.2em;
 }
-.cta {padding: 0 1em 1em 1em;}
+.cta {padding: 1em;}
 
 /*** BLOG ***/
 .blog {background: rgba(46, 185, 113, 0.70);}
@@ -650,7 +650,7 @@ TABLET CSS
     }
     .about-me .wrapper .box {
         width: 40%;
-        margin: 0 5% 5% 1em;
+        margin: 0 4% 1em 4%;
         display: inline-block;
     }
     .about-me .wrapper .box p {text-align: left;}
@@ -746,7 +746,7 @@ DESKTOP CSS
         border-top: none;
         float: right;
         position: relative;
-        bottom: 5.3em;
+        bottom: 5.2em;
         right: -1em;
         z-index: 9000;
     }
@@ -772,6 +772,7 @@ DESKTOP CSS
     }
     .about-me .wrapper .box {
         width: 20%;
+        margin: 0 5% 1em 5%;
     }
     
     /*** BLOG ***/
