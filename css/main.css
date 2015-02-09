@@ -29,7 +29,7 @@ header .logo {
 	font-size: 3em;
 	position: absolute;
 	right: 0.5em;
-	top: 0.6em;
+	top: 0.58em;
 	cursor: pointer;
 }
 nav {
@@ -445,6 +445,7 @@ section {margin-bottom: 2.5em;}
     background: rgba(0, 0, 0, 0.1);
     padding: 1em;
     border-bottom: solid 1px rgba(0, 0, 0, 0.15);
+    margin: 0 0 2em 0;
 }
 .main-content figure .background {
     background: rgba(46, 185, 113, 1.0);
