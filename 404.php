@@ -32,7 +32,7 @@
         <div class="main-content">
             <div class="wrapper">
                 <h1>404 - Page Not Found</h1>
-                <p>It seems you were looking for a page that doesn't exist yet.  It was an honest mistake I bet.  To make you feel better, here's a silly picture of me milking the world's largest holstein cow.  <a href="index.php">Take me home</a></p>
+                <p>It seems you were looking for a page that doesn't exist yet.  To make you feel better, here's a silly picture of me milking the world's largest holstein cow.  <a href="index.php">Take me home</a></p>
                 <img src="img/salem-sue.jpg" alt="The page you looked for doesn't exist, so here's a silly cow.">
             </div>
         </div>
