@@ -113,14 +113,10 @@
                 <p>Not much of a web form person?  No worries!  Get in touch with me with one of the methods below or contact me on your preferred social network.</p>
                 <ul class="no-bullet">
                     <li>
-                        <a href="mailto:toddgoates@gmail.com">
-                            <i class="fa fa-fw fa-envelope"></i> toddgoates@gmail.com
-                        </a>
+                        <i class="fa fa-fw fa-envelope"></i> toddgoates@gmail.com
                     </li>
                     <li>
-                        <a href="tel:+18013199420">
-                            <i class="fa fa-fw fa-phone"></i> (801) 319-9420   
-                        </a>
+                        <i class="fa fa-fw fa-phone"></i> (801) 319-9420   
                     </li>
                 </ul>
                 <div class="other-contact">
