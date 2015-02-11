@@ -112,8 +112,16 @@
                 <h2>Other Contact Methods</h2>
                 <p>Not much of a web form person?  No worries!  Get in touch with me with one of the methods below or contact me on your preferred social network.</p>
                 <ul class="no-bullet">
-                    <li><i class="fa fa-fw fa-envelope"></i> toddgoates@gmail.com</li>
-                    <li><i class="fa fa-fw fa-phone"></i> (801) 319-9420</li>
+                    <li>
+                        <a href="mailto:toddgoates@gmail.com">
+                            <i class="fa fa-fw fa-envelope"></i> toddgoates@gmail.com
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tel:+18013199420">
+                            <i class="fa fa-fw fa-phone"></i> (801) 319-9420   
+                        </a>
+                    </li>
                 </ul>
                 <div class="other-contact">
                     <ul class="social-list">
