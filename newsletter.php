@@ -28,7 +28,7 @@ if(isset($_POST['submit'])) {
             $pdo = null;
 
             // Redirect
-            header('Location: newsletter-thanks.php');
+            header('Location: newsletter-thanks');
             
         } catch(PDOException $e) {
             echo $e->getMessage();
@@ -40,5 +40,11 @@ if(isset($_POST['submit'])) {
         header('Location: ' . $_SERVER['HTTP_REFERER']);
         
     }
+    
+} else {
+    
+    // Keep them on same page
+    header('Location: ' . $_SERVER['HTTP_REFERER']);
+    
 }
 ?>

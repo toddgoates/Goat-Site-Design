@@ -1,7 +1,7 @@
 <footer>
 	<div class="newsletter">
         <h4>Sign up for my newsletter</h4>
-		<form id="newsletter" action="newsletter.php" method="POST" enctype="multipart/form-data">
+		<form id="newsletter" action="newsletter" method="POST" enctype="multipart/form-data">
 			<div class="left">
 				<input type="email" id="newsletter-email" name="email" placeholder="Your Email Address" required>
 			</div>

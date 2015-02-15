@@ -55,7 +55,7 @@ if(isset($_POST['submit'])) {
         $pdo = null;
 
         // Redirect
-        header('Location: contact-thanks.php');
+        header('Location: contact-thanks');
         
     } catch(PDOException $e) {
         echo $e->getMessage();
