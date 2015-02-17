@@ -18,7 +18,7 @@ mysqli_close($dbc);
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<title>My Work | Todd Goates</title>
-	<meta name="description" content="">
+	<meta name="description" content="Browse some of the awesome web solutions that Todd Goates has built for clients.">
 
 	<!-- CSS -->
 	<link href="css/reset.css" rel="stylesheet">

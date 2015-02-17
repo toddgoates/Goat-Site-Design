@@ -6,7 +6,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <title>Some Thoughts | Todd Goates</title>
-        <meta name="description" content="">
+        <meta name="description" content="Blog entries from Todd Goates, a web designer and developer, on various topics of technology.">
 
         <!-- CSS -->
         <link href="css/reset.css" rel="stylesheet">

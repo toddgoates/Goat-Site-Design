@@ -6,7 +6,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <title>Sign Your Site | Todd Goates</title>
-        <meta name="description" content="">
+        <meta name="description" content="Learn how to make an awesome animated SVG signature with JavaScript.">
 
         <!-- CSS -->
         <link href="css/reset.css" rel="stylesheet">
