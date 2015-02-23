@@ -130,6 +130,9 @@ mysqli_close($dbc);
         }
     </script>
     
+    <!-- Fast Click for mobile -->
+    <script src="lib/fastclick.min.js" type="text/javascript"></script>
+    
 	<!-- Custom Scripts -->
 	<script src="js/scripts.js" type="text/javascript"></script>
     <script src="js/preload.js" type="text/javascript"></script>
