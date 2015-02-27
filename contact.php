@@ -103,6 +103,8 @@
                                 <label for="message">Message</label>
                                 <textarea name="message" id="message"></textarea>
                             </div>
+                        </fieldset>
+                        <fieldset>
                             <button type="submit" name="submit" class="submit-button">Send Message</button>
                             <div id="contact-error"></div>
                         </fieldset>
