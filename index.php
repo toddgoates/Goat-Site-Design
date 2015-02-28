@@ -63,7 +63,7 @@ mysqli_close($dbc);
 		</div>
 		<div class="wrapper">
             <div class="box">
-                <i class="fa fa-binoculars"></i>
+                <i class="fa fa-search"></i>
 				<h3>Brand Discovery</h3>
 				<p>Starting up your company's website?  I can help you develop a unique and attractive brand that best represents your product or service.</p>
             </div>
@@ -73,7 +73,7 @@ mysqli_close($dbc);
 				<p>Not sure what you want your site to look like yet?  I can help you design a stunning theme that looks good on all browsers and devices.</p>
             </div>
             <div class="box">
-                <i class="fa fa-file-code-o"></i>
+                <i class="fa fa-code"></i>
 				<h3>Code Crunching</h3>
 				<p>Need someone to develop a design?  I code with the latest technologies to ensure that your website always performs well and loads quickly.</p>
             </div>

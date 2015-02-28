@@ -48,7 +48,7 @@ include('includes/header_nav.php');
                         </div>
                     </div>
                     <p><em>Yeah, I know this signature is way ugly... but I didn't want people to forge my real signature!  Edward Snowden would probably agree with me...</em></p>
-                    <button type="button" class="cta-button">Replay</button>
+                    <button type="button" class="cta-button"><i class="fa fa-fw fa-play"></i> Replay</button>
                 </section>
                 <section class="tutorial">
                     <h2>How to make an animated SVG signature</h2>
