@@ -24,6 +24,7 @@ mysqli_close($dbc);
 	<link href="css/reset.css" rel="stylesheet">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
 	
 	<?php
     include('includes/favicons.php');
@@ -62,32 +63,32 @@ mysqli_close($dbc);
 			<p>Check out my list of <a href="/about.php#skills">web skills</a></p>
 		</div>
 		<div class="wrapper">
-            <div class="box">
+            <div class="box wow bounceIn">
                 <i class="fa fa-search"></i>
 				<h3>Brand Discovery</h3>
 				<p>Starting up your company's website?  I can help you develop a unique and attractive brand that best represents your product or service.</p>
             </div>
-			<div class="box">
+            <div class="box wow bounceIn">
                 <i class="fa fa-pencil-square-o"></i>
 				<h3>Design Blueprints</h3>
 				<p>Not sure what you want your site to look like yet?  I can help you design a stunning theme that looks good on all browsers and devices.</p>
             </div>
-            <div class="box">
+            <div class="box wow bounceIn">
                 <i class="fa fa-code"></i>
 				<h3>Code Crunching</h3>
 				<p>Need someone to develop a design?  I code with the latest technologies to ensure that your website always performs well and loads quickly.</p>
             </div>
-            <div class="box">
+            <div class="box wow bounceIn">
                 <i class="fa fa-sitemap"></i>
                 <h3>Website Facelift</h3>
 				<p>Is your website ready for a new look?  When it's time to change to a new design, I will help you migrate your assets and plan accordingly.</p>
             </div>
-            <div class="box">
+            <div class="box wow bounceIn">
                 <i class="fa fa-wrench"></i>
 				<h3>Repair Jobs</h3>
 				<p>Is something broken on your website?  When you need an extra set of eyes to debug something, I am happy to help and assist with any updates.</p>
             </div>
-            <div class="box">
+            <div class="box wow bounceIn">
                 <i class="fa fa-thumbs-o-up"></i>
                 <h3>Honest Opinions</h3>
 				<p>Need some feedback about your web project?  I have years of experience with design and development and would love to consult with you.</p>
@@ -136,6 +137,12 @@ mysqli_close($dbc);
 	<!-- Custom Scripts -->
 	<script src="js/scripts.js" type="text/javascript"></script>
     <script src="js/preload.js" type="text/javascript"></script>
+    
+    <!-- Wow animations -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 	
 </body>
 </html>
