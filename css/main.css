@@ -561,6 +561,9 @@ section {margin-bottom: 2.5em;}
     -o-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-left: 1em;
 }
 .main-content form .form-item textarea {
     width: 100%;
