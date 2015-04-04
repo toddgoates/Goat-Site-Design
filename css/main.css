@@ -229,6 +229,8 @@ footer .newsletter .right .submit-button {
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     
 }
 footer .newsletter .right .submit-button::-moz-focus-inner {
@@ -549,6 +551,9 @@ section {margin-bottom: 2.5em;}
     -o-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 .main-content form .form-item select {
     background: #FFF;
@@ -566,6 +571,7 @@ section {margin-bottom: 2.5em;}
     box-sizing: border-box;
     -webkit-appearance: none;
     -moz-appearance: none;
+    appearance: none;
     padding-left: 1em;
 }
 .main-content form .form-item textarea {
@@ -576,6 +582,9 @@ section {margin-bottom: 2.5em;}
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
     -ms-box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     box-sizing: border-box;
 }
 .main-content form .form-item .radio-label {
