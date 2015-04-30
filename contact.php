@@ -14,7 +14,7 @@
         <link href="css/main.css" rel="stylesheet">
 
         <?php
-        include('/includes/favicons.php');
+        include('includes/favicons.php');
         ?>
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
