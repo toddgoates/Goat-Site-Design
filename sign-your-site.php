@@ -120,11 +120,11 @@ include('includes/header_nav.php');
                 paths = $('path, circle, rect', this);
                 delay = 0;
                 _results = [];
-                for (_i = 0, _len = paths.length; _i < _len; _i++) {
+                for (_i = 0, _len = paths.length; _i &lt; _len; _i++) {
                     path = paths[_i];
                     length = path.getTotalLength();
                     previousStrokeLength = speed || 0;
-                    speed = length < 100 ? 20 : Math.floor(length);
+                    speed = length &lt; 100 ? 20 : Math.floor(length);
                     delay += previousStrokeLength + 100;
                     _results.push($(path).css('transition', 'none').attr('data-length', length).attr('data-speed', speed).attr('data-delay', delay).attr('stroke-dashoffset', length).attr('stroke-dasharray', length + ',' + length));
                 }
@@ -136,7 +136,7 @@ include('includes/header_nav.php');
                 var delay, length, path, paths, speed, _i, _len, _results;
                 paths = $('path, circle, rect', this);
                 _results = [];
-                for (_i = 0, _len = paths.length; _i < _len; _i++) {
+                for (_i = 0, _len = paths.length; _i &lt; _len; _i++) {
                     path = paths[_i];
                     length = $(path).attr('data-length');
                     speed = $(path).attr('data-speed');
@@ -193,7 +193,7 @@ include('includes/header_nav.php');
         <script src="js/signature.js" type="text/javascript"></script>
         
         <!-- Prettify Code -->
-        <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=html&lang=css&lang=javascript&skin=default"></script>
+        <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=html&amp;lang=css&amp;lang=javascript&amp;skin=default"></script>
         
     </body>
 </html>
