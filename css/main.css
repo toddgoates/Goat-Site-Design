@@ -618,16 +618,16 @@ section {margin-bottom: 2.5em;}
     padding: 0;
 }
 .main-content .other-contact ul li.social a {font-size: 3em;}
-.main-content .other-contact li a#facebook {color: rgba(59, 89, 152, 0.7);}
-.main-content .other-contact li a#facebook:hover {color: rgba(59, 89, 152, 1);}
-.main-content .other-contact li a#twitter {color: rgba(0, 172, 237, 0.7);}
-.main-content .other-contact li a#twitter:hover {color: rgba(0, 172, 237, 1);}
-.main-content .other-contact li a#instagram {color: rgba(81, 127, 164, 0.7);}
-.main-content .other-contact li a#instagram:hover {color: rgba(81, 127, 164, 1);}
-.main-content .other-contact li a#google-plus {color: rgba(221, 75, 57, 0.7);}
-.main-content .other-contact li a#google-plus:hover {color: rgba(221, 75, 57, 1);}
-.main-content .other-contact li a#linkedin {color: rgba(0, 123, 182, 0.7);}
-.main-content .other-contact li a#linkedin:hover {color: rgba(0, 123, 182, 1);}
+.main-content .other-contact li a.facebook {color: rgba(59, 89, 152, 0.7);}
+.main-content .other-contact li a.facebook:hover {color: rgba(59, 89, 152, 1);}
+.main-content .other-contact li a.twitter {color: rgba(0, 172, 237, 0.7);}
+.main-content .other-contact li a.twitter:hover {color: rgba(0, 172, 237, 1);}
+.main-content .other-contact li a.instagram {color: rgba(81, 127, 164, 0.7);}
+.main-content .other-contact li a.instagram:hover {color: rgba(81, 127, 164, 1);}
+.main-content .other-contact li a.google-plus {color: rgba(221, 75, 57, 0.7);}
+.main-content .other-contact li a.google-plus:hover {color: rgba(221, 75, 57, 1);}
+.main-content .other-contact li a.linkedin {color: rgba(0, 123, 182, 0.7);}
+.main-content .other-contact li a.linkedin:hover {color: rgba(0, 123, 182, 1);}
 .main-content .no-bullet {margin: 2em 0;}
 .main-content .no-bullet li {
     list-style-type: none;

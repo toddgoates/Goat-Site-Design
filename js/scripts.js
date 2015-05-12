@@ -65,6 +65,11 @@ $(document).ready(function () {
         $('#developer').hover(rightImgSwap, rightImgSwap);
     });
     
+    // Skill card flip effect
+    $('.flip-container').hover(function(){
+        $(this).toggleClass('hover');
+    });
+    
     // Toggle project details div in contact form
     $('#reason').change(function() {
         if($(this).val()=="I have a project for you") {

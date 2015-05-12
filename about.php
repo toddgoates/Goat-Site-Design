@@ -59,7 +59,7 @@
 				<h2>Web Skills</h2>
                 <p><i class="fa fa-info-circle fa-fw"></i> Don't know what in the world I'm talking about?  Just flip the card over for the answer.</p>
                 <div class="skills-list">
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
                                 HTML5
@@ -69,7 +69,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
                                 CSS3
@@ -79,7 +79,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
                                 JavaScript
@@ -89,7 +89,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
                                 jQuery &amp; AngularJS
@@ -99,7 +99,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
                                 PHP
@@ -109,7 +109,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
                                 MySQL
@@ -119,7 +119,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
                                 AJAX
@@ -129,7 +129,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
                                 Drupal
@@ -139,7 +139,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
                                 WordPress
@@ -149,7 +149,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
                                 Joomla
@@ -159,7 +159,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
                                 Adobe Business Catalyst
@@ -169,7 +169,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
                                 Project Management
@@ -179,7 +179,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
                                 E-commerce
@@ -189,7 +189,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
                                 Responsive Design
@@ -199,7 +199,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
                                 Podcasts
@@ -209,7 +209,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
                                 C#
@@ -219,7 +219,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
                                 Virtual Reality Tours
@@ -229,7 +229,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
                                 Audiobooks
@@ -239,7 +239,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
                                 Mag+ &amp; iBooks
@@ -249,7 +249,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
                                 On-page SEO
@@ -259,7 +259,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
                                 Photoshop, Illustrator, InDesign

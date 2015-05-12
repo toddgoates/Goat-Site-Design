@@ -124,27 +124,27 @@
                     <div class="other-contact">
                         <ul class="social-list">
                             <li class="social">
-                                <a href="https://www.facebook.com/todd.goates" target="_blank" id="facebook">
+                                <a href="https://www.facebook.com/todd.goates" target="_blank" class="facebook">
                                     <i class="fa fa-facebook-square"></i>
                                 </a>
                             </li>
                             <li class="social">
-                                <a href="https://twitter.com/toddgoates" target="_blank" id="twitter">
+                                <a href="https://twitter.com/toddgoates" target="_blank" class="twitter">
                                     <i class="fa fa-twitter-square"></i>
                                 </a>
                             </li>
                             <li class="social">
-                                <a href="http://instagram.com/toddgoates" target="_blank" id="instagram">
+                                <a href="http://instagram.com/toddgoates" target="_blank" class="instagram">
                                     <i class="fa fa-instagram"></i>
                                 </a>
                             </li>
                             <li class="social">
-                                <a href="https://plus.google.com/u/0/+ToddGoates/" target="_blank" id="google-plus">
+                                <a href="https://plus.google.com/u/0/+ToddGoates/" target="_blank" class="google-plus">
                                     <i class="fa fa-google-plus-square"></i>
                                 </a>
                             </li>
                             <li class="social">
-                                <a href="https://www.linkedin.com/in/toddgoates/" target="_blank" id="linkedin">
+                                <a href="https://www.linkedin.com/in/toddgoates/" target="_blank" class="linkedin">
                                     <i class="fa fa-linkedin-square"></i>
                                 </a>
                             </li>
