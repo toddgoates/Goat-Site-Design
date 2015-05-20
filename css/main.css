@@ -888,3 +888,13 @@ DESKTOP CSS
         padding: 0 1em 1em 1em;
     }
 }
+
+/*****************
+RETINA DISPLAY FIX
+*****************/
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .main-content form .form-item select {
+        background-image: url(../img/select-retina.png);
+        background-size: 10%;
+    }
+}
