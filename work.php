@@ -23,7 +23,7 @@ mysqli_close($dbc);
 	<!-- CSS -->
 	<link href="css/reset.css" rel="stylesheet">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="css/main.css" rel="stylesheet">
+	<link href="css/main.min.css" rel="stylesheet">
 	
     <?php
     include('includes/favicons.php');
