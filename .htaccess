@@ -14,3 +14,11 @@ RewriteRule ^ %{REQUEST_URI}.php [L]
 # Error handling
 ErrorDocument 404 /404.php
 ErrorDocument 500 /500.php
+
+#Caching
+<ifmodule mod_expires.c>
+<Filesmatch "\.(jpg|jpeg|png|js|css|php|xml|txt)$">
+ExpiresActive on
+ExpiresDefault "access plus 10 days"
+</Filesmatch>
+</ifmodule>
