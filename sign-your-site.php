@@ -184,13 +184,13 @@ include('includes/header_nav.php');
         </script>
             
         <!-- Fast Click for mobile -->
-        <script src="lib/fastclick.min.js" type="text/javascript"></script>
+        <script src="lib/fastclick.min.js"></script>
 
         <!-- Custom Scripts -->
-        <script src="js/scripts.js" type="text/javascript"></script>
+        <script src="js/scripts.js"></script>
         
         <!-- Signature SVG Script -->
-        <script src="js/signature.js" type="text/javascript"></script>
+        <script src="js/signature.js"></script>
         
         <!-- Prettify Code -->
         <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=html&amp;lang=css&amp;lang=javascript&amp;skin=default"></script>

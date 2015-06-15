@@ -60,14 +60,14 @@
         </script>
         
         <!-- Fast Click for mobile -->
-        <script src="lib/fastclick.min.js" type="text/javascript"></script>
+        <script src="lib/fastclick.min.js"></script>
 
         <!-- Custom Scripts -->
-        <script src="js/scripts.js" type="text/javascript"></script>
+        <script src="js/scripts.js"></script>
         
         <!-- Twitter -->
-        <script src="js/twitterFetcher.min.js" type="text/javascript"></script>
-        <script src="js/todds_tweets.js" type="text/javascript"></script>
+        <script src="js/twitterFetcher.min.js"></script>
+        <script src="js/todds_tweets.js"></script>
 
     </body>
 </html>

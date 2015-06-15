@@ -292,10 +292,10 @@
     </script>
     
     <!-- Fast Click for mobile -->
-    <script src="lib/fastclick.min.js" type="text/javascript"></script>
+    <script src="lib/fastclick.min.js"></script>
 	
 	<!-- Custom Scripts -->
-	<script src="js/scripts.js" type="text/javascript"></script>
+	<script src="js/scripts.js"></script>
 	
 </body>
 </html>
