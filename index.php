@@ -60,7 +60,7 @@ mysqli_close($dbc);
 	<div class="about-me">
 		<div class="description">
 			<h2>Wondering what I can do for you?</h2>
-			<p>Check out my list of <a href="/about.php#skills">web skills</a></p>
+			<p>Check out my list of <a href="/about#skills">web skills</a></p>
 		</div>
 		<div class="wrapper">
             <div class="box wow bounceIn">

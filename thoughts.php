@@ -40,7 +40,7 @@
                     ?>
                 </section>
                 <section class="twitter">
-                    <h2>Some Tweets</h2>
+                    <h2><i class="fa fa-twitter fa-fw"></i> Some Tweets</h2>
                     <div class="tweet-container" id="tweetlist"></div>
                 </section>
                 <div class="clear-fix"></div>
