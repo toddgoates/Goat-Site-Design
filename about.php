@@ -133,6 +133,26 @@
                     <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
+                                Server Administration
+                            </div>
+                            <div class="back">
+                                Build, maintain, and update a virtual server.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-container">
+                        <div class="flipper">
+                            <div class="front">
+                                CakePHP
+                            </div>
+                            <div class="back">
+                                A PHP framework to rapidly build web applications.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-container">
+                        <div class="flipper">
+                            <div class="front">
                                 Drupal
                             </div>
                             <div class="back">
@@ -267,6 +287,16 @@
                             </div>
                             <div class="back">
                                 Powerful, industry-standard design software.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-container">
+                        <div class="flipper">
+                            <div class="front">
+                                UX Design
+                            </div>
+                            <div class="back">
+                                User Experience Design: Building to enhance user satisfaction and accessibility.
                             </div>
                         </div>
                     </div>
