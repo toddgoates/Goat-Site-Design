@@ -27,7 +27,8 @@
 
     <body>
         <?php
-include('includes/header_nav.php');
+        include('includes/analytics.php');
+        include('includes/header_nav.php');
         ?>
 
         <div class="main-content">

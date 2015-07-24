@@ -27,6 +27,7 @@ mysqli_close($dbc);
     <link href="css/animate.min.css" rel="stylesheet">
 	
 	<?php
+    include('includes/analytics.php');
     include('includes/favicons.php');
     ?>
 	
