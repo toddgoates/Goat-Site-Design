@@ -6,7 +6,7 @@ $dbc = mysqli_connect($HOST, $USER, $PASS, $DB) or die('Could not connect to dat
 // Build and run query
 $query = "SELECT * FROM project ORDER BY date_added DESC";
 $result = mysqli_query($dbc, $query) or die('Query failed');
-	
+
 // Close db connection
 mysqli_close($dbc);
 ?>
@@ -40,7 +40,7 @@ mysqli_close($dbc);
 <body>
 	<?php
     include('includes/header_nav.php');
-	?>
+    ?>
 	
 	<div class="main-content">
 		<div class="wrapper">
@@ -50,12 +50,13 @@ mysqli_close($dbc);
 				<div class="projects">
                     <ul>
                         <?php
-                        while($row = mysqli_fetch_array($result)) {
+                        while ($row = mysqli_fetch_array($result)) {
                             // Display rows
                             echo '<li>';
                             echo '<a href="'.$row['link'].'" target="_blank">';
-                            echo '<img src="'.$row['img_path'].'/'.$row['file_name'].'" alt="'.$row['title'].'" class="project-icon">';	
-                            echo '</a>';	
+                            echo '<img src="'.$row['img_path'].'/'.$row['file_name'].'"'
+                                .'alt="'.$row['title'].'" class="project-icon">';
+                            echo '</a>';
                             echo '</li>';
                         }
                         ?>
@@ -67,7 +68,7 @@ mysqli_close($dbc);
 	
 	<?php
     include('includes/footer.php');
-	?>
+    ?>
 	
 	<!-- jQuery and fallback-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
