@@ -4,8 +4,8 @@ RewriteEngine On
 RewriteBase /
 
 # Redirect www to non www
-RewriteCond %{HTTP_HOST} !^toddgoates\.com
-RewriteRule (.*) http://toddgoates.com/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^www\.toddgoates\.com [NC]
+RewriteRule ^(.*)$ http://toddgoates.com/$1 [L,R=301]
 
 # To externally redirect /dir/foo.php to /dir/foo
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php [NC]
