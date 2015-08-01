@@ -27,8 +27,8 @@
                 <h4>Contact Me</h4>
                 <ul>
                     <li>
-                        <a href="mailto:toddgoates@gmail.com">
-                            <i class="fa fa-fw fa-envelope"></i> toddgoates@gmail.com
+                        <a href="mailto:todd@toddgoates.com">
+                            <i class="fa fa-fw fa-envelope"></i> todd@toddgoates.com
                         </a>
                     </li>
                     <li>

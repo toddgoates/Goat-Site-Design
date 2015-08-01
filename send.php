@@ -53,6 +53,28 @@ if(isset($_POST['submit'])) {
         
         // Nullify PDO
         $pdo = null;
+        
+        // Build and send email
+        $to = 'todd@toddgoates.com';
+        $subject = 'toddgoates.com Contact Form Submission';
+        $message = "$fullname has sent you a message from toddgoates.com:  \n\n"
+            ."Email:  $email \n"
+            ."Phone:  $phone \n"
+            ."Reason for contact:  $reason \n"
+            ."Message:  $message \n"
+            ."Help:  $help \n"
+            ."Budget:  $budget \n"
+            ."Timeline:  $timeline \n"
+            ."Details:  $details \n\n"
+            ."You can view the contents of this message again in the toddgoates database. \n"
+            ."Have a nice day!";
+        
+        //$from = 'FROM: "'.$email.'"';
+        $headers = "From: $email\r\n";
+        $headers .= "Reply-To: $email\r\n";
+        $headers .= "Return-Path: $email\r\n";
+        
+        mail($to, $subject, $message, $headers);
 
         // Redirect
         header('Location: contact-thanks');
