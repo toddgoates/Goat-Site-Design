@@ -34,7 +34,7 @@
 		<div class="wrapper">
 			<h1>Thank You</h1>
 			<p>Thanks for signing up for my newsletter!  I promise I won't spam you or share your email address with anyone.  Keep an eye on your inbox for some exciting news from me and other things going on in the world of web development!</p>
-			<p><a href="index.php">Back to home</a></p>
+			<p><a href="/">Back to home</a></p>
 		</div>
 	</div>
 	

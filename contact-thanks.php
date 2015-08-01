@@ -34,7 +34,7 @@
     <div class="wrapper">
     <h1>Thank You</h1>
     <p>Thanks for sending me a message!  I will get back to you within 2-3 business days by email or phone to discuss your awesome web project.  I look forward to speaking with you.</p>
-    <p><a href="index.php">Back to home</a></p>
+    <p><a href="/">Back to home</a></p>
     </div>
     </div>
 

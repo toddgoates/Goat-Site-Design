@@ -33,7 +33,7 @@
         <div class="main-content">
             <div class="wrapper">
                 <h1>500 - Internal Error</h1>
-                <p>Oops!  Something has gone horribly wrong!  Don't worry, you are innocent.  I'll take the blame for this one.  Come back in just a little bit.  In the meantime, here's a wizard!  <a href="index.php">Take me home</a></p>
+                <p>Oops!  Something has gone horribly wrong!  Don't worry, you are innocent.  I'll take the blame for this one.  Come back in just a little bit.  In the meantime, here's a wizard!  <a href="/">Take me home</a></p>
                 <img src="img/wizard.jpg" alt="This page can't be displayed at the moment, so here's a wizard.">
             </div>
         </div>
