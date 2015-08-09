@@ -25,3 +25,5 @@ Disallow: /newsletter-thanks.php
 Disallow: /newsletter.php
 Disallow: /README.md
 Disallow: /send.php
+Disallow: /phpmyadmin
+Disallow: /phpmyadmin/index.php
