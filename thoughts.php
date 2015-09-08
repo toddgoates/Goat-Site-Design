@@ -42,7 +42,9 @@
                 </section>
                 <section class="twitter">
                     <h2><i class="fa fa-twitter fa-fw"></i> Some Tweets</h2>
-                    <div class="tweet-container" id="tweetlist"></div>
+                    <div class="tweet-container" id="tweetlist">
+                        <i class="fa fa-refresh fa-spin fa-5x load-icon"></i>
+                    </div>
                 </section>
                 <div class="clear-fix"></div>
             </div>

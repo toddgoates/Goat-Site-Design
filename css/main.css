@@ -94,9 +94,7 @@ nav li a:hover {
 	text-transform: uppercase;
 	position: absolute;
 	bottom: 2em;
-	cursor: pointer;
 }
-.landing-area h1:hover {color: #FFF;}
 .landing-area .todd-left h1 {left: 0.5em;}
 .landing-area .todd-right h1 {right: 0.5em;}
 
@@ -486,6 +484,11 @@ section {margin-bottom: 2.5em;}
     opacity: 0.8;
     font-size: 0.8em;
     padding: 1em 0 0.4em 0;
+}
+.load-icon {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
 }
 .main-content .tweet-container li {
     width: 100%;

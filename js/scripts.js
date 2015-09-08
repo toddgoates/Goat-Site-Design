@@ -41,30 +41,6 @@ $(document).ready(function () {
         return false;
     });
     
-    // Swap left image source on hover
-    var leftImgSwap = function () {
-        var image = $("#todd-left-img");
-        var newSource = image.data('alt-src');
-        image.data('alt-src', image.attr('src'));
-        image.attr('src', newSource);
-    }
-    
-    $(function () {
-        $('#designer').hover(leftImgSwap, leftImgSwap);
-    });
-    
-    // Swap right image source on hover
-    var rightImgSwap = function () {
-        var image = $("#todd-right-img");
-        var newSource = image.data('alt-src');
-        image.data('alt-src', image.attr('src'));
-        image.attr('src', newSource);
-    }
-    
-    $(function () {
-        $('#developer').hover(rightImgSwap, rightImgSwap);
-    });
-    
     // Skill card flip effect
     $('.flip-container').hover(function(){
         $(this).toggleClass('hover');
