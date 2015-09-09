@@ -48,11 +48,11 @@ mysqli_close($dbc);
 		<div class="wrapper">
 			<div class="todd-left">
                 <img data-alt-src="img/todd-left-hover.jpg" src="img/todd-left.jpg" alt="Todd Goates is a designer" id="todd-left-img">
-				<h1 id="designer" class="animated slideInLeft">Designer</h1>
+				<h1 id="designer" class="wow fadeInLeft">Designer</h1>
 			</div>
 			<div class="todd-right">
 				<img data-alt-src="img/todd-right-hover.jpg" src="img/todd-right.jpg" alt="Todd Goates is a developer" id="todd-right-img">
-                <h1 id="developer" class="animated slideInRight">Developer</h1>
+                <h1 id="developer" class="wow fadeInRight">Developer</h1>
 			</div>
 			<div class="clear-fix"></div>
 		</div>
@@ -112,7 +112,7 @@ mysqli_close($dbc);
             while($row = mysqli_fetch_array($result)) {
                 // Display rows
                 echo '<a href="work.php">';
-                echo '<img src="'.$row['img_path'].$row['file_name'].'" alt="'.$row['title'].'" class="project-icon">';	
+                echo '<img src="'.$row['img_path'].$row['file_name'].'" alt="'.$row['title'].'" class="project-icon wow rotateIn">';	
                 echo '</a>';	
             }
             ?>
