@@ -20,9 +20,11 @@ mysqli_close($dbc);
 	<title>Todd Goates, Utah-based Web Designer and Developer</title>
 	<meta name="description" content="Welcome to the portfolio website of Todd Goates.  I am a web designer and developer from Utah that likes to make cool solutions to your digital media needs.">
 
+    <!-- Fonticons -->
+    <script src="https://use.fonticons.com/e9f434ee.js"></script>
+    
 	<!-- CSS -->
 	<link href="css/reset.css" rel="stylesheet">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="css/main.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
 	

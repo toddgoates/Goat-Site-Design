@@ -7,10 +7,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <title>Delete All The Things | Todd Goates</title>
         <meta name="description" content="Lessons learned when I was a young developer of the importance of using some type of version control.">
+        
+        <!-- Fonticons -->
+        <script src="https://use.fonticons.com/e9f434ee.js"></script>
 
         <!-- CSS -->
         <link href="css/reset.css" rel="stylesheet">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="css/main.min.css" rel="stylesheet">
 
         <?php

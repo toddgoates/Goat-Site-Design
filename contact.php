@@ -7,10 +7,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <title>Contact Me | Todd Goates</title>
         <meta name="description" content="Ready to get started on an awesome project?  Just send me a message.">
+        
+        <!-- Fonticons -->
+        <script src="https://use.fonticons.com/e9f434ee.js"></script>
 
         <!-- CSS -->
         <link href="css/reset.css" rel="stylesheet">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="css/main.min.css" rel="stylesheet">
 
         <?php
