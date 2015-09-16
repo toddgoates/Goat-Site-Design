@@ -24,7 +24,6 @@ mysqli_close($dbc);
     <script src="https://use.fonticons.com/e9f434ee.js"></script>
 
 	<!-- CSS -->
-	<link href="css/reset.css" rel="stylesheet">
 	<link href="css/main.min.css" rel="stylesheet">
 	
     <?php
