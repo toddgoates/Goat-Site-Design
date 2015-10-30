@@ -24,8 +24,8 @@ mysqli_close($dbc);
     <script src="https://use.fonticons.com/e9f434ee.js"></script>
     
 	<!-- CSS -->
-	<link href="css/main.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
+	<link href="https://d1gwmq5m0jn0pk.cloudfront.net/css/main.min.css" rel="stylesheet">
+    <link href="https://d1gwmq5m0jn0pk.cloudfront.net/css/animate.min.css" rel="stylesheet">
 	
 	<?php
     include('includes/favicons.php');
@@ -134,13 +134,13 @@ mysqli_close($dbc);
     </script>
     
     <!-- Fast Click for mobile -->
-    <script src="lib/fastclick.min.js"></script>
+    <script src="https://d1gwmq5m0jn0pk.cloudfront.net/lib/fastclick.min.js"></script>
     
 	<!-- Custom Scripts -->
-    <script src="js/scripts.js"></script>
+    <script src="https://d1gwmq5m0jn0pk.cloudfront.net/js/scripts.js"></script>
     
     <!-- Wow animations -->
-    <script src="js/wow.min.js"></script>
+    <script src="https://d1gwmq5m0jn0pk.cloudfront.net/js/wow.min.js"></script>
     <script>
         new WOW().init();
     </script>
