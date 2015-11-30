@@ -12,7 +12,7 @@
         <script src="https://use.fonticons.com/e9f434ee.js"></script>
 
         <!-- CSS -->
-        <link href="https://d1gwmq5m0jn0pk.cloudfront.net/css/main.min.css" rel="stylesheet">
+        <link href="css/main.min.css" rel="stylesheet">
 
         <?php
         include('includes/favicons.php');
@@ -62,10 +62,10 @@
         </script>
         
         <!-- Fast Click for mobile -->
-        <script src="https://d1gwmq5m0jn0pk.cloudfront.net/lib/fastclick.min.js"></script>
+        <script src="lib/fastclick.min.js"></script>
 
         <!-- Custom Scripts -->
-        <script src="https://d1gwmq5m0jn0pk.cloudfront.net/js/scripts.js"></script>
+        <script src="js/scripts.js"></script>
 
     </body>
 </html>

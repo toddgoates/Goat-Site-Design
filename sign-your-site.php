@@ -12,7 +12,7 @@
         <script src="https://use.fonticons.com/e9f434ee.js"></script>
         
         <!-- CSS -->
-        <link href="https://d1gwmq5m0jn0pk.cloudfront.net/css/main.min.css" rel="stylesheet">
+        <link href="css/main.min.css" rel="stylesheet">
 
         <?php
         include('includes/favicons.php');
@@ -186,13 +186,13 @@
         </script>
             
         <!-- Fast Click for mobile -->
-        <script src="https://d1gwmq5m0jn0pk.cloudfront.net/lib/fastclick.min.js"></script>
+        <script src="lib/fastclick.min.js"></script>
 
         <!-- Custom Scripts -->
-        <script src="https://d1gwmq5m0jn0pk.cloudfront.net/js/scripts.js"></script>
+        <script src="js/scripts.js"></script>
         
         <!-- Signature SVG Script -->
-        <script src="https://d1gwmq5m0jn0pk.cloudfront.net/js/signature.js"></script>
+        <script src="js/signature.js"></script>
         
         <!-- Prettify Code -->
         <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=html&amp;lang=css&amp;lang=javascript&amp;skin=default"></script>
