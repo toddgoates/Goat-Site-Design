@@ -555,7 +555,9 @@ section {margin-bottom: 2.5em;}
     margin: 1em;
     border: solid 1px rgba(0, 0, 0, 0.2);
 }
-.main-content .tweet-container li .user a span {display: none;}
+.main-content .tweet-container li .user a span[data-scribe="element:name"],
+.main-content .tweet-container li .user a span[data-scribe="element:verified_badge"],
+.main-content .tweet-container li .user a span[data-scribe="element:screen_name"]{display: none;}
 .main-content .tweet-container .tweet {
     margin: -4.9em 1em 0 6em;
     text-align: left;
