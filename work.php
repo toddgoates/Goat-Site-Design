@@ -40,7 +40,7 @@ mysqli_close($dbc);
 
 <body>
 	<?php
-    include('includes/analytics.php');
+    include('includes/gtm.php');
     include('includes/header_nav.php');
     ?>
 	
