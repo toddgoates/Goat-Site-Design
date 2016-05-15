@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
 v2.0 | 20110126
 License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
@@ -280,7 +280,7 @@ footer .newsletter .right .submit-button {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    
+
 }
 footer .newsletter .right .submit-button::-moz-focus-inner {
     border: 0;
@@ -315,7 +315,7 @@ footer .wrapper ul li a:hover {
 }
 #facebook:hover {color: rgba(59, 89, 152, 1);}
 #twitter:hover {color: rgba(0, 172, 237, 1);}
-#instagram:hover {color: rgba(81, 127, 164, 1);}
+#instagram:hover {color: rgba(170, 52, 143, 1);}
 #google-plus:hover {color: rgba(221, 75, 57, 1);}
 #linkedin:hover {color: rgba(0, 123, 182, 1);}
 
@@ -373,7 +373,7 @@ section {margin-bottom: 2.5em;}
 	width: 100%;
 	margin-top: 1.2em;
 	border: none;
-	cursor: pointer;	
+	cursor: pointer;
 }
 .main-content .cta-button:hover, .cta .cta-button:hover {background: rgba(46, 185, 113, 1);}
 .main-content p {
@@ -619,7 +619,7 @@ section {margin-bottom: 2.5em;}
     background-position: 100% 50%;
     width: 100%;
     height: 3.5em;
-    border: solid 1px #787878; 
+    border: solid 1px #787878;
     border-radius: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -679,8 +679,8 @@ section {margin-bottom: 2.5em;}
 .main-content .other-contact li a.facebook:hover {color: rgba(59, 89, 152, 1);}
 .main-content .other-contact li a.twitter {color: rgba(0, 172, 237, 0.7);}
 .main-content .other-contact li a.twitter:hover {color: rgba(0, 172, 237, 1);}
-.main-content .other-contact li a.instagram {color: rgba(81, 127, 164, 0.7);}
-.main-content .other-contact li a.instagram:hover {color: rgba(81, 127, 164, 1);}
+.main-content .other-contact li a.instagram {color: rgba(170, 52, 143, 0.7);}
+.main-content .other-contact li a.instagram:hover {color: rgba(170, 52, 143, 1);}
 .main-content .other-contact li a.google-plus {color: rgba(221, 75, 57, 0.7);}
 .main-content .other-contact li a.google-plus:hover {color: rgba(221, 75, 57, 1);}
 .main-content .other-contact li a.linkedin {color: rgba(0, 123, 182, 0.7);}
@@ -734,23 +734,23 @@ section.tutorial img {max-width: 600px;}
 TABLET CSS
 **********/
 @media only screen and (min-width: 560px) {
-    
+
     /*** HEADER ***/
     nav {
         box-sizing: border-box;
         height: 75px;
-        text-align: right;   
+        text-align: right;
     }
     nav li a {
         float: left;
         margin-right: 1.7em;
     }
-    
+
     /*** LANDING AREA ***/
     .landing-area h1 {font-size: 1.7em;}
     .landing-area .todd-left h1 {left: 0.9em;}
     .landing-area .todd-right h1 {right: 0.9em;}
-    
+
     /*** ABOUT ME ***/
     .about-me .wrapper {
         width: 100%;
@@ -764,10 +764,10 @@ TABLET CSS
         display: inline-block;
     }
     .about-me .wrapper .box p {text-align: left;}
-    
+
     /*** BLOG ***/
     .blog .project img {width: 40%;}
-    
+
     /*** FOOTER ***/
     footer .newsletter form {margin: 1em auto;}
     footer .newsletter .left {
@@ -797,7 +797,7 @@ TABLET CSS
         width: 50%;
         float: right;
     }
-    
+
     /*** ABOUT PAGE / OTHER PAGE ELEMENTS***/
     .main-content img.me-pic,
     .main-content img.blog-pic {
@@ -811,7 +811,7 @@ TABLET CSS
     .main-content form .submit-button {
         max-width: 50%;
         margin: 0 auto;
-        display: block;	
+        display: block;
     }
     .flip-container {
         width: 48.3%;
@@ -820,7 +820,7 @@ TABLET CSS
     }
     .flip-container:nth-child(odd) {float: left;}
     .flip-container:nth-child(even) {float: right;}
-    
+
     /*** WORK PAGE ***/
     .main-content .projects {margin-top: 2em;}
     .main-content .projects li {margin: 1em 0;}
@@ -829,23 +829,23 @@ TABLET CSS
         display: block;
         margin: 0 auto;
     }
-    
+
     /*** BLOG PAGE ***/
     .main-content figure .background .caption {
         bottom: 2em;
         font-size: 3em;
     }
-    
+
     /*** CONTACT PAGE ***/
     .main-content .other-contact ul li {margin: 1em 0;}
-    
+
 } /* End tablet */
 
 /**********
 DESKTOP CSS
 **********/
 @media only screen and (min-width: 960px) {
-    
+
     /*** HEADER ***/
     .menu-icon {display: none;}
     nav {
@@ -864,7 +864,7 @@ DESKTOP CSS
         font-size: 1.1em;
         margin-right: 2em;
     }
-    
+
     /*** LANDING AREA ***/
     .landing-area .wrapper {
         max-width: 1000px;
@@ -872,7 +872,7 @@ DESKTOP CSS
         margin: 0 auto;
     }
     .landing-area h1 {top: 85%;}
-    
+
     /*** ABOUT ME ***/
     .about-me .wrapper {
         max-width: 960px;
@@ -883,10 +883,10 @@ DESKTOP CSS
         width: 20%;
         margin: 0 5% 1em 5%;
     }
-    
+
     /*** BLOG ***/
     .blog .project img { max-width: 25%;}
-    
+
     /*** FOOTER ***/
     footer .newsletter form {width: 40%;}
     footer .wrapper .middle {
@@ -894,7 +894,7 @@ DESKTOP CSS
         display: block;
         margin: 0 auto;
     }
-    
+
     /*** ABOUT PAGE / OTHER PAGE ELEMENTS ***/
     .main-content {
         max-width: 960px;
@@ -913,7 +913,7 @@ DESKTOP CSS
     .flip-container:nth-child(even) {float: left;}
     /*** WORK PAGE ***/
     .main-content .projects .project-icon {max-width: 20%;}
-    
+
     /*** BLOG PAGE ***/
     section.thoughts {
         max-width: 60%;
