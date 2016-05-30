@@ -1,0 +1,30 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://toddgoates.com/</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://toddgoates.com/about</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://toddgoates.com/work</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://toddgoates.com/thoughts</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://toddgoates.com/contact</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://toddgoates.com/sign-your-site</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://toddgoates.com/delete-all-the-things</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+</urlset>
