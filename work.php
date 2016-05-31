@@ -19,17 +19,17 @@ mysqli_close($dbc);
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<title>My Work | Todd Goates</title>
 	<meta name="description" content="Browse some of the awesome web solutions that Todd Goates has built for clients.">
-    
+
     <!-- Fonticons -->
     <script src="https://use.fonticons.com/e9f434ee.js"></script>
 
 	<!-- CSS -->
 	<link href="css/main.min.css" rel="stylesheet">
-	
+
     <?php
     include('includes/favicons.php');
     ?>
-	
+
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -43,7 +43,7 @@ mysqli_close($dbc);
     include('includes/gtm.php');
     include('includes/header_nav.php');
     ?>
-	
+
 	<div class="main-content">
 		<div class="wrapper">
 			<section>
@@ -55,7 +55,7 @@ mysqli_close($dbc);
                         while ($row = mysqli_fetch_array($result)) {
                             // Display rows
                             echo '<li>';
-                            echo '<a href="'.$row['link'].'" target="_blank">';
+                            echo '<a href="'.$row['link'].'">';
                             echo '<img src="'.$row['img_path'].'/'.$row['file_name'].'"'
                                 .'alt="'.$row['title'].'" class="project-icon">';
                             echo '</a>';
@@ -67,11 +67,11 @@ mysqli_close($dbc);
 			</section>
 		</div>
 	</div>
-	
+
 	<?php
     include('includes/footer.php');
     ?>
-	
+
 	<!-- jQuery and fallback-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script>
@@ -79,12 +79,12 @@ mysqli_close($dbc);
             document.write(unescape("%3Cscript src='/lib/jquery/jquery-1.11.1.min.js' type='text/javascript'%3E%3C/script%3E"));
         }
     </script>
-    
+
     <!-- Fast Click for mobile -->
     <script src="lib/fastclick.min.js"></script>
-	
+
 	<!-- Custom Scripts -->
 	<script src="js/scripts.js"></script>
-	
+
 </body>
 </html>
