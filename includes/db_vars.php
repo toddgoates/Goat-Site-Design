@@ -1,6 +1,6 @@
 <?php
-$HOST = 'localhost';
-$USER = 'root';
-$PASS = 'root';
-$DB = 'toddgoates';
+  define('HOST', 'localhost');
+  define('USER', 'toddgoatescom');
+  define('PASS', 'JSdCU33JsDuTQmTp');
+  define('DB', 'toddgoates');
 ?>

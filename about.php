@@ -1,24 +1,31 @@
 <?php
-  // Connect to the db
-  require_once('includes/db_vars.php');
-  $dbc = mysqli_connect($HOST, $USER, $PASS, $DB) or die('Could not connect to database');
+	// Connect to the db
+	require_once('includes/db_vars.php');
+	$pdo = new PDO('mysql:host='.HOST.'; dbname='.DB, USER, PASS);
+	$pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+	$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-  // Build and run query
-  $query = "SELECT * FROM skills WHERE deleted = 0";
-  $result = mysqli_query($dbc, $query) or die('Query failed');
+	// Build and execute query
+	$query = $pdo->prepare('SELECT * FROM skills WHERE deleted = 0');
+	$query->execute();
+	$result = $query->fetchAll();
 
-  // Close db connection
-  mysqli_close($dbc);
+	// Nullify PDO
+	$pdo = null;
 ?>
 <!doctype html>
 <html lang="en">
 
 <head>
+	<!-- Meta -->
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<title>About Me | Todd Goates</title>
+
 	<meta name="description" content="Todd Goates is a Utah-based web designer and developer with a growing skill set and a love for awesome projects">
+
+	<!-- Title -->
+	<title>About Me | Todd Goates</title>
 
   <!-- Fonticons -->
   <script src="https://use.fonticons.com/e9f434ee.js"></script>
@@ -69,11 +76,12 @@
 					<button type="submit" class="cta-button">Start a Project</button>
 				</form>
 			</section>
+
 			<section id="skills">
 				<h2>Web Skills</h2>
         <p><i class="fa fa-info-circle fa-fw"></i> Don't know what in the world I'm talking about?  Just flip the card over for the answer.</p>
         <div class="skills-list">
-          <?php while ($row = mysqli_fetch_array($result)) { ?>
+          <?php foreach ($result as $row) { ?>
             <div class="flip-container">
                 <div class="flipper">
                     <div class="front">
@@ -112,6 +120,6 @@
 
 	<!-- Custom Scripts -->
 	<script src="js/scripts.js"></script>
-
 </body>
+
 </html>
