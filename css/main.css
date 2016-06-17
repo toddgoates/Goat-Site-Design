@@ -1110,9 +1110,12 @@ DESKTOP CSS
 RETINA DISPLAY FIX
 *****************/
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    .main-content form .form-item select {
-        background-image: url(../img/select-retina.png);
-        background-size: 10%;
-    }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and ( min--moz-device-pixel-ratio: 1.5),
+only screen and ( -o-min-device-pixel-ratio: 3/2),
+only screen and ( min-device-pixel-ratio: 1.5)
+     .main-content form .form-item select {
+          background-image: url(../img/select-retina.png);
+          background-size: 10%;
+     }
 }

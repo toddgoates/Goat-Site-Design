@@ -57,8 +57,8 @@
 				<h1>Hello World!</h1>
 				<img src="img/me.jpg" alt="Image of Todd Goates, a Utah-based Web Designer and Developer" class="me-pic">
         <h2>Who am I?</h2>
-				<p>My name is Todd Goates. I was born in Connecticut and raised in Utah. I like to travel, spend time with my beautiful wife, listen to music/attempt to create it, draw, and code all sorts of cool projects. I am fresh out of college with a bachelor's degree in Digital Media with an emphasis in Internet Technologies from Utah Valley University. You might be thinking 'What the heck is a degree in Digital Media?' I define it as the love child of Computer Science and Graphic Design.</p>
-				<p>I have been drawing and designing for as long as I can remember. During my high school years, I discovered the how fun it was to code. I have loved programming for the web ever since I typed my first &lt;html&gt; tag years ago.</p>
+				<p>My name is Todd Goates. I was born in Connecticut and raised in Utah. I like to travel, spend time with my beautiful wife, listen to music/attempt to create it, draw, and code all sorts of cool projects. I graduated with a bachelor's degree in Digital Media with an emphasis in Internet Technologies from Utah Valley University. You might be thinking "What the heck is a degree in Digital Media?" I define it as the combination of Computer Science and Graphic Design.</p>
+				<p>I have been drawing and designing for as long as I can remember. During my high school years, I discovered the how fun it was to code. I have loved programming for the web ever since I typed my first &lt;html&gt; tag years ago.  I've been actively developing for the past <?php echo date('Y') - 2012; ?> years.</p>
         <h2>What can I do for you?</h2>
         <p>My goal is to smoothly solve your web dilemmas and to educate you on all the different technologies that can help your online presence.  Here are some of my services:</p>
 				<ul>

@@ -6,7 +6,10 @@
 	$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 	// Build and execute query
-	$query = $pdo->prepare('SELECT * FROM project ORDER BY date_added DESC');
+	$query = $pdo->prepare('SELECT img_path, file_name, title '
+		.'FROM project '
+		.'ORDER BY date_added DESC '
+		.'LIMIT 1');
 	$query->execute();
 	$result = $query->fetchAll();
 
@@ -112,7 +115,7 @@
 
 	<div class="blog">
 		<div class="description">
-			<h2>My recent projects</h2>
+			<h2>My Latest Project</h2>
 		</div>
 		<div class="wrapper">
     	<div class="project">
