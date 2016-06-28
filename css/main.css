@@ -612,6 +612,13 @@ li.badge {
     width: 100%;
     text-align: center;
 }
+section.twitter img[aria-label^="Emoji"] {
+    max-width: 20px;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 .main-content .tweet-container li {
     width: 100%;
     padding: 0.5em 0;
@@ -1084,13 +1091,6 @@ DESKTOP CSS
         float: right;
         box-sizing: border-box;
         padding: 0 1em 0 5em;
-    }
-    section.twitter img[aria-label^="Emoji"] {
-        max-width: 20px;
-        display: inline;
-        margin: 0;
-        padding: 0;
-        border: none;
     }
     /*** CONTACT PAGE ***/
     section.form {
