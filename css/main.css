@@ -1085,6 +1085,13 @@ DESKTOP CSS
         box-sizing: border-box;
         padding: 0 1em 0 5em;
     }
+    section.twitter img[aria-label^="Emoji"] {
+        max-width: 20px;
+        display: inline;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
     /*** CONTACT PAGE ***/
     section.form {
         max-width: 60%;
