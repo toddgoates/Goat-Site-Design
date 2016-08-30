@@ -6,7 +6,7 @@
 	$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 	// Build and execute query
-	$query = $pdo->prepare('SELECT * FROM skills WHERE deleted = 0');
+	$query = $pdo->prepare('SELECT * FROM skills WHERE deleted = 0 ORDER BY sort ASC');
 	$query->execute();
 	$result = $query->fetchAll();
 
