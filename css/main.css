@@ -732,9 +732,6 @@ section.twitter img[aria-label^="Emoji"] {
     appearance: none;
     box-sizing: border-box;
 }
-.main-content form .form-item .radio-label {
-    font-weight: 300;
-}
 .main-content form #project-form {
     display: none;
 }
@@ -931,7 +928,7 @@ TABLET CSS
         float: right;
     }
     /*** ABOUT PAGE / OTHER PAGE ELEMENTS***/
-    .main-content img.me-pic, .main-content img.blog-pic {
+    .main-content img.float-left-pic {
         max-width: 35%;
         float: left;
         margin: 0 1em 0.5em 0;
@@ -1060,7 +1057,7 @@ DESKTOP CSS
     section {
         margin-bottom: 4em;
     }
-    .main-content img.me-pic, .main-content .cta-button, .cta .cta-button {
+    .main-content img.float-left-pic, .main-content .cta-button, .cta .cta-button {
         max-width: 25%;
     }
     .flip-container {

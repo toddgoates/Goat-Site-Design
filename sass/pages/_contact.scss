@@ -1,0 +1,211 @@
+// Default/Mobile View
+.contact-form {
+
+    margin: 2.5em 0;
+
+    fieldset {
+        margin-bottom: 2em;
+
+        .form-item {
+            width: 100%;
+            margin-bottom: 1.8em;
+
+            label {
+                display: block;
+                margin-bottom: 0.5em;
+                font-weight: 400;
+            }
+
+            input[type="text"],
+            input[type="email"],
+            input[type="tel"],
+            input[type="url"] {
+                padding: 1em;
+                color: $input;
+                width: 100%;
+                height: 3.5em;
+                border: solid 1px $input;
+                border-radius: 0;
+                box-sizing: border-box;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+            }
+
+            select {
+                background: $white;
+                background-image: $select;
+                background-repeat: no-repeat;
+                background-position: 100% 50%;
+                width: 100%;
+                height: 3.5em;
+                border: solid 1px $input;
+                border-radius: 0;
+                box-sizing: border-box;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                padding-left: 1em;
+            }
+
+            textarea {
+                width: 100%;
+                height: 15em;
+                border: solid 1px $input;
+                resize: none;
+                border-radius: 0;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                box-sizing: border-box;
+            }
+        }
+    }
+
+    #project-form {
+        display: none;
+    }
+
+    .submit-button {
+        background: $button;
+        color: $white;
+        padding: 1em;
+        font-size: 0.9em;
+        font-weight: 600;
+        letter-spacing: 2px;
+        width: 100%;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+            background: darken($button, 5%);
+        }
+    }
+}
+
+.other-contact {
+
+    .no-bullet {
+        margin: 2em 0;
+
+        li {
+            list-style-type: none;
+            margin: 1em 0;
+        }
+    }
+
+    .social-list {
+        margin: 2em 0 0 0;
+        padding: 0;
+        list-style-type: none;
+        text-align: center;
+
+        li {
+            display: inline;
+            margin: 0;
+            padding: 0;
+
+            .facebook {
+                color: lighten($facebook, 20%);
+
+                &:hover {
+                    color: $facebook;
+                }
+            }
+
+            .twitter {
+                color: lighten($twitter, 20%);
+
+                &:hover {
+                    color: $twitter;
+                }
+            }
+
+            .instagram {
+                color: lighten($instagram, 20%);
+
+                &:hover {
+                    color: $instagram;
+                }
+            }
+
+            .google-plus {
+                color: lighten($google-plus, 20%);
+
+                &:hover {
+                    color: $google-plus;
+                }
+            }
+
+            .linkedin {
+                color: lighten($linkedin, 20%);
+
+                &:hover {
+                    color: $linkedin;
+                }
+            }
+        }
+
+        li.social a {
+            font-size: 3em;
+        }
+    }
+}
+
+// Tablet View
+@media only screen and (min-width: 560px) {
+
+    .contact-form {
+
+        .submit-button {
+            max-width: 50%;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+
+    .other-contact {
+
+        ul {
+
+            li {
+                margin: 1em 0;
+            }
+        }
+    }
+}
+
+// Desktop View
+@media only screen and (min-width: 960px) {
+    .form {
+        max-width: 60%;
+        float: left;
+        box-sizing: border-box;
+
+        .submit-button {
+            max-width: 35%;
+            margin: 0;
+        }
+    }
+
+    section.other-contact {
+        background: $figure;
+        border-bottom: solid 1px $figure-border;
+        max-width: 34%;
+        float: right;
+        box-sizing: border-box;
+        margin: 0 1em 0 5em;
+        padding: 0 1em 1em 1em;
+    }
+}
+
+// Retina Display Fix
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and ( min--moz-device-pixel-ratio: 1.5),
+only screen and ( -o-min-device-pixel-ratio: 3/2),
+only screen and ( min-device-pixel-ratio: 1.5) {
+     .main-content form .form-item select {
+          background-image: $select-retina;
+          background-size: 10%;
+     }
+}

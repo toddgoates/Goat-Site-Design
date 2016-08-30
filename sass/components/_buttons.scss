@@ -1,0 +1,43 @@
+// Default/Mobile View
+.cta {
+    padding: 1em;
+
+    .cta-button {
+        background: $button;
+        color: $white;
+        padding: 1em;
+        font-size: 0.9em;
+        font-weight: 600;
+        letter-spacing: 2px;
+        width: 100%;
+        margin-top: 1.2em;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+            background: darken($button, 5%);
+        }
+    }
+}
+
+// Tablet View
+@media only screen and (min-width: 560px) {
+    .cta {
+
+        .cta-button {
+            max-width: 50%;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+}
+
+// Desktop View
+@media only screen and (min-width: 960px) {
+    .cta {
+
+        .cta-button {
+            max-width: 25%;
+        }
+    }
+}

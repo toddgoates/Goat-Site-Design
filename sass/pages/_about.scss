@@ -1,0 +1,107 @@
+// Default/Mobile View
+.flip-container {
+    -webkit-perspective: 1000;
+    perspective: 1000;
+    margin-bottom: 1em;
+    width: 100%;
+    height: 100px;
+
+    &:hover {
+        .flipper {
+            -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+        }
+    }
+
+    .flipper {
+        -webkit-transition: 0.8s;
+        transition: 0.8s;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        position: relative;
+
+        .front,
+        .back {
+            width: 100%;
+            height: 100px;
+            display: -webkit-box;
+            display: -webkit-flexbox;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-justify-content: center;
+            -o-justify-content: center;
+            -moz-justify-content: center;
+            -ms-justify-content: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-align-items: center;
+            -o-align-items: center;
+            -moz-align-items: center;
+            -ms-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+            box-sizing: border-box;
+            padding: 1em;
+            line-height: 1.5em;
+        }
+
+        .front {
+            z-index: 2;
+            background: $primary-light;
+            color: $white;
+            font-size: 1.2em;
+            font-weight: 400;
+            /* For Firefox 31*/
+            -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+        }
+
+        .back {
+            -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+            background: $primary-flipped;
+            color: $primary-text-flipped;
+            font-size: 0.9em;
+            font-weight: 100;
+        }
+    }
+
+}
+
+// Tablet View
+@media only screen and (min-width: 560px) {
+
+    .flip-container {
+        width: 48.3%;
+        float: left;
+        margin-bottom: 1.8em;
+
+        &:nth-child(odd) {
+            float: left;
+        }
+
+        &:nth-child(even) {
+            float: right;
+        }
+    }
+}
+
+// Desktop View
+@media only screen and (min-width: 960px) {
+    .flip-container {
+        width: 32.5%;
+        margin: 0 0.2em 0.4em 0.2em;
+
+        &:nth-child(even) {
+            float: left;
+        }
+    }
+}

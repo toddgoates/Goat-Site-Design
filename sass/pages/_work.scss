@@ -1,0 +1,75 @@
+// Default/Mobile View
+.projects  {
+
+    ul {
+
+        li {
+            list-style-type: none;
+            margin: 2em;
+        }
+    }
+
+    img {
+        border: none;
+    }
+}
+
+.proj-image {
+
+    img {
+        margin: 0;
+    }
+}
+
+// Tablet View
+@media only screen and (min-width: 560px) {
+
+    .projects {
+        margin-top: 2em;
+
+        li {
+            margin: 1em 0;
+
+            .project-icon {
+                max-width: 40%;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .proj-image {
+        float: left;
+        width: 40%;
+
+        img {
+            margin: 0;
+        }
+    }
+
+    .proj-description {
+        float: right;
+        width: 55%;
+    }
+}
+
+// Desktop View
+@media only screen and (min-width: 960px) {
+    .projects {
+
+        li {
+
+            .project-icon {
+                max-width: 20%;
+            }
+        }
+    }
+
+    .proj-image {
+        width: 55%;
+    }
+
+    .proj-description {
+        width: 40%;
+    }
+}

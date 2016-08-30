@@ -1,0 +1,60 @@
+// Default/Mobile View
+.blog {
+    background: $primary-light;
+
+    .description {
+        color: $black;
+        padding: 2em;
+        text-align: center;
+
+        h2 {
+            font-size: 1.5em;
+            font-weight: 600 !important;
+            line-height: 1.1em;
+            font-weight: 500;
+        }
+    }
+
+    .project {
+        background: $light-grey;
+        padding: 3em 0;
+
+        li {
+            list-style-type: none;
+        }
+
+        img {
+            background: $white;
+            width: 50%;
+            display: block;
+            margin: 0 auto;
+            padding: 0.5em;
+        }
+    }
+}
+
+// Tablet View
+@media only screen and (min-width: 560px) {
+    .blog {
+
+        .project {
+
+            img {
+                width: 40%;
+            }
+        }
+    }
+}
+
+// Desktop View
+@media only screen and (min-width: 960px) {
+    .blog  {
+
+        .project {
+
+            img {
+                max-width: 25%;
+            }
+        }
+    }
+}

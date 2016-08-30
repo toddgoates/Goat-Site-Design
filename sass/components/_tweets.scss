@@ -1,0 +1,86 @@
+//Default/Mobile View
+.twitter {
+
+    .tweet-container {
+
+        li {
+            width: 100%;
+            padding: 0.5em 0;
+            background: $figure;
+            border-bottom: solid 1px $figure-border;
+            margin: 0 0 2em 0;
+            list-style-type: none;
+
+            .user {
+
+                a {
+
+                    span[data-scribe="element:name"],
+                    span[data-scribe="element:verified_badge"],
+                    span[data-scribe="element:screen_name"] {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        a {
+
+            img {
+                width: 55px;
+                padding: 0;
+                margin: 1em;
+                border: solid 1px $figure-border;
+            }
+        }
+
+        .tweet {
+            margin: -4.9em 1em 0 6em;
+            text-align: left;
+
+            a[data-scribe='element:url'] {
+                display: block;
+                margin: 0.5em 0;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            img[aria-label^="Emoji"] {
+                max-width: 20px;
+                display: inline;
+                margin: 0;
+                padding: 0;
+                border: none;
+            }
+
+            span {
+                display: inline-block;
+            }
+        }
+
+        .timePosted {
+            margin: 1em 1em 1em 6em;
+        }
+
+        .interact {
+            margin: 0 1em;
+            border-top: solid 1px $figure-border;
+            padding-top: 0.5em;
+            text-align: center;
+
+            a {
+                padding: 0 1em;
+            }
+        }
+    }
+}
+
+// Desktop View
+@media only screen and (min-width: 960px) {
+    section.twitter {
+        max-width: 40%;
+        float: right;
+        box-sizing: border-box;
+        padding: 0 1em 0 5em;
+    }
+}

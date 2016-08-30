@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <title>Contact Me | Todd Goates</title>
         <meta name="description" content="Ready to get started on an awesome project?  Just send me a message.">
-        
+
         <!-- Fonticons -->
         <script src="https://use.fonticons.com/e9f434ee.js"></script>
 
@@ -38,7 +38,7 @@
                 <section class="form">
                     <h1>Contact Me</h1>
                     <p>Send me a message with the form below and I'll get back to you ASAP.</p>
-                    <form id="contact" action="send" method="POST" enctype="multipart/form-data">
+                    <form id="contact" class="contact-form" action="send" method="POST" enctype="multipart/form-data">
                         <fieldset>
                             <div class="form-item">
                                 <label for="fullname">Name *</label>
@@ -120,7 +120,7 @@
                             <i class="fa fa-fw fa-envelope"></i> todd@toddgoates.com
                         </li>
                         <li>
-                            <i class="fa fa-fw fa-phone"></i> (801) 319-9420   
+                            <i class="fa fa-fw fa-phone"></i> (801) 319-9420
                         </li>
                     </ul>
                     <div class="other-contact">
@@ -169,7 +169,7 @@
                 document.write(unescape("%3Cscript src='/lib/jquery/jquery-1.11.1.min.js' type='text/javascript'%3E%3C/script%3E"));
             }
         </script>
-        
+
         <!-- Fast Click for mobile -->
         <script src="lib/fastclick.min.js"></script>
 

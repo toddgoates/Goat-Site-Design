@@ -55,7 +55,7 @@
 		<div class="wrapper">
 			<section>
 				<h1>Hello World!</h1>
-				<img src="img/me.jpg" alt="Image of Todd Goates, a Utah-based Web Designer and Developer" class="me-pic">
+				<img src="img/me.jpg" alt="Image of Todd Goates, a Utah-based Web Designer and Developer" class="float-left-pic">
         <h2>Who am I?</h2>
 				<p>My name is Todd Goates. I was born in Connecticut and raised in Utah. I like to travel, spend time with my beautiful wife, listen to music/attempt to create it, draw, and code all sorts of cool projects. I graduated with a bachelor's degree in Digital Media with an emphasis in Internet Technologies from Utah Valley University. You might be thinking "What the heck is a degree in Digital Media?" I define it as the combination of Computer Science and Graphic Design.</p>
 				<p>I have been drawing and designing for as long as I can remember. During my high school years, I discovered the how fun it was to code. I have loved programming for the web ever since I typed my first &lt;html&gt; tag years ago.  I've been actively developing for the past <?php echo date('Y') - 2012; ?> years.</p>
@@ -72,7 +72,7 @@
         <h2>Why work with me?</h2>
         <p>I am a passionate designer and developer who loves what he does.  I put my blood, sweat, and tears into every project I work on (not literally though).  You'll be proud of the final product, trust me.</p>
 				<p>Have something for me to work on?  Let's get started!</p>
-				<form action="contact.php" method="POST">
+				<form action="contact.php" method="POST" class="cta">
 					<button type="submit" class="cta-button">Start a Project</button>
 				</form>
 			</section>
@@ -96,7 +96,7 @@
         </div>
         <div class="clear-fix"></div>
 				<p>Don't see a certain technology for your web project?  Let me know what you need; I'm a quick learner!</p>
-				<form action="contact.php" method="POST">
+				<form action="contact.php" method="POST" class="cta">
 					<button type="submit" class="cta-button">Contact Todd</button>
 				</form>
 			</section>

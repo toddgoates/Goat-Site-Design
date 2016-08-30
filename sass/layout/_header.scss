@@ -1,0 +1,94 @@
+// Default/Mobile View
+header {
+    background: $black;
+    padding: 0.5em;
+
+    .logo {
+        /* Sized down by 50% to look good on retina screens*/
+        width: 80px;
+        height: 80px;
+    }
+
+    .menu-icon {
+        color: $white;
+        font-size: 3em;
+        position: absolute;
+        right: 0.5em;
+        top: 0.58em;
+        cursor: pointer;
+    }
+}
+
+nav {
+    background: $nav;
+    padding: 1em;
+    border-top: $nav-border;
+    display: none;
+
+    li {
+
+        a {
+            text-decoration: none;
+            color: $nav-text;
+            font-size: 1.2em;
+            font-weight: 200;
+            display: block;
+            padding: 0.5em 0;
+            margin-bottom: 0.5em;
+            -webkit-transition: $color-transition;
+            transition: $color-transition;
+
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+}
+
+// Tablet View
+@media only screen and (min-width: 560px) {
+    nav {
+        box-sizing: border-box;
+        height: 75px;
+        text-align: right;
+
+        li {
+
+            a {
+                float: left;
+                margin-right: 1.7em;
+            }
+        }
+    }
+}
+
+// Desktop View
+@media only screen and (min-width: 960px) {
+    header {
+
+        .menu-icon {
+            display: none;
+        }
+    }
+
+    nav {
+        margin-bottom: -4.7em;
+        display: block;
+        background: transparent;
+        border-top: none;
+        float: right;
+        position: relative;
+        bottom: 5.2em;
+        right: -1em;
+        z-index: 9000;
+
+        li {
+            float: left;
+
+            a {
+                font-size: 1.1em;
+                margin-right: 2em;
+            }
+        }
+    }
+}

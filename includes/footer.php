@@ -6,7 +6,7 @@
 				<input type="email" id="newsletter-email" name="email" placeholder="Your Email Address" required>
 			</div>
 			<div class="right">
-                <input type="submit" name="submit" class="submit-button" value="Subscribe"> 
+                <input type="submit" name="submit" class="submit-button" value="Subscribe">
 			</div>
 			<div class="clear-fix"></div>
             <div id="newsletter-error"></div>
@@ -37,27 +37,27 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.facebook.com/todd.goates" target="_blank" id="facebook">
+                        <a href="https://www.facebook.com/todd.goates" target="_blank" class="facebook">
                             <i class="fa fa-facebook-square fa-fw"></i> Facebook
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/toddgoates" target="_blank" id="twitter">
+                        <a href="https://twitter.com/toddgoates" target="_blank" class="twitter">
                             <i class="fa fa-twitter-square fa-fw"></i> Twitter
                         </a>
                     </li>
                     <li>
-                        <a href="http://instagram.com/toddgoates" target="_blank" id="instagram">
+                        <a href="http://instagram.com/toddgoates" target="_blank" class="instagram">
                             <i class="fa fa-instagram fa-fw"></i> Instagram
                         </a>
                     </li>
                     <li>
-                        <a href="https://plus.google.com/u/0/+ToddGoates/" target="_blank" id="google-plus">
+                        <a href="https://plus.google.com/u/0/+ToddGoates/" target="_blank" class="google-plus">
                             <i class="fa fa-google-plus-square fa-fw"></i> Google +
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/toddgoates/" target="_blank" id="linkedin">
+                        <a href="https://www.linkedin.com/in/toddgoates/" target="_blank" class="linkedin">
                             <i class="fa fa-linkedin-square fa-fw"></i> LinkedIn
                         </a>
                     </li>

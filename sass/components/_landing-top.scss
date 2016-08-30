@@ -1,0 +1,83 @@
+// Default/Mobile View
+.landing-area {
+
+    .todd-left,
+    .todd-right {
+        width: 50%;
+        position: relative;
+
+        img {
+            width: 100%;
+            display: block;
+        }
+
+        h1 {
+            font-size: 1.1em;
+            font-weight: 200;
+            text-transform: uppercase;
+            position: absolute;
+            bottom: 2em;
+        }
+    }
+
+    .todd-left {
+        float: left;
+
+        h1 {
+            left: 0.5em;
+        }
+    }
+
+    .todd-right {
+        float: right;
+
+        h1 {
+            right: 0.5em;
+        }
+    }
+}
+
+// Tablet View
+@media only screen and (min-width: 560px) {
+    .landing-area {
+
+        .todd-left,
+        .todd-right {
+            h1 {
+                font-size: 1.7em;
+            }
+        }
+
+        .todd-left {
+             h1 {
+                left: 0.9em;
+            }
+        }
+
+        .todd-right {
+            h1 {
+                right: 0.9em;
+            }
+        }
+    }
+}
+
+// Desktop View
+@media only screen and (min-width: 960px) {
+    .landing-area {
+
+        .wrapper {
+            max-width: 1000px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .todd-left,
+        .todd-right {
+
+            h1 {
+                top: 85%;
+            }
+        }
+    }
+}

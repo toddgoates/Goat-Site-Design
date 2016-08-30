@@ -1,0 +1,14 @@
+#newsletter-error {
+    color: $white !important;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+#contact-error {
+    color: $error;
+    font-size: 1.1em;
+}
+
+.error-border {
+    border: solid 1px $error !important;
+}

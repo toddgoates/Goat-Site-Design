@@ -1,0 +1,197 @@
+/* Default/Mobile View*/
+footer {
+
+    .newsletter {
+        background: $grey;
+        padding: 1em 0;
+
+        h4 {
+            color: $white;
+            font-size: 1.2em;
+            font-weight: 400;
+            text-align: center;
+            padding: 1.2em;
+        }
+
+        form {
+            width: 60%;
+            display: block;
+            margin: 0 auto;
+
+            .left {
+
+                input {
+                    color: $input-text;
+                    font-size: 0.8em;
+                    width: 100%;
+                    padding: 1em;
+                    border: none;
+                    border-radius: 0;
+                    box-sizing: border-box;
+                }
+            }
+
+            .right {
+
+                .submit-button {
+                    background: $button;
+                    color: $white;
+                    padding: 1em;
+                    font-size: 0.8em;
+                    font-weight: 600;
+                    letter-spacing: 2px;
+                    width: 100%;
+                    margin: 1em 0 1.5em 0;
+                    border: none;
+                    border-radius: 0;
+                    cursor: pointer;
+                    -webkit-appearance: none;
+                       -moz-appearance: none;
+                            appearance: none;
+
+                    &:hover {
+                        background: darken($button, 5%);
+                    }
+                }
+
+                .submit-button::-moz-focus-inner {
+                    border: 0;
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+    .wrapper {
+        background: $black;
+        padding: 2em;
+
+        h4 {
+            color: $white;
+            font-size: 1.1em;
+            margin-bottom: 0.7em;
+        }
+
+        ul {
+
+            li {
+                margin-bottom: 0.7em;
+
+                a {
+                    text-decoration: none;
+                    color: $nav-text;
+                    -webkit-transition: $color-transition;
+                    transition: $color-transition;
+
+                    &:hover {
+                        color: $white;
+                    }
+                }
+
+                a.facebook:hover {
+                    color: $facebook;
+                }
+
+                a.twitter:hover {
+                    color: $twitter;
+                }
+
+                a.instagram:hover {
+                    color: $instagram;
+                }
+
+                a.google-plus:hover {
+                    color: $google-plus;
+                }
+
+                a.linkedin:hover {
+                    color: $linkedin;
+                }
+            }
+        }
+
+        .footer-left {
+            margin-bottom: 3em;
+        }
+    }
+
+    .footer-bottom {
+        background: $blacker;
+        color: $footer-text;
+        padding: 2em;
+        text-align: center;
+    }
+}
+
+/* Tablet View*/
+@media only screen and (min-width: 560px) {
+    footer {
+
+        .newsletter {
+
+            form {
+                margin: 1em auto;
+            }
+
+            .left {
+                display: inline-block;
+                float: left;
+                width: 60%;
+
+                input {
+                    vertical-align: top;
+                    margin-top: 0;
+                }
+            }
+
+            .right {
+                display: inline-block;
+                float: right;
+                width: 40%;
+
+                .submit-button {
+                    margin: 0 !important;
+                }
+            }
+        }
+
+        .wrapper {
+
+            .footer-left {
+                box-sizing: border-box;
+                margin-bottom: 0;
+                width: 50%;
+                float: left;
+            }
+
+            .footer-right {
+                box-sizing: border-box;
+                padding-left: 2em;
+                width: 50%;
+                float: right;
+            }
+        }
+    }
+}
+
+// Desktop View
+@media only screen and (min-width: 960px) {
+    footer {
+
+        .newsletter {
+
+            form {
+                width: 40%;
+            }
+        }
+
+        .wrapper {
+
+            .middle {
+                width: 960px;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+}

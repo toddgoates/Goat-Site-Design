@@ -1,0 +1,11 @@
+.badge {
+    list-style-type: none !important;
+    background: $primary;
+    color: $white !important;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 1em;
+    margin: 0 !important;
+    border-radius: 20px;
+    display: inline-block;
+}

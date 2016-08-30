@@ -10,7 +10,7 @@
 
         <!-- Fonticons -->
         <script src="https://use.fonticons.com/e9f434ee.js"></script>
-        
+
         <!-- CSS -->
         <link href="css/main.min.css" rel="stylesheet">
 
@@ -46,11 +46,13 @@
                                 <path fill="none" stroke-width="4" stroke="#000000" stroke-miterlimit="10" d="M577,105c-12,8-42,61-14,62c22,0,16-47,16-61c0,15-4,40,3,54c13,26,27-8,32-22c14-43,8-84,16-126"/>
                                 <path fill="none" stroke-width="4" stroke="#000000" stroke-miterlimit="10" d="M618,163c22,3,56-15,52-40c-24-9-30,42-5,47c12,2,42-6,47-18c6-14-18-9-24-19c20-13,36-29,56-42"/>
                                 <path fill="none" stroke-width="4" stroke="#000000" stroke-miterlimit="10" d="M579,83c52,0,103-5,155-5"/>
-                            </svg>  
+                            </svg>
                         </div>
                     </div>
                     <p><em>Yeah, I know this signature is way ugly... but I didn't want people to forge my real signature!  Edward Snowden would probably agree with me...</em></p>
-                    <button type="button" class="cta-button"><i class="fa fa-fw fa-play"></i> Replay</button>
+                    <div class="cta">
+                        <button type="button" class="cta-button"><i class="fa fa-fw fa-play"></i> Replay</button>
+                    </div>
                 </section>
                 <section class="tutorial">
                     <h2>How to make an animated SVG signature</h2>
@@ -71,7 +73,7 @@
                     <p>Another window will open up with a text editor.  Copy everything in this window and paste it somewhere for safe keeping.</p>
                     <img src="img/thoughts/sig-7.png" alt="Copy and paste the code text somewhere">
                     <p>We're now done with Illustrator.  Time to get into the code!</p>
-                    
+
                     <p><strong>The HTML</strong></p>
                     <p>Illustrator will give you a lot of unnecessary SVG code for what we're doing.  I did some editing and this is what I ended up with:</p>
                     <pre class="prettyprint linenums">
@@ -85,7 +87,7 @@
             &lt;path fill="none" stroke-width="4" stroke="#000000" stroke-miterlimit="10" d="M577,105c-12,8-42,61-14,62c22,0,16-47,16-61c0,15-4,40,3,54c13,26,27-8,32-22c14-43,8-84,16-126"/&gt;
             &lt;path fill="none" stroke-width="4" stroke="#000000" stroke-miterlimit="10" d="M618,163c22,3,56-15,52-40c-24-9-30,42-5,47c12,2,42-6,47-18c6-14-18-9-24-19c20-13,36-29,56-42"/&gt;
             &lt;path fill="none" stroke-width="4" stroke="#000000" stroke-miterlimit="10" d="M579,83c52,0,103-5,155-5"/&gt;
-        &lt;/svg&gt; 
+        &lt;/svg&gt;
     &lt;/div&gt;
 &lt;/div&gt;
                     </pre>
@@ -184,18 +186,18 @@
                 document.write(unescape("%3Cscript src='/lib/jquery/jquery-1.11.1.min.js' type='text/javascript'%3E%3C/script%3E"));
             }
         </script>
-            
+
         <!-- Fast Click for mobile -->
         <script src="lib/fastclick.min.js"></script>
 
         <!-- Custom Scripts -->
         <script src="js/scripts.js"></script>
-        
+
         <!-- Signature SVG Script -->
         <script src="js/signature.js"></script>
-        
+
         <!-- Prettify Code -->
         <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=html&amp;lang=css&amp;lang=javascript&amp;skin=default"></script>
-        
+
     </body>
 </html>

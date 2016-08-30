@@ -1,0 +1,102 @@
+// Default/Mobile View
+.about-me {
+    background: $white;
+    padding: 0 0 2em 0;
+
+    .description {
+        background: $primary;
+        color: $white;
+        padding: 2em;
+        text-align: center;
+
+        h2 {
+            font-size: 2.3em;
+            line-height: 1.2em;
+            font-weight: 500;
+            margin-bottom: 0.7em;
+        }
+
+        p {
+            font-size: 1.1em;
+
+            a {
+                color: $white;
+                text-decoration: none;
+                border-bottom: solid 5px $white;
+
+                &:hover {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+
+    .wrapper {
+        padding: 1.5em;
+        text-align: center;
+
+        .box {
+            color: $black;
+            padding: 1em;
+            margin-bottom: 2em;
+            box-sizing: border-box;
+
+            i {
+                font-size: 9em;
+                -webkit-font-smoothing: antialiased;
+                color: $icon;
+                text-shadow: 1px 1px 2px $icon-shadow;
+            }
+
+            h3 {
+                font-size: 1.5em;
+                font-weight: 500;
+                padding: 0.5em 0;
+            }
+
+            p {
+                line-height: 1.2em;
+            }
+        }
+    }
+}
+
+// Tablet View
+@media only screen and (min-width: 560px) {
+    .about-me {
+
+        .wrapper {
+            width: 100%;
+            margin-top: 3em;
+            padding: 0;
+
+            .box {
+                padding: 0;
+                width: 40%;
+                margin: 0 4% 1em 4%;
+                display: inline-block;
+
+                p {
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+// Desktop View
+@media only screen and (min-width: 960px) {
+    .about-me  {
+
+        .wrapper {
+            max-width: 1000px;
+            display: block;
+            margin: 4em auto 0 auto;
+
+            .box {
+                width: 20%;
+                margin: 0 5% 1em 5%;
+            }
+        }
+    }
+}

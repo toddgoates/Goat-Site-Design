@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <title>Delete All The Things | Todd Goates</title>
         <meta name="description" content="Lessons learned when I was a young developer of the importance of using some type of version control.">
-        
+
         <!-- Fonticons -->
         <script src="https://use.fonticons.com/e9f434ee.js"></script>
 
@@ -36,7 +36,7 @@
             <div class="wrapper">
                 <section>
                     <h1>Delete All The Things!</h1>
-                    <img src="img/thoughts/the_scream.jpg" alt="The Scream by Edvard Munch represents how I feel when I delete all my files" title="The Scream by Edvard Munch represents how I feel when I delete all my files" class="blog-pic">
+                    <img src="img/thoughts/the_scream.jpg" alt="The Scream by Edvard Munch represents how I feel when I delete all my files" title="The Scream by Edvard Munch represents how I feel when I delete all my files" class="float-left-pic">
                     <p>I've been developing for several years now.  I feel like I'm pretty good at it, but not too long ago I made a huge mistake that caused much despair and sorrow.</p>
                     <p>While taking a break from working on this very website, I decided to start messing around with Cordova.  I copied everything from this website's root directory and pasted it into another folder.  In the new folder, I combined my assets with some Cordova files.  After I was done with my Cordova experimentation I deleted the copied folder.  I'm not one that keeps the trash full on my Macbook, so I promptly emptied the trash too.  Hours later, I had a Sudden Clarity Clarence moment... I didn't copy my website's main directory, I moved it.  This means I deleted everything.  <strong>@#$%$@!</strong></p>
                     <p>I quickly Googled and downloaded several file recovery programs.  All of them scanned and found deleted files!  Unfortunately I would need to pay $80+ to recover them.  Forget that!  I finally accepted my losses and realized that I would need to start over.</p>
@@ -60,7 +60,7 @@
                 document.write(unescape("%3Cscript src='/lib/jquery/jquery-1.11.1.min.js' type='text/javascript'%3E%3C/script%3E"));
             }
         </script>
-        
+
         <!-- Fast Click for mobile -->
         <script src="lib/fastclick.min.js"></script>
 

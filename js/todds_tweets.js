@@ -2,8 +2,9 @@ var config = {
     "id": '558418611711143936',
     "domId": 'tweetlist',
     "maxTweets": 10,
-    "enableLinks": true
-}
+    "enableLinks": true,
+    "showRetweet": false
+};
 twitterFetcher.fetch(config);
 
 // Fix Twitter Links
