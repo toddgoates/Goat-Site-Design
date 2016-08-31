@@ -57,12 +57,11 @@
 
 	<div class="landing-area">
 		<div class="wrapper">
+			<img src="img/todd-whole.jpg" alt="Todd Goates is a designer and developer">
 			<div class="todd-left">
-      	<img data-alt-src="img/todd-left-hover.jpg" src="img/todd-left.jpg" alt="Todd Goates is a designer" id="todd-left-img">
 				<h1 id="designer" class="wow fadeInLeft">Designer</h1>
 			</div>
 			<div class="todd-right">
-				<img data-alt-src="img/todd-right-hover.jpg" src="img/todd-right.jpg" alt="Todd Goates is a developer" id="todd-right-img">
         <h1 id="developer" class="wow fadeInRight">Developer</h1>
 			</div>
 			<div class="clear-fix"></div>

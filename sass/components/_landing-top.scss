@@ -1,15 +1,15 @@
 // Default/Mobile View
 .landing-area {
 
+    img {
+        width: 100%;
+        display: block;
+    }
+
     .todd-left,
     .todd-right {
         width: 50%;
         position: relative;
-
-        img {
-            width: 100%;
-            display: block;
-        }
 
         h1 {
             font-size: 1.1em;
@@ -76,7 +76,7 @@
         .todd-right {
 
             h1 {
-                top: 85%;
+                bottom: 2.5em;
             }
         }
     }
