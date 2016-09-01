@@ -1,50 +1,34 @@
 <?php
-if(isset($_POST['submit'])) {
+    define('KEY', true);
 
-	// POST variables
-	$email = $_POST['email'];
+    if(isset($_POST['submit'])) {
+    	$email = $_POST['email'];
 
-    if(!empty($email) && $email != '') {
+        if(!empty($email) && $email != '') {
+            try {
+                require_once('includes/db_vars.php');
+                $pdo = new PDO('mysql:host='.HOST.'; dbname='.DB, USER, PASS);
+                $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+                $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-        // Create PDO object
-        try {
+                $query = $pdo->prepare('INSERT INTO '
+                                       .'newsletter '
+                                       .'(join_date, email) '
+                                       .'VALUES '
+                                       .'(now(), :email)');
 
-            // Connect to the db
-            require_once('includes/db_vars.php');
-            $pdo = new PDO('mysql:host='.HOST.'; dbname='.DB, USER, PASS);
-            $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
-            $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                $query->execute(array('email' => $email));
 
-            // Build and execute query
-            $query = $pdo->prepare('INSERT INTO '
-                                   .'newsletter '
-                                   .'(join_date, email) '
-                                   .'VALUES '
-                                   .'(now(), :email)');
+                $pdo = null;
 
-            $query->execute(array('email' => $email));
-
-            // Nullify PDO
-            $pdo = null;
-
-            // Redirect
-            header('Location: newsletter-thanks');
-
-        } catch(PDOException $e) {
-            echo $e->getMessage();
+                header('Location: newsletter-thanks');
+            } catch(PDOException $e) {
+                echo $e->getMessage();
+            }
+        } else {
+            header('Location: ' . $_SERVER['HTTP_REFERER']);
         }
-
     } else {
-
-        // Keep them on same page
         header('Location: ' . $_SERVER['HTTP_REFERER']);
-
     }
-
-} else {
-
-    // Keep them on same page
-    header('Location: ' . $_SERVER['HTTP_REFERER']);
-
-}
 ?>

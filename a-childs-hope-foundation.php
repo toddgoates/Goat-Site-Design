@@ -1,22 +1,19 @@
+<?php define('KEY', true); ?>
 <!doctype html>
 <html lang="en">
-
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<title>A Child's Hope Foundation | Todd Goates</title>
-	<meta name="description" content="Project Summary for A Child's Hope Foundation">
+    <title>A Child's Hope Foundation | Todd Goates</title>
 
-  <!-- Fonticons -->
-  <script src="https://use.fonticons.com/e9f434ee.js"></script>
+    <meta name="description" content="Project Summary for A Child's Hope Foundation">
 
-	<!-- CSS -->
+    <script src="https://use.fonticons.com/e9f434ee.js"></script>
+
 	<link href="css/main.min.css" rel="stylesheet">
 
-  <?php
-  	include('includes/favicons.php');
-  ?>
+    <?php include('includes/favicons.php'); ?>
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,12 +22,11 @@
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 </head>
-
 <body>
 	<?php
-    include('includes/gtm.php');
-    include('includes/header_nav.php');
-  ?>
+        include('includes/gtm.php');
+        include('includes/header_nav.php');
+    ?>
 
 	<div class="main-content">
 		<div class="wrapper">
@@ -38,7 +34,7 @@
 				<img src="img/projects/achf-home.png">
 			</section>
 			<section class="proj-description">
-				<h1>A Child's Hope Foundation</h1>
+                <h1>A Child's Hope Foundation</h1>
 				<p>A Child's Hope Foundation is a non-profit organization that has been around since 2002. They help orphaned and abandoned children in developing countries around the world by reuniting them with their families when possible, supporting programs for adoption or foster care, and volunteering at orphanages.</p>
 				<p>Volunteers are like family members to the children in the orphanages. Throughout the years the organization has built several new facilities in Haiti and Mexico to house children in family-style group homes, donated supplies to over 100 orphanages, provided dental services to countless children, and touched many lives.</p>
 				<p><a href="https://achildshopefoundation.org" target="_blank">achildshopefoundation.org</a></p>
@@ -58,23 +54,15 @@
 		</div>
 	</div>
 
-	<?php
-  	include('includes/footer.php');
-  ?>
+	<?php include('includes/footer.php'); ?>
 
-	<!-- jQuery and fallback-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script>
         if (typeof jQuery == 'undefined') {
             document.write(unescape("%3Cscript src='/lib/jquery/jquery-1.11.1.min.js' type='text/javascript'%3E%3C/script%3E"));
         }
     </script>
-
-    <!-- Fast Click for mobile -->
     <script src="lib/fastclick.min.js"></script>
-
-	<!-- Custom Scripts -->
 	<script src="js/scripts.js"></script>
-
 </body>
 </html>

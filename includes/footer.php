@@ -1,5 +1,10 @@
+<?php
+    if(!defined('KEY')) {
+        header('Location: https://toddgoates.com/404');
+    }
+?>
 <footer>
-	<div class="newsletter">
+    <div class="newsletter">
         <h4>Sign up for my newsletter</h4>
 		<form id="newsletter" action="newsletter" method="POST" enctype="multipart/form-data">
 			<div class="left">

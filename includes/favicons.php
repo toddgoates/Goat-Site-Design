@@ -1,3 +1,8 @@
+<?php
+    if(!defined('KEY')) {
+        header('Location: https://toddgoates.com/404');
+    }
+?>
 <!-- Favicon and Shortcut Icons -->
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">

@@ -20,7 +20,7 @@ User-agent: *
 Disallow: /.htaccess
 Disallow: /browserconfig.xml
 Disallow: /contact-thanks.php
-Disallow: /includes/db_vars.php
+Disallow: /includes
 Disallow: /newsletter-thanks.php
 Disallow: /newsletter.php
 Disallow: /README.md

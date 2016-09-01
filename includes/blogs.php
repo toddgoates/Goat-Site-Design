@@ -1,3 +1,8 @@
+<?php
+    if(!defined('KEY')) {
+        header('Location: https://toddgoates.com/404');
+    }
+?>
 <!-- Feb 9th, 2015 -->
 <figure>
     <a href="sign-your-site.php" class="thumb">

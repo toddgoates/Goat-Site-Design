@@ -1,3 +1,8 @@
+<?php
+    if(!defined('KEY')) {
+        header('Location: https://toddgoates.com/404');
+    }
+?>
 <!-- Google Tag Manager -->
 <noscript>
     <iframe src="//www.googletagmanager.com/ns.html?id=GTM-THWK4N" height="0" width="0" style="display:none;visibility:hidden"></iframe>

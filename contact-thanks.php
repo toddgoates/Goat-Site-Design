@@ -1,21 +1,17 @@
+<?php define('KEY', true); ?>
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Thanks</title>
-    
-    <!-- Fonticons -->
+
     <script src="https://use.fonticons.com/e9f434ee.js"></script>
 
-    <!-- CSS -->
     <link href="css/main.min.css" rel="stylesheet">
 
-        <?php
-        include('includes/favicons.php');
-        ?>
+    <?php include('includes/favicons.php'); ?>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,38 +20,29 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-
 <body>
     <?php
-    include('includes/gtm.php');
-    include('includes/header_nav.php');
+        include('includes/gtm.php');
+        include('includes/header_nav.php');
     ?>
 
     <div class="main-content">
-    <div class="wrapper">
-    <h1>Thank You</h1>
-    <p>Thanks for sending me a message!  I will get back to you within 2-3 business days by email or phone to discuss your awesome web project.  I look forward to speaking with you.</p>
-    <p><a href="/">Back to home</a></p>
-    </div>
+        <div class="wrapper">
+            <h1>Thank You</h1>
+            <p>Thanks for sending me a message!  I will get back to you within 2-3 business days by email or phone to discuss your awesome web project.  I look forward to speaking with you.</p>
+            <p><a href="/">Back to home</a></p>
+        </div>
     </div>
 
-    <?php
-    include('includes/footer.php');
-    ?>
+    <?php include('includes/footer.php'); ?>
 
-    <!-- jQuery and fallback-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script>
         if (typeof jQuery == 'undefined') {
             document.write(unescape("%3Cscript src='/lib/jquery/jquery-1.11.1.min.js' type='text/javascript'%3E%3C/script%3E"));
         }
     </script>
-    
-    <!-- Fast Click for mobile -->
     <script src="lib/fastclick.min.js"></script>
-
-    <!-- Custom Scripts -->
     <script src="js/scripts.js"></script>
-
 </body>
 </html>
