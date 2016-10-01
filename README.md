@@ -1,4 +1,9 @@
-Goat-Site-Design
-================
+#Goat-Site-Design#
 
-This is for my web portfolio project.  Coding practice for different technologies.
+This is the code repository for my personal website/portfolio.  It is currently built with the following technologies:
+
+* PHP
+* MySQL
+* JavaScript
+* jQuery
+* SASS
