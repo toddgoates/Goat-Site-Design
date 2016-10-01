@@ -129,11 +129,11 @@
                 }
             }
 
-            .google-plus {
-                color: lighten($google-plus, 20%);
+            .github {
+                color: lighten($github, 20%);
 
                 &:hover {
-                    color: $google-plus;
+                    color: $github;
                 }
             }
 

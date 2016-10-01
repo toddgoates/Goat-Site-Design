@@ -136,8 +136,8 @@
                             </a>
                         </li>
                         <li class="social">
-                            <a href="https://plus.google.com/u/0/+ToddGoates/" target="_blank" class="google-plus">
-                                <i class="fa fa-google-plus-square"></i>
+                            <a href="https://github.com/toddgoates" target="_blank" class="github">
+                                <i class="fa fa-github-square"></i>
                             </a>
                         </li>
                         <li class="social">

@@ -57,8 +57,8 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://plus.google.com/u/0/+ToddGoates/" target="_blank" class="google-plus">
-                            <i class="fa fa-google-plus-square fa-fw"></i> Google +
+                        <a href="https://github.com/toddgoates" target="_blank" class="github">
+                            <i class="fa fa-github-square fa-fw"></i> GitHub
                         </a>
                     </li>
                     <li>
