@@ -180,7 +180,6 @@
             document.write(unescape("%3Cscript src='/lib/jquery/jquery-1.11.1.min.js' type='text/javascript'%3E%3C/script%3E"));
         }
     </script>
-    <script src="lib/fastclick.min.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/signature.js"></script>
     <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=html&amp;lang=css&amp;lang=javascript&amp;skin=default"></script>

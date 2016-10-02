@@ -30,9 +30,9 @@
     <link href="css/main.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
 
-	<?php include('includes/favicons.php'); ?>
+    <?php include('includes/favicons.php'); ?>
 
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -127,7 +127,6 @@
             document.write(unescape("%3Cscript src='/lib/jquery/jquery-1.11.1.min.js' type='text/javascript'%3E%3C/script%3E"));
         }
     </script>
-    <script src="lib/fastclick.min.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/wow.min.js"></script>
     <script>
