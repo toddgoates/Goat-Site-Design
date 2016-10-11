@@ -5,12 +5,13 @@
 
     function sendContactEmail($params) {
         // Build Email Variables
-        $to = 'toddgoates@gmail.com';
+        $to = 'todd@toddgoates.com';
 
         $headers   = array();
         $headers[] = "MIME-Version: 1.0";
         $headers[] = "From: Todd Goates Contact Form <noreply@toddgoates.com>";
         $headers[] = "Reply-To: Todd Goates <todd@toddgoates.com>";
+        $headers[] = "Return-Path: noreply@toddgoates.com";
 
         $subject = "Todd Goates Contact Form Submission";
 
