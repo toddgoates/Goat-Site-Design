@@ -6,7 +6,7 @@
 
         if(!empty($email) && $email != '') {
             try {
-                require_once('includes/db_vars.php');
+                require_once('includes/credentials.php');
                 $pdo = new PDO('mysql:host='.HOST.'; dbname='.DB, USER, PASS);
                 $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
                 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

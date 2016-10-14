@@ -1,4 +1,10 @@
-<?php define('KEY', true); ?>
+<?php
+    define('KEY', true);
+
+    if(isset($_GET['grc']) && $_GET['grc'] == 'failed') {
+        $message = 'You failed to pass the human verification test. Please try again, Bot.';
+    }
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -14,6 +20,8 @@
     <link href="css/main.min.css" rel="stylesheet">
 
     <?php include('includes/favicons.php'); ?>
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,6 +41,9 @@
             <section class="form">
                 <h1>Contact Me</h1>
                 <p>Send me a message with the form below and I'll get back to you ASAP.</p>
+                <div class="grc-error">
+                    <?php if(isset($message)) { echo $message; } ?>
+                </div>
                 <form id="contact" class="contact-form" action="send" method="POST" enctype="multipart/form-data">
                     <fieldset>
                         <div class="form-item">
@@ -100,6 +111,9 @@
                             <label for="message">Message</label>
                             <textarea name="message" id="message"></textarea>
                         </div>
+                    </fieldset>
+                    <fieldset>
+                        <div class="g-recaptcha" data-sitekey="6LcEkCUTAAAAAED0D7YdGw6nyeT0LEHijRF3fX7_"></div>
                     </fieldset>
                     <fieldset>
                         <button type="submit" name="submit" class="submit-button">Send Message</button>

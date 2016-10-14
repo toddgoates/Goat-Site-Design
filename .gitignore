@@ -1,7 +1,16 @@
 # Created by https://www.gitignore.io/api/sass,osx
 
 ### Site Files ###
-includes/db_vars.php
+includes/credentials.php
+includes/credentials.php
+
+### Composer ###
+composer.phar
+/vendor/
+
+# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
 
 ### Sass ###
 .sass-cache/
