@@ -4,7 +4,7 @@
     if(isset($_POST['submit'])) {
 
         require_once('includes/credentials.php');
-        require('vendor/google/recaptcha/src/autoload.php');
+        require('vendor/autoload.php');
         $recaptcha = new \ReCaptcha\ReCaptcha(GRC_SECRET);
         $res = $recaptcha->verify($_POST['g-recaptcha-response']);
 
@@ -55,19 +55,30 @@
 
                 $pdo = null;
 
-                $params = compact(
-                    'fullname',
-                    'email',
-                    'phone',
-                    'reason',
-                    'message',
-                    'help',
-                    'budget',
-                    'timeline',
-                    'details'
-                );
-                include('includes/email_functions.php');
-                sendContactEmail($params);
+                $body = "";
+                $body .= "$fullname has sent you a message from toddgoates.com: \r\r";
+                $body .= "Email:  $email \r";
+                $body .= "Phone:  $phone \r";
+                $body .= "Reason for contact:  $reason \r";
+                $body .= "Message:  $message \r";
+                $body .= "Help:  $help \r";
+                $body .= "Budget:  $budget \r";
+                $body .= "Timeline:  $timeline \r";
+                $body .= "Details:  $details \r\r";
+                $body .= "You can view the contents of this message again in the toddgoates database. \r";
+                $body .= "Have a nice day!";
+
+                $client = new \Http\Adapter\Guzzle6\Client();
+                $mg = new \Mailgun\Mailgun(MAILGUN_KEY, $client);
+                $domain = 'toddgoates.com';
+
+                $mg->sendMessage($domain, array(
+                    'from'    => 'noreply@toddgoates.com',
+                    'to'      => 'todd@toddgoates.com',
+                    'subject' => 'Todd Goates Contact Form Submission',
+                    'text'    => $body
+                ));
+
                 header('Location: contact-thanks');
             } catch(PDOException $e) {
                 echo $e->getMessage();
