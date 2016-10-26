@@ -77,6 +77,15 @@
         border: none;
         cursor: pointer;
 
+        &[disabled] {
+            background: lighten($button, 20%);
+            cursor: not-allowed;
+
+            &:hover {
+                background: lighten($button, 20%);
+            }
+        }
+
         &:hover {
             background: darken($button, 5%);
         }

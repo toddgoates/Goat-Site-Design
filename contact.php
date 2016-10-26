@@ -113,10 +113,10 @@
                         </div>
                     </fieldset>
                     <fieldset>
-                        <div class="g-recaptcha" data-sitekey="6LcEkCUTAAAAAED0D7YdGw6nyeT0LEHijRF3fX7_"></div>
+                        <div class="g-recaptcha" data-callback="recaptchaCheck" data-sitekey="6LcEkCUTAAAAAED0D7YdGw6nyeT0LEHijRF3fX7_"></div>
                     </fieldset>
                     <fieldset>
-                        <button type="submit" name="submit" class="submit-button">Send Message</button>
+                        <button type="submit" name="submit" class="submit-button" id="contactSubmit" disabled>Send Message</button>
                         <div id="contact-error"></div>
                     </fieldset>
                 </form>
@@ -176,5 +176,10 @@
         }
     </script>
     <script src="js/scripts.js"></script>
+    <script>
+    function recaptchaCheck() {
+        $('#contactSubmit').removeAttr('disabled');
+    }
+    </script>
 </body>
 </html>
