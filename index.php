@@ -52,7 +52,7 @@
 				<h1 id="designer" class="wow fadeInLeft">Designer</h1>
 			</div>
 			<div class="todd-right">
-        <h1 id="developer" class="wow fadeInRight">Developer</h1>
+        		<h1 id="developer" class="wow fadeInRight">Developer</h1>
 			</div>
 			<div class="clear-fix"></div>
 		</div>
