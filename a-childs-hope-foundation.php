@@ -9,7 +9,7 @@
 
     <meta name="description" content="Project Summary for A Child's Hope Foundation">
 
-    <script src="https://use.fonticons.com/e9f434ee.js"></script>
+    <script src="https://use.fonticons.com/e9f434ee.js" async></script>
 
 	<link href="css/main.min.css" rel="stylesheet">
 

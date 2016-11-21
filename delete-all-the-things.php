@@ -9,7 +9,7 @@
 
     <meta name="description" content="Lessons learned when I was a young developer of the importance of using some type of version control.">
 
-    <script src="https://use.fonticons.com/e9f434ee.js"></script>
+    <script src="https://use.fonticons.com/e9f434ee.js" async></script>
 
     <link href="css/main.min.css" rel="stylesheet">
 

@@ -23,7 +23,7 @@
 
 	<meta name="description" content="Welcome to the portfolio website of Todd Goates.  I am a web designer and developer from Utah that likes to make cool solutions to your digital media needs.">
 
-    <script src="https://use.fonticons.com/e9f434ee.js"></script>
+    <script src="https://use.fonticons.com/e9f434ee.js" async></script>
 
     <link href="css/main.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">

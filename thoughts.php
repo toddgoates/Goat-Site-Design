@@ -9,7 +9,7 @@
 
     <meta name="description" content="Blog entries from Todd Goates, a web designer and developer, on various topics of technology.">
 
-    <script src="https://use.fonticons.com/e9f434ee.js"></script>
+    <script src="https://use.fonticons.com/e9f434ee.js" async></script>
 
     <link href="css/main.min.css" rel="stylesheet">
 

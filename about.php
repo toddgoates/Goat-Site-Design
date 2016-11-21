@@ -22,7 +22,7 @@
 
 	<meta name="description" content="Todd Goates is a Utah-based web designer and developer with a growing skill set and a love for awesome projects">
 
-    <script src="https://use.fonticons.com/e9f434ee.js"></script>
+    <script src="https://use.fonticons.com/e9f434ee.js" async></script>
 
 	<link href="css/main.min.css" rel="stylesheet">
 
