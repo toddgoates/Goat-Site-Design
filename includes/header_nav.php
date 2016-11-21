@@ -6,7 +6,7 @@
 <header>
     <div class="wrapper">
         <a href="/">
-            <img src="img/logo.png" alt="Logo for Todd Goates, web designer and developer" class="logo">
+            <img src="img/logo.svg" alt="Logo for Todd Goates, web designer and developer">
         </a>
 		<div class="menu-icon">
             <i class="fa fa-bars"></i>

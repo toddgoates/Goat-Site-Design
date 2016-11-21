@@ -6,10 +6,8 @@
 	$pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
 	$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-	$query = $pdo->prepare('SELECT img_path, file_name, title '
-		.'FROM project '
-		.'ORDER BY date_added DESC '
-		.'LIMIT 1');
+    $sql = 'SELECT img_path, file_name, title FROM project ORDER BY date_added DESC LIMIT 1';
+	$query = $pdo->prepare($sql);
 	$query->execute();
 	$result = $query->fetchAll();
 
