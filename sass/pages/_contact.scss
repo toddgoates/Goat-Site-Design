@@ -1,4 +1,10 @@
 // Default/Mobile View
+#contact-error,
+.grc-error {
+    color: $error;
+    font-size: 1.1em;
+}
+
 .contact-form {
 
     margin: 2.5em 0;
@@ -30,6 +36,10 @@
                 -webkit-appearance: none;
                 -moz-appearance: none;
                 appearance: none;
+            }
+
+            input.error-border {
+                border-color: $error;
             }
 
             select {
@@ -175,11 +185,8 @@
 
     .other-contact {
 
-        ul {
-
-            li {
-                margin: 1em 0;
-            }
+        li {
+            margin: 1em 0;
         }
     }
 }

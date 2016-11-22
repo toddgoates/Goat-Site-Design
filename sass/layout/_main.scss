@@ -27,20 +27,17 @@
         line-height: 1.7em;
     }
 
-    ul  {
+    li {
+        color: $text;
+        margin-left: 2.5em;
+        margin-bottom: 1em;
+        list-style-type: disc;
 
-        li {
-            color: $text;
-            margin-left: 2.5em;
-            margin-bottom: 1em;
-            list-style-type: disc;
+        ul {
+            margin-top: 0.7em;
 
-            ul {
-                margin-top: 0.7em;
-
-                li {
-                    list-style-type: circle;
-                }
+            li {
+                list-style-type: circle;
             }
         }
     }

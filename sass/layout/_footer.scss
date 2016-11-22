@@ -3,7 +3,7 @@ footer {
 
     .newsletter {
         background: $grey;
-        padding: 1em 0;
+        padding: 1em 0 2em 0;
 
         h4 {
             color: $white;
@@ -41,7 +41,7 @@ footer {
                     font-weight: 600;
                     letter-spacing: 2px;
                     width: 100%;
-                    margin: 1em 0 1.5em 0;
+                    margin: 0;
                     border: none;
                     border-radius: 0;
                     cursor: pointer;
@@ -62,6 +62,12 @@ footer {
         }
     }
 
+    #newsletter-error {
+        color: $white;
+        font-size: 1.1em;
+        text-align: center;
+    }
+
     .wrapper {
         background: $black;
         padding: 2em;
@@ -72,37 +78,34 @@ footer {
             margin-bottom: 0.7em;
         }
 
-        ul {
+        li {
+            margin-bottom: 0.7em;
 
-            li {
-                margin-bottom: 0.7em;
+            a {
+                text-decoration: none;
+                color: $nav-text;
+                -webkit-transition: $color-transition;
+                transition: $color-transition;
 
-                a {
-                    text-decoration: none;
-                    color: $nav-text;
-                    -webkit-transition: $color-transition;
-                    transition: $color-transition;
-
-                    &:hover {
-                        color: $white;
-                    }
+                &:hover {
+                    color: $white;
                 }
+            }
 
-                a.facebook:hover {
-                    color: $facebook;
-                }
+            a.facebook:hover {
+                color: $facebook;
+            }
 
-                a.twitter:hover {
-                    color: $twitter;
-                }
+            a.twitter:hover {
+                color: $twitter;
+            }
 
-                a.instagram:hover {
-                    color: $instagram;
-                }
+            a.instagram:hover {
+                color: $instagram;
+            }
 
-                a.linkedin:hover {
-                    color: $linkedin;
-                }
+            a.linkedin:hover {
+                color: $linkedin;
             }
         }
 
@@ -146,7 +149,7 @@ footer {
                 width: 40%;
 
                 .submit-button {
-                    margin: 0 !important;
+                    margin: 0;
                 }
             }
         }
