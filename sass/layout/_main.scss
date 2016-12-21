@@ -71,7 +71,7 @@
         margin: 0 0 2em 0;
 
         .background {
-            background: rgba(46, 185, 113, 1.0);
+            background: $primary;
             position: relative;
 
             &:hover  {
@@ -92,7 +92,7 @@
                 bottom: 1em;
                 left: 0;
                 right: 0;
-                color: #FFF;
+                color: $white;
                 font-size: 2em;
                 z-index: 10;
             }
@@ -167,6 +167,16 @@
         display: block;
         margin: 0 auto;
         padding: 2em 1em;
+
+        figure {
+
+            .background {
+
+                .caption {
+                    bottom: 2.4em;
+                }
+            }
+        }
 
         .float-left-pic {
             max-width: 25%;

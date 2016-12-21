@@ -37,7 +37,11 @@
                 <h1>A Child's Hope Foundation</h1>
 				<p>A Child's Hope Foundation is a non-profit organization that has been around since 2002. They help orphaned and abandoned children in developing countries around the world by reuniting them with their families when possible, supporting programs for adoption or foster care, and volunteering at orphanages.</p>
 				<p>Volunteers are like family members to the children in the orphanages. Throughout the years the organization has built several new facilities in Haiti and Mexico to house children in family-style group homes, donated supplies to over 100 orphanages, provided dental services to countless children, and touched many lives.</p>
-				<p><a href="https://achildshopefoundation.org" target="_blank">achildshopefoundation.org</a></p>
+				<p>
+					<a href="https://achildshopefoundation.org" target="_blank">
+						<i class="fa fa-fw fa-share-square-o"></i> achildshopefoundation.org
+					</a>
+				</p>
 				<h2>Project Details</h2>
 				<p>The old website for A Child's Hope Foundation was a static site that looked outdated, was not responsive on mobile devices, and was difficult to update. I helped migrate existing content into Drupal, a content management system that allows staff members to easily create and update content. My team designed a beautiful, modern, and responsive new theme. We also created an online registration system for volunteers to be able to sign up for work trips.</p>
 				<p>I was later approached by the staff at A Child's Hope Foundation to build a new online donation system. Using the Stripe API, I built a system that processes both one-time donations and recurring monthly donations. The donation page has processed more than $175K in under two years.</p>
