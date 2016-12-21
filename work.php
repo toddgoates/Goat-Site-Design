@@ -22,7 +22,7 @@
 
 	<meta name="description" content="Browse some of the awesome web solutions that Todd Goates has built for clients.">
 
-    <script src="https://use.fonticons.com/e9f434ee.js" async></script>
+    <script src="https://use.fontawesome.com/9e2087b526.js"></script>
 
 	<link href="css/main.min.css" rel="stylesheet">
 

@@ -15,7 +15,7 @@
 
     <meta name="description" content="Ready to get started on an awesome project?  Just send me a message.">
 
-    <script src="https://use.fonticons.com/e9f434ee.js" async></script>
+    <script src="https://use.fontawesome.com/9e2087b526.js"></script>
 
     <link href="css/main.min.css" rel="stylesheet">
 

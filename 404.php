@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>404 - Page Not Found | Todd Goates</title>
 
-    <script src="https://use.fonticons.com/e9f434ee.js" async></script>
+    <script src="https://use.fontawesome.com/9e2087b526.js"></script>
 
     <link href="css/main.min.css" rel="stylesheet">
 
