@@ -1,0 +1,29 @@
+{
+  "name": "goat-site-design",
+  "version": "1.0.0",
+  "description": "The personal portfolio website for Todd Goates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toddgoates/Goat-Site-Design.git"
+  },
+  "author": "Todd Goates",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toddgoates/Goat-Site-Design/issues"
+  },
+  "homepage": "https://github.com/toddgoates/Goat-Site-Design#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-sass": "^3.0.0"
+  },
+  "dependencies": {
+    "es6-promise": "^4.0.5"
+  }
+}
