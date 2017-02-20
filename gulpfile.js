@@ -6,7 +6,7 @@ var gulp = require('gulp'),
     concat = require('gulp-concat'),
     nano = require('gulp-cssnano');
 
-gulp.task('default', function() {
+gulp.task('sass', function() {
     return gulp.src('sass/**/*.scss')
         .pipe(sass())
         .pipe(autoprefixer({
