@@ -10,17 +10,17 @@ This is the repo for my personal website/portfolio.  It is currently built with 
 * SCSS
 * Gulp
 
-###Composer###
+##Composer##
 
-This project uses [Composer](https://getcomposer.org/) to manage PHP Dependencies.  Composer should already be installed globally on your system.  To install the packages, run the following command:
+This project uses [Composer](https://getcomposer.org/) to manage PHP Dependencies.  Composer should already be installed globally on your system.  To install the packages listed in **composer.json**, run the following command:
 
 ```
 composer install
 ```
 
-###Credentials###
+##Credentials##
 
-In order to connect to the database and use services such as Google ReCaptcha and MailGun, a credential configuration file should be present in the **/includes** directory.  This file has been excluded from the repo for security reasons.  The following values need to be defined:
+In order to connect to the database and use services such as Google ReCaptcha and MailGun, a configuration file called **credentials.php** should be present in the **/includes** directory.  This file has been excluded from the repo for security reasons.  The following values need to be defined:
 
 ```php
 <?php
@@ -33,14 +33,14 @@ define('MAILGUN_KEY', 'SomeMailGunKey');
 ?>
 ```
 
-###Gulp###
+##Gulp##
 
-This project uses [Gulp](http://gulpjs.com/) to build a production-ready CSS file.  During this build process, the SCSS is processed into CSS, files are minified, auto-prefixed, and combined into a single file.  Node and Gulp should already be installed globally on your system before you run the following commands:
+This project uses [Gulp](http://gulpjs.com/) to build a production-ready CSS file.  During this build process, the SCSS is compiled into CSS, files are minified, auto-prefixed, and combined into a single file.  Node and Gulp should already be installed globally on your system before you run the following commands:
 
 ```
 npm install
 ```
 
 ```
-gulp
+gulp sass
 ```
