@@ -6,8 +6,10 @@ var gulp = require('gulp'),
     concat = require('gulp-concat'),
     nano = require('gulp-cssnano');
 
+// Compile, autoprefix, minify scss files
 gulp.task('sass', function() {
-    return gulp.src('sass/**/*.scss')
+    return gulp
+        .src('sass/**/*.scss')
         .pipe(sass())
         .pipe(autoprefixer({
             browsers: ['last 2 versions']
@@ -15,4 +17,9 @@ gulp.task('sass', function() {
         .pipe(concat('main.min.css'))
         .pipe(nano())
         .pipe(gulp.dest('./css'));
+});
+
+// Watcher task
+gulp.task('watch', function(){
+    gulp.watch('sass/**/*.scss', ['sass']);
 });
