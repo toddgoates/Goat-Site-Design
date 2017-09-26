@@ -44,3 +44,9 @@ npm install
 ```
 gulp sass
 ```
+
+If Gulp isn't installed on your system globally, you can run the following:
+
+```
+./node_modules/gulp/bin/gulp.js sass
+```
