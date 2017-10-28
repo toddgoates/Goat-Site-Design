@@ -62,9 +62,9 @@
                 <h2>Why work with me?</h2>
                 <p>I am a passionate designer and developer who loves what he does.  I put my blood, sweat, and tears into every project I work on (not literally though).  You'll be proud of the final product, trust me.</p>
 				<p>Have something for me to work on?  Let's get started!</p>
-				<form action="contact.php" method="POST" class="cta">
-					<button type="submit" class="cta-button">Start a Project</button>
-				</form>
+				<div class="cta">
+					<a href="contact" class="cta-button">Start a Project</a>
+				</div>
 			</section>
 			<section id="skills">
 				<h2>Web Skills</h2>
@@ -85,9 +85,9 @@
                 </div>
                 <div class="clear-fix"></div>
                 <p>Don't see a certain technology for your web project?  Let me know what you need; I'm a quick learner!</p>
-				<form action="contact.php" method="POST" class="cta">
-					<button type="submit" class="cta-button">Contact Todd</button>
-				</form>
+				<div class="cta">
+					<a href="contact" class="cta-button">Contact Todd</a>
+				</div>
 			</section>
 		</div>
 	</div>

@@ -13,9 +13,12 @@
         margin-top: 1.2em;
         border: none;
         cursor: pointer;
+        text-decoration: none;
+        text-align: center;
 
         &:hover {
             background: darken($button, 5%);
+            color: $white;
         }
     }
 }

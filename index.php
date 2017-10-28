@@ -93,9 +93,7 @@
                  <p>Need some feedback about your web project?  I have years of experience with design and development and would love to consult with you.</p>
             </div>
             <div class="cta">
-                <form action="contact.php" method="POST">
-                    <button type="submit" class="cta-button">Start a Project</button>
-                </form>
+                <a href="contact" class="cta-button">Start a Project</a>
             </div>
         </div>
     </div>
