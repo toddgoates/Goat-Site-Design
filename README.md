@@ -33,6 +33,21 @@ define('MAILGUN_KEY', 'SomeMailGunKey');
 ?>
 ```
 
+## Database Migrations
+Database schema is checked into version control and handled using [Phinx](http://docs.phinx.org/en/latest/index.html#). In the root of the project, **phinx.yml** defines database connections. Currently just a development environment is set up. Ideally this file and the **credentials.php** file mentioned in the section above should read from a .env file, but that will be implemented at a later date.
+
+To create database tables with the schema defined in **/db/migrations**, run the following command:
+
+```
+vendor/bin/phinx migrate -e development
+```
+
+To seed some of the tables with the sample data defined in **/db/seeds**, run the following command:
+
+```
+vendor/bin/phinx seed:run
+```
+
 ## Gulp
 
 This project uses [Gulp](http://gulpjs.com/) to build a production-ready CSS file.  During this build process, the SCSS is compiled into CSS, files are minified, auto-prefixed, and combined into a single file.  Node and Gulp should already be installed globally on your system before you run the following commands:
