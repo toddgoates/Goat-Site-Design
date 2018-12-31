@@ -1,5 +1,7 @@
 # Goat-Site-Design
 
+[![CodeFactor](https://www.codefactor.io/repository/github/toddgoates/goat-site-design/badge)](https://www.codefactor.io/repository/github/toddgoates/goat-site-design)
+
 This repo is deprecated. For latest portfolio site, see [goatsite](https://github.com/toddgoates/goatsite).
 
 This is the repo for my personal website/portfolio.  It is currently built with the following technologies:
